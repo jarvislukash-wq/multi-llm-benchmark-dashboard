@@ -172,3 +172,4 @@ Praktický execution podklad je teď připravený v:
 - `execution/SMOKE-TEST-LANDING-PAGE.md` — kompletní 1stránková landing page copy, event tracking a smoke-test checklist
 - `execution/OUTREACH-PLAYBOOK.md` — první outreach vlna pro 15 leadů, segmentové message templates a follow-up cadence
 - `execution/TARGET-ACCOUNT-SHORTLIST.md` — konkrétní wave 1 account shortlist a CTA doporučení pro outreach
+- `execution/WAVE1-OUTREACH-BATCH.md` — ready-to-send wave 1 batch rozdělený na demo / scorecard / executive-hybrid CTA
