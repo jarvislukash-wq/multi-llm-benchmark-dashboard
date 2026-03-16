@@ -38,6 +38,25 @@ Lead je vhodný, pokud sedí aspoň 3 z 5:
 
 ---
 
+## Framing assignment rules
+
+Neotestujeme jen CTA. Každému leadovi přiřadíme i hlavní framing produktu.
+
+| Segment | Primary framing | Secondary framing | Default CTA |
+|---|---|---|---|
+| AI startup CTO / applied AI | decision dashboard | use-case scorecard | demo |
+| AI agentura founder / delivery | use-case scorecard | decision dashboard | scorecard |
+| SaaS engineering lead | decision dashboard | use-case scorecard | demo |
+| Enterprise AI / governance | decision memo / executive hybrid | decision dashboard | executive feedback |
+
+### What to log after each send
+- framing sent: dashboard / scorecard / memo
+- CTA used: demo / scorecard / executive feedback
+- reply quality: none / weak / relevant / high-intent
+- preferred artifact mentioned by lead
+
+---
+
 ## Outreach angle by segment
 
 ### 1. AI startup CTO
@@ -146,6 +165,7 @@ Pro leady s vyšším purchase intentem a engineering ownership.
 Pro vytížené leady nebo consultative segment, kde je nižší tření.
 
 ### What to learn
+- který framing získá nejkvalitnější odpovědi
 - který CTA získá víc odpovědí
 - který segment reaguje nejrychleji
 - kde je problém nejbolestivější

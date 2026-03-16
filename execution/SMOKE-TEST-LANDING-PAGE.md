@@ -20,6 +20,32 @@ Primární úkol stránky není "prodat produkt". Má ověřit 3 věci:
 
 ---
 
+## Framing variants to test
+
+Landing page už nemá testovat jen CTA `demo` vs `scorecards`, ale i hlavní mentální model produktu.
+
+### Variant D — decision dashboard
+- **Headline:** Vyber správný LLM model rychleji než ve spreadsheetu, leaderboardu a observability toolu dohromady.
+- **Subheadline:** Decision dashboard pro týmy, které potřebují porovnat kvalitu, cenu, latenci a fallback podle konkrétního use case.
+- **Primary CTA:** Rezervovat demo
+
+### Variant S — use-case scorecard
+- **Headline:** Získej jasné srovnání modelů pro svůj use case bez dalšího benchmark chaosu.
+- **Subheadline:** Use-case scorecards ukážou best overall, best budget a safest fallback pro konkrétní workflow.
+- **Primary CTA:** Poslat ukázkové scorecards
+
+### Variant M — decision memo / executive hybrid
+- **Headline:** Obhaj výběr LLM modelu před týmem i managementem.
+- **Subheadline:** Lehký decision layer, který spojí veřejné benchmarky, pricing a interní eval signály do obhajitelného doporučení.
+- **Primary CTA:** Poslat decision memo
+
+### Recommended test order
+1. AI startup / engineering traffic: testovat `D` vs `S`
+2. Enterprise / governance traffic: testovat `M` vs `D`
+3. Nesrovnávat všechny 3 varianty najednou na malém trafficu
+
+---
+
 ## Recommended page structure
 
 1. Hero
@@ -184,6 +210,9 @@ Chci ukázkovou scorecard
 - selected_intent_demo
 - selected_intent_scorecards
 - selected_intent_early_access
+- selected_framing_dashboard
+- selected_framing_scorecard
+- selected_framing_memo
 
 ### Success snapshot for first pass
 - 50+ relevant visits

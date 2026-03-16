@@ -142,3 +142,15 @@ Navazující validační balík je v `VALIDATION-ASSETS.md` a obsahuje:
 Tím je enrichment dokumentace dostatečně konkrétní pro přechod do externí validace.
 
 Navazující execution vrstva je rozepsaná v `VALIDATION-RUNBOOK.md` (14denní plán, success thresholds, decision tree) a `DISCOVERY-TRACKER.md` (šablona evidence interview a landing page testu).
+
+
+## 12. Messaging framing test
+
+Další konkrétní enrichment krok je nově zapsaný v `execution/MESSAGING-FRAMING-TEST.md`.
+
+Smysl tohoto passu:
+- netestovat jen CTA `demo` vs `scorecards`
+- explicitně otestovat i mentální model produktu: `decision dashboard` vs `use-case scorecard` vs `decision memo / executive hybrid`
+- propsat framing do outreach i discovery trackeru, aby po prvních odpovědích šlo rozhodnout, jestli stavět dashboard-first, scorecard-first nebo hybrid
+
+Tím se enrichment posunul z obecného positioning do konkrétního validačního experimentu.
