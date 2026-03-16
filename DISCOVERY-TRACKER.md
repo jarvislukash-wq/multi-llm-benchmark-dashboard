@@ -11,12 +11,12 @@
 | Product prototyping founder | Magic Patterns | AI startup | Alexander Danilowicz - Co-founder | Product / GTM co-founder | LinkedIn + company site contact | P1 | to_contact | 5 | yes | 149_plus | dashboard | send scorecard CTA for coding + product workflow |
 | AI platform owner | Merck | Enterprise innovation | Walid Mehanna - Chief Data & AI Officer | AI platform / governance owner | LinkedIn + enterprise innovation contact path | P2 | to_contact | 4 | yes | enterprise | hybrid | send executive CTA with governance + benchmark angle |
 | Support AI operations lead | SumUp | SaaS s AI feature | Ana Casado - Head of Operations Data and AI | AI engineering / reliability lead | LinkedIn + SumUp about/jobs/contact path | P1 | to_contact | 5 | yes | enterprise | hybrid | send scorecard CTA for support / fallback decisions |
-| AI search eval owner | Dropbox | SaaS s AI feature | Luis Hector Chavez - CTO *(needs company match verification before send)* | AI search / evaluation engineering lead | LinkedIn + Dropbox product / AI leadership path | P1 | research_needed | 5 | yes | enterprise | dashboard | verify exact contact-company match, then send demo CTA with internal eval merge angle |
+| AI search eval owner | Dropbox | SaaS s AI feature | Josh Clemm - VP of Engineering | AI search / evaluation engineering lead | LinkedIn + Dropbox leadership / AI product path | P1 | to_contact | 5 | yes | enterprise | dashboard | send demo CTA with internal eval merge angle |
 | Workspace AI platform lead | Notion | SaaS s AI feature | Sarav Bhatia - Sr. Dir. of Engineering | AI / engineering lead | LinkedIn + Notion request-demo / product leadership path | P1 | to_contact | 5 | yes | enterprise | hybrid | send demo CTA focused on model-selection workflow |
 | AI code review owner | Graphite | AI startup | Quinten Farmer - Founder & CEO | CTO / AI engineering lead | LinkedIn + Graphite request-demo | P1 | to_contact | 5 | yes | 149_plus | dashboard | send scorecard CTA for coding assistant wedge |
-| Learning AI platform lead | Coursera | SaaS s AI feature | Josh Clemm - VP Engineering *(needs company match verification before send)* | Mustafa Furniturewala - CTO | LinkedIn + Coursera leadership / contact path | P2 | research_needed | 4 | yes | enterprise | hybrid | verify exact Braintrust speaker mapping, then send executive CTA around explainable model choice |
-| AI orchestration lead | Zapier | SaaS s AI feature | Mohsen Sardari - VP Engineering *(needs company match verification before send)* | AI product / platform lead | LinkedIn + Zapier contact sales | P1 | research_needed | 5 | yes | enterprise | dashboard | verify company match, then send demo CTA focused on multi-model operations |
-| AI video workflow lead | Loom | SaaS s AI feature | Allen Kleiner - AI Engineering Lead *(needs company match verification before send)* | AI product lead | LinkedIn + Atlassian/Loom contact path | P2 | research_needed | 4 | yes | 149_plus | report | verify company match, then send scorecard CTA for high-volume AI workflow |
+| Learning AI platform lead | Coursera | SaaS s AI feature | Winne Tam - Senior Engineering Manager | Sophie Gao - Staff Software Engineer | LinkedIn + Coursera leadership / engineering path | P2 | to_contact | 4 | yes | enterprise | hybrid | send executive CTA around explainable model choice |
+| AI orchestration lead | Zapier | SaaS s AI feature | Mike Knoop - Co-Founder | AI product / platform lead | LinkedIn + Zapier contact sales | P1 | to_contact | 5 | yes | enterprise | dashboard | send demo CTA focused on multi-model operations |
+| AI video workflow lead | Loom | SaaS s AI feature | Matt Granmoe - Senior Software Engineer | AI product lead | LinkedIn + Atlassian/Loom contact path | P2 | to_contact | 4 | yes | 149_plus | report | send scorecard CTA for high-volume AI workflow |
 | Financial AI engineering lead | Fintool | AI startup | Paul Klein IV - Founder & CEO | VP Engineering / AI platform lead | LinkedIn + company site contact | P1 | to_contact | 5 | yes | enterprise | dashboard | send demo CTA focused on eval + routing decisions |
 | Internal AI automation owner | Ramp | SaaS s AI feature | Ben Levick - Head of AI & Operations | Finance automation / AI product lead | LinkedIn + Ramp contact/demo path | P1 | to_contact | 4 | yes | enterprise | hybrid | send executive CTA with productivity + cost angle |
 | Applied AI engineering lead | Canva | SaaS s AI feature | Andreas Schuster - Head of Product, AI Help Experience | Applied AI / platform engineering lead | LinkedIn + Canva engineering / product channels | P2 | to_contact | 4 | yes | enterprise | dashboard | send demo CTA focused on compare workflow |
@@ -56,10 +56,13 @@
   - Merck - Walid Mehanna, Chief Data & AI Officer
   - SumUp - Ana Casado, Head of Operations Data and AI
 - **Braintrust customers / stories:**
+  - Dropbox - Josh Clemm, VP of Engineering
   - Notion - Sarav Bhatia, Sr. Dir. of Engineering
   - Graphite - Quinten Farmer, Founder & CEO
+  - Coursera - Winne Tam, Senior Engineering Manager; Sophie Gao, Staff Software Engineer
+  - Zapier - Mike Knoop, Co-Founder
+  - Loom - Matt Granmoe, Senior Software Engineer
   - Fintool - Paul Klein IV, Founder & CEO
-  - Dropbox / Coursera / Zapier / Loom - speaker names captured on customer page, but exact company mapping still needs one more verification pass before direct outreach
 - **Notion AI page:**
   - Ramp - Ben Levick, Head of AI & Operations
 

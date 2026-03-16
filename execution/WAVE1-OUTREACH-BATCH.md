@@ -18,9 +18,9 @@ Pouzit tam, kde cekame vyssi engineering ownership a zajem o compare workflow.
 | Firma | Primary contact | Backup | Kanal | Use case angle | CTA |
 |---|---|---|---|---|---|
 | Khan Academy | Walt Wells - Staff Software Engineer | AI learning lead | LinkedIn | tutoring quality vs cost | ask for 20min demo call |
-| Dropbox | AI search / evaluation lead *(name pending verification)* | Luis Hector Chavez - CTO *(company match pending)* | LinkedIn | AI search eval merge | ask for 20min demo call |
+| Dropbox | Josh Clemm - VP of Engineering | AI search / evaluation lead | LinkedIn | AI search eval merge | ask for 20min demo call |
 | Notion | Sarav Bhatia - Sr. Dir. of Engineering | AI / engineering lead | LinkedIn + request demo | multi-model decision workflow | ask for 20min demo call |
-| Zapier | AI product / platform lead *(name pending verification)* | Mohsen Sardari - VP Engineering *(company match pending)* | LinkedIn + contact sales | multi-model operations | ask for 20min demo call |
+| Zapier | Mike Knoop - Co-Founder | AI product / platform lead | LinkedIn + contact sales | multi-model operations | ask for 20min demo call |
 | Fintool | Paul Klein IV - Founder & CEO | VP Engineering / AI platform lead | LinkedIn + company site | eval + routing decisions | ask for 20min demo call |
 | Canva | Andreas Schuster - Head of Product, AI Help Experience | Applied AI lead | LinkedIn | support assistant compare workflow | ask for 20min demo call |
 
@@ -51,8 +51,8 @@ Pouzit tam, kde chceme nizsi treni a konkretni use-case vstup do konverzace.
 | Magic Patterns | Alexander Danilowicz - Co-founder | product / GTM co-founder | LinkedIn + company site | coding + product workflow | send sample scorecard |
 | SumUp | Ana Casado - Head of Operations Data and AI | AI reliability lead | LinkedIn | support + fallback scorecard | send sample scorecard |
 | Graphite | Quinten Farmer - Founder & CEO | CTO / AI engineering lead | LinkedIn + request demo | coding assistant wedge | send sample scorecard |
-| Loom | AI product lead *(name pending verification)* | Allen Kleiner - AI Engineering Lead *(company match pending)* | LinkedIn + Atlassian path | high-volume AI workflow | send sample scorecard |
-| Coursera | Mustafa Furniturewala - CTO | Josh Clemm - VP Engineering *(company match pending)* | LinkedIn + leadership path | explainable model choice for learning tools | send sample scorecard |
+| Loom | Matt Granmoe - Senior Software Engineer | AI product lead | LinkedIn + Atlassian path | high-volume AI workflow | send sample scorecard |
+| Coursera | Winne Tam - Senior Engineering Manager | Sophie Gao - Staff Software Engineer | LinkedIn + leadership path | explainable model choice for learning tools | send sample scorecard |
 | Canva | Andreas Schuster - Head of Product, AI Help Experience | Applied AI lead | LinkedIn | support assistant scorecard | send sample scorecard |
 | SumUp | Ana Casado - Head of Operations Data and AI | AI reliability lead | LinkedIn | budget + fallback scorecard | send sample scorecard |
 
@@ -110,19 +110,19 @@ Kdyby to bylo relevantni, rad poslu 1 ukazkovy decision memo / scorecard pro vas
 8. Fintool - Paul Klein IV
 9. Ramp - Ben Levick
 
-### Wave 1B - send after one more verification pass
-1. Dropbox
-2. Coursera
-3. Zapier
-4. Loom
+### Wave 1B - now verified public contacts
+1. Dropbox - Josh Clemm
+2. Coursera - Winne Tam / Sophie Gao
+3. Zapier - Mike Knoop
+4. Loom - Matt Granmoe
 
-Duvod: firmy jsou spravne vybrane, ale u konkretniho jmena chci jeste jednou overit exact company match z verejneho zdroje.
+Duvod: exact company match jsem dohledal primo z verejnych Braintrust customer story stranek, takze batch uz neni blokovany jmennou verifikaci.
 
 ---
 
 ## Operational notes
 
 - **Nejvyssi confidence verejne osoby** pochazi z Langfuse customer page, Braintrust customer page a Notion AI page.
-- Kde je `company match pending`, neposilat personalizovany outreach na jmeno bez dalsiho overeni.
+- Kde je named contact z customer story, je mozne poslat personalizovany outreach hned.
 - Kdyz jmeno chybi, stale je mozne spustit account-based outreach pres role + firmu bez blokace cele vlny.
-- Nejrychlejsi dalsi krok po tomto batchi: doplnit 4 zbyvajici jmena a rovnou otestovat reply rate `demo` vs `scorecard`.
+- Nejrychlejsi dalsi krok po tomto batchi: spustit outreach na Wave 1A a parallelne otestovat Wave 1B reply rate `demo` vs `scorecard`.
