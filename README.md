@@ -163,5 +163,5 @@ Začít bez těžké observability integrace. Nejdřív vyřešit **„jak si ry
 
 ## Concrete next step
 
-Další konkrétní krok v enrichment fázi:
-**vytvořit ENRICHMENT.md se structured competitor matrix, ICP pain points, pricing hypothesis a interview questions pro validaci trhu.**
+Další konkrétní krok po dokončeném enrichment základu:
+**spustit 10-15 customer discovery rozhovorů a landing page smoke test nad validačním balíkem ve `VALIDATION-ASSETS.md`.**

@@ -114,3 +114,13 @@ Projekt má smysl hlavně tehdy, pokud zůstane úzce vymezený:
 **decision intelligence pro výběr LLM**, ne další široká LLMOps platforma.
 
 To je realistická wedge i lepší cesta k monetizaci.
+
+## 11. Validation assets created
+
+Navazující validační balík je v `VALIDATION-ASSETS.md` a obsahuje:
+- 12 prioritizovaných interview target profilů
+- landing page messaging varianty
+- 3 ukázkové use-case scorecards
+- seznam předpokladů a rychlých experimentů pro další krok
+
+Tím je enrichment dokumentace dostatečně konkrétní pro přechod do externí validace.
