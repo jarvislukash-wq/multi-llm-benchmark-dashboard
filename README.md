@@ -165,3 +165,7 @@ Začít bez těžké observability integrace. Nejdřív vyřešit **„jak si ry
 
 Další konkrétní krok po dokončeném enrichment základu:
 **spustit 10-15 customer discovery rozhovorů a landing page smoke test nad validačním balíkem ve `VALIDATION-ASSETS.md`.**
+
+Praktický execution podklad je teď připravený v:
+- `VALIDATION-RUNBOOK.md` — 14denní plán, success thresholds a decision tree
+- `DISCOVERY-TRACKER.md` — šablona pro interview a smoke test evidenci

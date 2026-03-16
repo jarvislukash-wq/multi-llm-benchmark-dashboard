@@ -124,3 +124,5 @@ Navazující validační balík je v `VALIDATION-ASSETS.md` a obsahuje:
 - seznam předpokladů a rychlých experimentů pro další krok
 
 Tím je enrichment dokumentace dostatečně konkrétní pro přechod do externí validace.
+
+Navazující execution vrstva je rozepsaná v `VALIDATION-RUNBOOK.md` (14denní plán, success thresholds, decision tree) a `DISCOVERY-TRACKER.md` (šablona evidence interview a landing page testu).
