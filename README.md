@@ -169,3 +169,5 @@ Další konkrétní krok po dokončeném enrichment základu:
 Praktický execution podklad je teď připravený v:
 - `VALIDATION-RUNBOOK.md` — 14denní plán, success thresholds a decision tree
 - `DISCOVERY-TRACKER.md` — šablona pro interview a smoke test evidenci
+- `execution/SMOKE-TEST-LANDING-PAGE.md` — kompletní 1stránková landing page copy, event tracking a smoke-test checklist
+- `execution/OUTREACH-PLAYBOOK.md` — první outreach vlna pro 15 leadů, segmentové message templates a follow-up cadence
