@@ -115,6 +115,22 @@ Projekt má smysl hlavně tehdy, pokud zůstane úzce vymezený:
 
 To je realistická wedge i lepší cesta k monetizaci.
 
+## 10.1 Competitor teardown addendum
+
+Detailní competitor teardown z veřejného positioning textu je nově v `COMPETITOR-TEARDOWN.md`.
+
+Hlavní závěr z tohoto passu:
+- nesoutěžit na čistém leaderboardu ani observability šířce
+- držet wedge jako **decision layer** nad benchmarky, pricingem a interními signály
+- první placenou hodnotu balit jako **scorecard / decision workspace**, ne jako těžkou LLMOps platformu
+
+Nejrelevantnější referenční hráči pro positioning v tomto passu:
+- Artificial Analysis — public benchmark intelligence
+- Braintrust — observability + eval maturity
+- Langfuse — open-source LLM engineering platform
+- Helicone — gateway + observability
+- OpenRouter Rankings — usage/popularity signal
+
 ## 11. Validation assets created
 
 Navazující validační balík je v `VALIDATION-ASSETS.md` a obsahuje:
