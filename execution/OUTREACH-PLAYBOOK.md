@@ -73,6 +73,8 @@ Pouzij stejnou routing logiku jako v `execution/SMOKE-TEST-LANDING-PAGE.md`, aby
 
 Prakticke pravidlo: kdyz si nejsi jisty, zacni `scorecard`. `dashboard` pouzij hlavne tam, kde lead uz premysli v opakovanem compare workflow. `memo` drz jen pro executive, governance nebo client-facing situace.
 
+Poznamka pro execution: `WAVE1A-PERSONALIZED-SKELETONS.md` a `WAVE1B-PERSONALIZED-SKELETONS.md` uz tenhle buyer-situation routing plne prebiraji. Pri personalizaci tedy nemen buyer framing mimo zapsanou situaci ve Wave batchi, jen dopln kontext o firme a kontaktu.
+
 ---
 
 ## Outreach angle by segment
