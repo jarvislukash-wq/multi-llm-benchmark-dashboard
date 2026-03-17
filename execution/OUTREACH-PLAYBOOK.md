@@ -75,6 +75,8 @@ Prakticke pravidlo: kdyz si nejsi jisty, zacni `scorecard`. `dashboard` pouzij h
 
 Poznamka pro execution: `WAVE1A-PERSONALIZED-SKELETONS.md` a `WAVE1B-PERSONALIZED-SKELETONS.md` uz tenhle buyer-situation routing plne prebiraji. Pri personalizaci tedy nemen buyer framing mimo zapsanou situaci ve Wave batchi, jen dopln kontext o firme a kontaktu.
 
+**Source-of-truth note:** Tento playbook je operator guide pro Wave 1 execution. Finalni routing rozhodnuti pro konkretni leady zustavaji v `execution/WAVE1-OUTREACH-BATCH.md`; personalizace ve `WAVE1A`/`WAVE1B` je pouze provadi do textu, neprepisuje.
+
 ---
 
 ## Outreach angle by segment
