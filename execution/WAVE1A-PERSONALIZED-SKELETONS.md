@@ -20,6 +20,7 @@ Pravidla pro použití:
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** AI Help Experience / support assistant compare workflow
+- **Buyer situation:** ma evaly nebo support quality signaly, ale chybi finalni rozhodnuti
 - **Why this account:** veřejně pojmenovaný ownership nad AI Help Experience; silný fit na rozhodování kvalita vs cost vs fallback
 
 ### Skeleton
@@ -50,6 +51,7 @@ Dával by ti smysl krátký 20min call? Když ne, klidně pošlu i jednu ukázko
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** tutoring quality vs cost tradeoff
+- **Buyer situation:** ma evaly nebo quality signaly, ale chybi finalni rozhodnuti
 - **Why this account:** AI tutoring je citlivý use case, kde je důležitá kvalita odpovědi i rozpočtová udržitelnost
 
 ### Skeleton
@@ -80,6 +82,7 @@ Mělo by smysl dát krátký 20min call? Když ne, rád pošlu i sample scorecar
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** coding + product workflow
+- **Buyer situation:** rychle porovnava modely pro novy use case
 - **Why this account:** AI-native produkt, vysoká pravděpodobnost častého porovnávání modelů pro různé joby
 
 ### Skeleton
@@ -110,6 +113,7 @@ Jestli chceš, pošlu 1 ukázkovou scorecard právě pro tenhle typ workflow. St
 - **Primary artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** governance + benchmark memo
+- **Buyer situation:** potrebuje obhajit volbu modelu pred managementem nebo governance vrstvou
 - **Why this account:** governance-heavy prostředí, kde může fungovat explainability a obhajoba model choice
 
 ### Skeleton
@@ -136,6 +140,7 @@ Pokud je to relevantní, rád pošlu 1 ukázkový decision memo / scorecard pro 
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** support + fallback scorecard
+- **Buyer situation:** resi budget ceiling a fallback model
 - **Why this account:** support/operations AI je přirozený use case pro budget + fallback rozhodování
 
 ### Skeleton
