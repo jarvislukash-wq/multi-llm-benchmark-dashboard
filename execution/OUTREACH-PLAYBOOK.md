@@ -58,6 +58,21 @@ Neotestujeme jen CTA. Každému leadovi přiřadíme i hlavní framing produktu.
 - reply quality: none / weak / relevant / high-intent
 - preferred artifact mentioned by lead
 
+
+### Buyer-situation routing for outreach
+
+Pouzij stejnou routing logiku jako v `execution/SMOKE-TEST-LANDING-PAGE.md`, aby lead dostal stejny framing v outboundu i po prokliku na landing.
+
+| Buyer situace | Poslat jako primary framing | CTA | Primary artifact |
+|---|---|---|---|
+| Buyer rychle porovnava modely pro novy use case | scorecard | send sample scorecard | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` |
+| Buyer uz ma evaly nebo traces, ale chybi finalni rozhodnuti | dashboard | 20min demo call | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` |
+| Buyer potrebuje obhajit volbu modelu pred managementem nebo klientem | memo | executive feedback | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` |
+| Buyer resi budget ceiling a fallback model | scorecard | send sample scorecard | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` |
+| Buyer hleda lightweight vrstvu pred plnym LLMOps stackem | scorecard -> dashboard az po reply | send sample scorecard | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` |
+
+Prakticke pravidlo: kdyz si nejsi jisty, zacni `scorecard`. `dashboard` pouzij hlavne tam, kde lead uz premysli v opakovanem compare workflow. `memo` drz jen pro executive, governance nebo client-facing situace.
+
 ---
 
 ## Outreach angle by segment
