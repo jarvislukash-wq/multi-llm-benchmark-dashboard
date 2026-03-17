@@ -23,6 +23,7 @@ Cíl:
 - nepřidávat nové claims
 - držet se stejného use-case angle jako v first touch skeletonu
 - po odeslání zapsat reply quality do `execution/OUTREACH-LOG-TEMPLATE.md`
+- follow-up přebírá `framing`, `CTA`, `Primary artifact` a `Fallback artifact` bez reinterpretace z `execution/WAVE1-OUTREACH-BATCH.md` + odpovídajícího `WAVE1A/WAVE1B-PERSONALIZED-SKELETONS.md`; mění se jen skutečný timing nebo kanál
 
 ---
 
