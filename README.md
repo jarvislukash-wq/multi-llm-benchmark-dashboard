@@ -164,13 +164,13 @@ Začít bez těžké observability integrace. Nejdřív vyřešit **„jak si ry
 ## Concrete next step
 
 Další konkrétní krok po dokončeném enrichment základu:
-**otestovat ve Wave 1, jestli silnější reakce otevírá `scorecard` nebo `decision memo` framing, protože oba sample artefakty už jsou připravené k poslání.**
+**otestovat ve Wave 1, jestli silnější reakce otevírá `dashboard`, `scorecard` nebo `decision memo` framing, protože pro všechny 3 varianty už existuje připravený execution podklad i follow-up sekvence.**
 
 Praktický execution podklad je teď připravený v:
 - `VALIDATION-RUNBOOK.md` — 14denní plán, success thresholds a decision tree
 - `DISCOVERY-TRACKER.md` — šablona pro interview a smoke test evidenci
 - `execution/SMOKE-TEST-LANDING-PAGE.md` — kompletní 1stránková landing page copy, event tracking a smoke-test checklist
-- `execution/OUTREACH-PLAYBOOK.md` — první outreach vlna pro 15 leadů, segmentové message templates a follow-up cadence
+- `execution/OUTREACH-PLAYBOOK.md` — první outreach vlna pro 15 leadů, segmentové message templates a timing pravidla pro follow-up execution
 - `execution/TARGET-ACCOUNT-SHORTLIST.md` — konkrétní wave 1 account shortlist a CTA doporučení pro outreach
 - `execution/WAVE1-OUTREACH-BATCH.md` — ready-to-send wave 1 batch rozdělený na demo / scorecard / executive-hybrid CTA
 - `execution/WAVE1A-PERSONALIZED-SKELETONS.md` — 5 personalizovaných ready-to-send skeletonů pro nejvyšší priority ve Wave 1A
