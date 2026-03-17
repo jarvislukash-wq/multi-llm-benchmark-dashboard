@@ -22,7 +22,7 @@ Tento dokument neřeší plný go-to-market. Řeší jen nejkratší cestu k roz
 
 ### Secondary goals
 - zjistit, který ICP reaguje nejlépe
-- zjistit, jestli trh chce spíš dashboard, report nebo API
+- zjistit, jestli trh nejsilněji reaguje na framing `dashboard`, `scorecard` nebo `decision memo`
 - vybrat první wedge pro případný SPEC
 
 ---
@@ -187,7 +187,7 @@ Nestavět dál, pokud:
 Projekt je připravený na přechod z enrichment do další fáze ve chvíli, kdy budou splněny tyto 4 body:
 1. proběhne aspoň 5 kvalifikovaných interview
 2. bude existovat jasně vybraný wedge ICP
-3. bude rozhodnuto, zda první produkt má být dashboard, report nebo hybrid
+3. bude rozhodnuto, zda první wedge a messaging stavět jako `dashboard`, `scorecard` nebo `decision memo / hybrid`
 4. bude potvrzen minimální value proposition pro první placený pilot
 
 Do té doby je interní enrichment dokumentace dostatečně připravená; další neznámé už jsou hlavně externí validační data.
