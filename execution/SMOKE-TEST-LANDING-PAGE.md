@@ -46,6 +46,22 @@ Landing page už nemá testovat jen CTA `demo` vs `scorecards`, ale i hlavní me
 
 ---
 
+## Buyer-situation routing for landing variants
+
+Aby landing test navazoval na buyer decision matrix v `ENRICHMENT.md`, pouzij pro traffic a outreach tento jednoduchy routing:
+
+| Buyer situace | Nejvhodnejsi landing framing | Proc | Doporuceny CTA |
+|---|---|---|---|
+| Tym rychle porovnava modely pro novy use case | Variant S - use-case scorecard | nejrychleji ukaze konkretni rozhodnuti bez tezkeho setupu | Poslat ukazkove scorecards |
+| Tym uz ma evaly nebo traces, ale chybi finalni rozhodnuti | Variant D - decision dashboard | lepe sedi na opakovane compare workflow a decision layer | Rezervovat demo |
+| Buyer potrebuje obhajit volbu modelu pred managementem nebo klientem | Variant M - decision memo | nejsilnejsi governance a explainability angle | Poslat decision memo |
+| Buyer resi rozpoctovy strop a fallback model | Variant S - use-case scorecard | scorecard nejlip ukaze best budget a safest fallback vedle sebe | Poslat ukazkove scorecards |
+| Buyer hleda lightweight nastroj pred plnym LLMOps stackem | Variant S -> az pak D | nizkotrieni vstup pres scorecard, dashboard az po potvrzeni zajmu | Poslat ukazkove scorecards |
+
+Prakticke pravidlo: kdyz si nejsi jisty, zacni `S`. `D` pouzij az tam, kde buyer uz premysli v opakovanem team workflow. `M` posilej jen tam, kde je zjevny executive, governance nebo client-facing angle.
+
+---
+
 ## Recommended page structure
 
 1. Hero
