@@ -217,6 +217,25 @@ Projekt bude slabý, pokud sklouzne do jedné z těchto pastí:
 
 ---
 
+## Pricing anchor snapshots
+
+Aby pricing hypotéza nezůstala jen teoretická, je dobré držet i rychlý veřejný anchor z blízkých kategorií.
+
+| Produkt | Veřejný pricing snapshot | Packaging lesson pro nás |
+|---|---|---|
+| Langfuse | Free / **$29 Core** / **$199 Pro** / **$2499 Enterprise** | AI tooling trh snese self-serve team tier kolem low-hundreds USD měsíčně, pokud je produkt napojený na opakovaný workflow. |
+| Helicone | Free / **$79 Pro** / **$799 Team** / Enterprise | Monitoring / gateway vrstva je ochotná prodávat výrazně výš, ale až když nese provozní a týmovou hodnotu. |
+| Artificial Analysis | veřejný compare a recommendation obsah funguje jako top-of-funnel zdarma | Free intelligence layer může být silný acquisition kanál, placená hodnota musí začínat až u team decision workflow nebo exportu. |
+
+### Pricing implication
+
+Z těchto anchorů plyne praktická věc:
+- nízký vstup dává smysl jako **free compare / sample scorecard**
+- hlavní placený sweet spot pro tým může realisticky sedět v pásmu **€79-199/měs**
+- vyšší tier dává smysl až se sdílením, historií, alerty nebo multi-workspace režimem
+
+To podporuje původní hypotézu, že první komerční wedge nemá být enterprise-heavy, ale **scorecard-first / decision-workspace-first** pro malé až střední AI týmy.
+
 ## Recommended positioning draft
 
 ### One-liner
