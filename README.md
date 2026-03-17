@@ -164,7 +164,7 @@ Začít bez těžké observability integrace. Nejdřív vyřešit **„jak si ry
 ## Concrete next step
 
 Další konkrétní krok po dokončeném enrichment základu:
-**spustit 10-15 customer discovery rozhovorů a landing page smoke test nad validačním balíkem ve `VALIDATION-ASSETS.md`.**
+**poslat první Wave 1 outreach s novou `execution/SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` a začít sbírat první reply-quality signály do `execution/OUTREACH-LOG-TEMPLATE.md`.**
 
 Praktický execution podklad je teď připravený v:
 - `VALIDATION-RUNBOOK.md` — 14denní plán, success thresholds a decision tree
@@ -176,6 +176,7 @@ Praktický execution podklad je teď připravený v:
 - `execution/WAVE1A-PERSONALIZED-SKELETONS.md` — 5 personalizovaných ready-to-send skeletonů pro nejvyšší priority ve Wave 1A
 - `execution/WAVE1B-PERSONALIZED-SKELETONS.md` — 8 personalizovaných ready-to-send skeletonů pro zbytek named-contact Wave 1 shortlistu
 - `execution/WAVE1-FOLLOW-UP-SEQUENCES.md` — ultra-krátké Day 3 / Day 7 follow-up varianty pro `dashboard`, `scorecard` a `memo` framing
+- `execution/SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` — posílatelná 1-page sample scorecard pro support assistant use case bez nutnosti další přípravy
 - `execution/OUTREACH-LOG-TEMPLATE.md` — lehký send/reply log pro vyhodnocení framingu, CTA a kvality odpovědí
 - `execution/MESSAGING-FRAMING-TEST.md` — praktický test `decision dashboard` vs `scorecard` vs `decision memo` v outreachi a landing page
 - `COMPETITOR-TEARDOWN.md` — konkrétní competitor read a positioning wedge proti Artificial Analysis / Braintrust / Langfuse / Helicone / OpenRouter
