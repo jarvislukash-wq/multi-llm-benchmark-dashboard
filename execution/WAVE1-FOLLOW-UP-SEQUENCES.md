@@ -15,6 +15,20 @@ Cíl:
 
 ---
 
+## Source-of-truth note
+
+Tyto follow-up sekvence jsou operacni sablony pro dalsi doteky, ne primarni misto pro zmenu buyer routing logiky, CTA nebo artifact volby.
+
+Plati toto poradi pravdy:
+1. `ENRICHMENT.md` drzi market context, ICP a buyer-situation definice
+2. `DISCOVERY-TRACKER.md` drzi kanonicke prirazeni firem ke framingu, CTA a buyer situaci
+3. `execution/WAVE1-OUTREACH-BATCH.md` drzi ready-to-send kombinace framingu, CTA a artifactu pro Wave 1
+4. tento dokument jen prevadi uz zvoleny framing do Day 3 / Day 7 follow-up variant
+
+Kdyz se zmeni buyer routing, CTA nebo artifact mapping, nejdriv aktualizovat kanonicky zdroj a az potom tyto follow-up sekvence. Tento dokument nema sam prepisovat framing assignment ani zavadet nove claimy.
+
+---
+
 ## Rules
 
 - Day 3 = lehké připomenutí bez tlaku
