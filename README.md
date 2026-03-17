@@ -174,6 +174,7 @@ Praktický execution podklad je teď připravený v:
 - `execution/TARGET-ACCOUNT-SHORTLIST.md` — konkrétní wave 1 account shortlist a CTA doporučení pro outreach
 - `execution/WAVE1-OUTREACH-BATCH.md` — ready-to-send wave 1 batch rozdělený na demo / scorecard / executive-hybrid CTA
 - `execution/WAVE1A-PERSONALIZED-SKELETONS.md` — 5 personalizovaných ready-to-send skeletonů pro nejvyšší priority ve Wave 1A
+- `execution/WAVE1B-PERSONALIZED-SKELETONS.md` — 8 personalizovaných ready-to-send skeletonů pro zbytek named-contact Wave 1 shortlistu
 - `execution/OUTREACH-LOG-TEMPLATE.md` — lehký send/reply log pro vyhodnocení framingu, CTA a kvality odpovědí
 - `execution/MESSAGING-FRAMING-TEST.md` — praktický test `decision dashboard` vs `scorecard` vs `decision memo` v outreachi a landing page
 - `COMPETITOR-TEARDOWN.md` — konkrétní competitor read a positioning wedge proti Artificial Analysis / Braintrust / Langfuse / Helicone / OpenRouter
