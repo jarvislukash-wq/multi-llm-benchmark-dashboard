@@ -200,8 +200,8 @@ Tyhle nástroje dobře řeší observability a tracing. Tohle je decision dashbo
 #### Co když ještě nemáme interní eval data?
 První hodnota může vzniknout už nad veřejnými benchmarky, pricingem a use-case scorecards. Interní data jen zvyšují přesnost doporučení.
 
-#### Je to dashboard, report nebo API?
-To právě validujeme. Landing page má zjistit, který formát kupující chtějí nejdřív.
+#### Je to decision dashboard, scorecard nebo decision memo?
+To právě validujeme. Landing page má zjistit, který framing kupující chtějí vidět nejdřív.
 
 ---
 
