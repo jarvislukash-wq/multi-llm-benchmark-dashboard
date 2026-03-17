@@ -20,6 +20,7 @@ Pravidla pro použití:
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** multi-model decision workflow pro workspace AI
+- **Buyer situation:** ma evaly nebo quality signaly, ale chybi finalni rozhodnuti
 - **Why this account:** široká AI surface area a pravděpodobnost opakovaných rozhodnutí kolem model selection
 
 ### Skeleton
@@ -50,6 +51,7 @@ Dával by ti smysl krátký 20min call? Když ne, klidně pošlu i sample scorec
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** coding assistant wedge / AI code review
+- **Buyer situation:** rychle porovnava modely pro novy use case
 - **Why this account:** silný coding use case, kde je přirozený tradeoff mezi kvalitou, rychlostí a cenou modelu
 
 ### Skeleton
@@ -80,6 +82,7 @@ Jestli chceš, pošlu 1 ukázkovou scorecard právě pro coding assistant use ca
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** eval + routing decisions pro finance-oriented AI workflow
+- **Buyer situation:** ma evaly nebo routing signaly, ale chybi finalni rozhodnuti
 - **Why this account:** vysoká pravděpodobnost citlivosti na přesnost, náklady i routing rozhodnutí
 
 ### Skeleton
@@ -110,6 +113,7 @@ Mělo by smysl dát krátký 20min call? Když ne, rád pošlu sample scorecard 
 - **Primary artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** productivity + cost memo pro interní AI automation
+- **Buyer situation:** potrebuje obhajit volbu modelu pred managementem nebo klientem
 - **Why this account:** silný fit na explainable model choice s ROI a operations angle
 
 ### Skeleton
@@ -136,6 +140,7 @@ Pokud je to relevantní, rád pošlu 1 ukázkový decision memo / scorecard pro 
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** AI search eval merge
+- **Buyer situation:** ma evaly nebo quality signaly, ale chybi finalni rozhodnuti
 - **Why this account:** silný fit na spojení veřejných benchmarků a interních eval signálů pro search-oriented AI workflow
 
 ### Skeleton
@@ -166,6 +171,7 @@ Dával by ti smysl krátký 20min call? Když ne, klidně pošlu i sample scorec
 - **Primary artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** explainable model choice pro learning tools
+- **Buyer situation:** potrebuje obhajit volbu modelu pred managementem nebo klientem
 - **Why this account:** learning workflows často potřebují vysvětlit tradeoff kvalita vs cena vs spolehlivost
 
 ### Skeleton
@@ -192,6 +198,7 @@ Pokud je to relevantní, rád pošlu 1 ukázkový decision memo / scorecard pro 
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** multi-model operations
+- **Buyer situation:** ma evaly nebo quality signaly, ale chybi finalni rozhodnuti
 - **Why this account:** orchestration-heavy prostředí, kde dává smysl compare workflow přes více use casů a providerů
 
 ### Skeleton
@@ -222,6 +229,7 @@ Mělo by smysl dát krátký 20min call? Když ne, rád pošlu i sample scorecar
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** high-volume AI workflow
+- **Buyer situation:** hleda lightweight vrstvu pred plnym LLMOps stackem
 - **Why this account:** throughput a cost-pressure use case, kde může scorecard otevřít konverzaci s nízkým třením
 
 ### Skeleton
