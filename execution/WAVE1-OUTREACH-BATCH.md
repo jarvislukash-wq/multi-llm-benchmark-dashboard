@@ -7,7 +7,7 @@ Prevest shortlist do **ready-to-send batch** rozdeleneho podle realne testovaneh
 - `scorecard` + `sample scorecard`
 - `memo` + `executive feedback`
 
-Tento dokument je schvalne prakticky: kdo je nejlepsi prvni kontakt, pres jaky kanal jit, jaky framing ma dostat a jaky 1. message angle poslat.
+Tento dokument je schvalne prakticky: kdo je nejlepsi prvni kontakt, pres jaky kanal jit, jaky framing ma dostat, jaky 1. message angle poslat a jaky artifact poslat jako prvni nebo fallback.
 
 Zdroj pravdy pro rozdeleni je `DISCOVERY-TRACKER.md`.
 
@@ -17,14 +17,14 @@ Zdroj pravdy pro rozdeleni je `DISCOVERY-TRACKER.md`.
 
 Pouzit tam, kde cekame vyssi engineering ownership a zajem o compare workflow.
 
-| Firma | Primary contact | Backup | Kanal | Use case angle | Framing | CTA |
-|---|---|---|---|---|---|---|
-| Khan Academy | Walt Wells - Staff Software Engineer | AI learning lead | LinkedIn | tutoring quality vs cost | dashboard | ask for 20min demo call |
-| Dropbox | Josh Clemm - VP of Engineering | AI search / evaluation lead | LinkedIn | AI search eval merge | dashboard | ask for 20min demo call |
-| Notion | Sarav Bhatia - Sr. Dir. of Engineering | AI / engineering lead | LinkedIn + request demo | multi-model decision workflow | dashboard | ask for 20min demo call |
-| Zapier | Mike Knoop - Co-Founder | AI product / platform lead | LinkedIn + contact sales | multi-model operations | dashboard | ask for 20min demo call |
-| Fintool | Paul Klein IV - Founder & CEO | VP Engineering / AI platform lead | LinkedIn + company site | eval + routing decisions | dashboard | ask for 20min demo call |
-| Canva | Andreas Schuster - Head of Product, AI Help Experience | Applied AI lead | LinkedIn | support assistant compare workflow | dashboard | ask for 20min demo call |
+| Firma | Primary contact | Backup | Kanal | Use case angle | Framing | CTA | Primary artifact | Fallback artifact |
+|---|---|---|---|---|---|---|---|---|
+| Khan Academy | Walt Wells - Staff Software Engineer | AI learning lead | LinkedIn | tutoring quality vs cost | dashboard | ask for 20min demo call | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
+| Dropbox | Josh Clemm - VP of Engineering | AI search / evaluation lead | LinkedIn | AI search eval merge | dashboard | ask for 20min demo call | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
+| Notion | Sarav Bhatia - Sr. Dir. of Engineering | AI / engineering lead | LinkedIn + request demo | multi-model decision workflow | dashboard | ask for 20min demo call | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
+| Zapier | Mike Knoop - Co-Founder | AI product / platform lead | LinkedIn + contact sales | multi-model operations | dashboard | ask for 20min demo call | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
+| Fintool | Paul Klein IV - Founder & CEO | VP Engineering / AI platform lead | LinkedIn + company site | eval + routing decisions | dashboard | ask for 20min demo call | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
+| Canva | Andreas Schuster - Head of Product, AI Help Experience | Applied AI lead | LinkedIn | support assistant compare workflow | dashboard | ask for 20min demo call | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
 
 ### Dashboard message skeleton
 
@@ -48,14 +48,14 @@ Daval by ti smysl kratky 20min call? Kdyz ne, poslu klidne i jednu scorecard pro
 
 Pouzit tam, kde chceme nizsi treni a konkretni use-case vstup do konverzace.
 
-| Firma | Primary contact | Backup | Kanal | Use case angle | Framing | CTA |
-|---|---|---|---|---|---|---|
-| Magic Patterns | Alexander Danilowicz - Co-founder | product / GTM co-founder | LinkedIn + company site | coding + product workflow | scorecard | send sample scorecard |
-| SumUp | Ana Casado - Head of Operations Data and AI | AI reliability lead | LinkedIn | support + fallback scorecard | scorecard | send sample scorecard |
-| Graphite | Quinten Farmer - Founder & CEO | CTO / AI engineering lead | LinkedIn + request demo | coding assistant wedge | scorecard | send sample scorecard |
-| Loom | Matt Granmoe - Senior Software Engineer | AI product lead | LinkedIn + Atlassian path | high-volume AI workflow | scorecard | send sample scorecard |
-| Canva | Andreas Schuster - Head of Product, AI Help Experience | Applied AI lead | LinkedIn | support assistant scorecard | scorecard | send sample scorecard |
-| SumUp | Ana Casado - Head of Operations Data and AI | AI reliability lead | LinkedIn | budget + fallback scorecard | scorecard | send sample scorecard |
+| Firma | Primary contact | Backup | Kanal | Use case angle | Framing | CTA | Primary artifact | Fallback artifact |
+|---|---|---|---|---|---|---|---|---|
+| Magic Patterns | Alexander Danilowicz - Co-founder | product / GTM co-founder | LinkedIn + company site | coding + product workflow | scorecard | send sample scorecard | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
+| SumUp | Ana Casado - Head of Operations Data and AI | AI reliability lead | LinkedIn | support + fallback scorecard | scorecard | send sample scorecard | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
+| Graphite | Quinten Farmer - Founder & CEO | CTO / AI engineering lead | LinkedIn + request demo | coding assistant wedge | scorecard | send sample scorecard | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
+| Loom | Matt Granmoe - Senior Software Engineer | AI product lead | LinkedIn + Atlassian path | high-volume AI workflow | scorecard | send sample scorecard | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
+| Canva | Andreas Schuster - Head of Product, AI Help Experience | Applied AI lead | LinkedIn | support assistant scorecard | scorecard | send sample scorecard | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
+| SumUp | Ana Casado - Head of Operations Data and AI | AI reliability lead | LinkedIn | budget + fallback scorecard | scorecard | send sample scorecard | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md |
 
 ### Scorecard message skeleton
 
@@ -79,11 +79,11 @@ Jestli chces, poslu 1 ukazkovou scorecard pro vas use case. Staci mi pak kratky 
 
 Pouzit tam, kde je silnejsi governance, ROI a explainability angle.
 
-| Firma | Primary contact | Backup | Kanal | Use case angle | Framing | CTA |
-|---|---|---|---|---|---|---|
-| Merck | Walid Mehanna - Chief Data & AI Officer | AI platform / governance owner | LinkedIn | governance + benchmark memo | memo | ask for executive feedback |
-| Coursera | Winne Tam - Senior Engineering Manager | Sophie Gao - Staff Software Engineer | LinkedIn + leadership path | explainable model choice for learning tools | memo | ask for executive feedback |
-| Ramp | Ben Levick - Head of AI & Operations | finance automation / AI product lead | LinkedIn + demo/contact path | productivity + cost memo | memo | ask for executive feedback |
+| Firma | Primary contact | Backup | Kanal | Use case angle | Framing | CTA | Primary artifact | Fallback artifact |
+|---|---|---|---|---|---|---|---|---|
+| Merck | Walid Mehanna - Chief Data & AI Officer | AI platform / governance owner | LinkedIn | governance + benchmark memo | memo | ask for executive feedback | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md |
+| Coursera | Winne Tam - Senior Engineering Manager | Sophie Gao - Staff Software Engineer | LinkedIn + leadership path | explainable model choice for learning tools | memo | ask for executive feedback | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md |
+| Ramp | Ben Levick - Head of AI & Operations | finance automation / AI product lead | LinkedIn + demo/contact path | productivity + cost memo | memo | ask for executive feedback | SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md | SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md |
 
 ### Memo message skeleton
 
