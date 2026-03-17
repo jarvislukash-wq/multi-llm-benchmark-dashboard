@@ -103,7 +103,7 @@ Poslat decision memo
 - framing sent
 - CTA used
 - response type: none / reply / call / sample request
-- preferred format: dashboard / report / API / hybrid
+- preferred framing: dashboard / scorecard / memo / hybrid
 - strongest objection
 - exact phrase they used pro hodnotu
 
