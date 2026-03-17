@@ -10,5 +10,5 @@
 
 - [ ] Spustit první outreach vlnu na 15 relevantních ICP kontaktů.
 - [ ] Připravit jednoduchou landing page / smoke test pro messaging variantu B.
-- [ ] Udělat prvních 5 kvalifikovaných customer discovery callů a vyplnit tracker.
+- [ ] Udělat prvních 5 kvalifikovaných customer discovery callů, vyplnit tracker a zapsat verdict do `execution/WAVE1-VALIDATION-VERDICT-TEMPLATE.md`.
 - [ ] Rozhodnout první product wedge: dashboard vs report vs hybrid.

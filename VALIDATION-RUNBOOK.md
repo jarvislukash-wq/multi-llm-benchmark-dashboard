@@ -191,3 +191,18 @@ Projekt je připravený na přechod z enrichment do další fáze ve chvíli, kd
 4. bude potvrzen minimální value proposition pro první placený pilot
 
 Do té doby je interní enrichment dokumentace dostatečně připravená; další neznámé už jsou hlavně externí validační data.
+
+---
+
+## 10. Lightweight verdict capture
+
+Jakmile bude existovat první malý balík reply/call signálů, zapsat stručný verdict do `execution/WAVE1-VALIDATION-VERDICT-TEMPLATE.md`.
+
+Template má schválně držet jen 4 rozhodnutí:
+- který segment je nejsilnější
+- který framing vyhrává (`dashboard`, `scorecard`, `memo` nebo hybrid)
+- jaká je první realistická placená jednotka
+- jestli další vlna má znamenat `continue`, `narrow` nebo `stop`
+
+Tím se Wave 1 nevyhodnotí jen podle reply rate, ale i podle obchodního směru pro první SPEC.
+

@@ -180,6 +180,7 @@ Praktický execution podklad je teď připravený v:
 - `execution/SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` — posílatelná 1-page sample scorecard pro support assistant use case bez nutnosti další přípravy
 - `execution/SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` — posílatelný 1-page executive memo variant pro stejný use case a memo-heavy segment
 - `execution/OUTREACH-LOG-TEMPLATE.md` — lehký send/reply log pro vyhodnocení framingu, CTA a kvality odpovědí
+- `execution/WAVE1-VALIDATION-VERDICT-TEMPLATE.md` — ultra-lehký verdict sheet pro rozhodnutí segmentu, framingu, pricingu a první placené jednotky po prvních reply/call signálech
 - `execution/MESSAGING-FRAMING-TEST.md` — praktický test `decision dashboard` vs `scorecard` vs `decision memo` v outreachi a landing page
 - `COMPETITOR-TEARDOWN.md` — konkrétní competitor read a positioning wedge proti Artificial Analysis / Braintrust / Langfuse / Helicone / OpenRouter
 - `SEGMENT-PRICING-MATRIX.md` — explicitní ranking ICP segmentů, doporučený první komerční wedge a pricing experimenty pro Wave 1
