@@ -10,6 +10,8 @@ Není to live benchmark report. Je to ukázka formátu, který má během 2 minu
 - kde je hlavní tradeoff kvalita vs cena vs rychlost
 - jestli by tým chtěl spíš memo, scorecard nebo dashboard
 
+**Source-of-truth note:** tenhle sample artifact slouží jen jako ukázka formátu pro validation outreach, ne jako routing rozhodnutí. Pro reálný Wave 1 outreach rozhoduje, komu a s jakým framingem decision memo poslat, `execution/WAVE1-OUTREACH-BATCH.md` a odpovídající personalizace ve `execution/WAVE1A-PERSONALIZED-SKELETONS.md` / `execution/WAVE1B-PERSONALIZED-SKELETONS.md`.
+
 ---
 
 ## Decision to make
