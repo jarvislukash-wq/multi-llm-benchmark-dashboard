@@ -10,6 +10,8 @@ Je schválně krátký a čitelný pro 2 publika najednou:
 
 > Pozn.: skóre a čísla níže jsou **illustrative sample format**, ne live benchmark pull. Cíl je ověřit, jestli je tenhle výstup pro tým užitečný.
 
+**Source-of-truth note:** tenhle sample artifact slouží jen jako ukázka formátu pro validation outreach, ne jako routing rozhodnutí. Pro reálný Wave 1 outreach rozhoduje, komu a s jakým framingem scorecard poslat, `execution/WAVE1-OUTREACH-BATCH.md` a odpovídající personalizace ve `execution/WAVE1A-PERSONALIZED-SKELETONS.md` / `execution/WAVE1B-PERSONALIZED-SKELETONS.md`.
+
 ---
 
 ## Use case
