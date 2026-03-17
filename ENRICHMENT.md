@@ -165,6 +165,22 @@ Tohle podporuje 3 produktové balíčky, které jdou po stejné bolesti z různ�
 
 Hlavní závěr: produkt nemá prodávat „víc dat“. Má prodávat **rychlejší a obhajitelné rozhodnutí**.
 
+## 12. Segment prioritization and pricing implication
+
+Detailní ICP + pricing prioritizace je nově v `SEGMENT-PRICING-MATRIX.md`.
+
+Hlavní závěr z tohoto passu:
+- nejsilnější první komerční wedge je **AI startup / applied AI tým**
+- nejnižší tření má **scorecard-first vstup** s následným upsellem na dashboard / workspace
+- hlavní pricing hypothesis pro první reálný produktový sweet spot zůstává **€149 Pro**
+- agentury jsou silný druhý segment hlavně pro **shareable scorecard / memo** a pozdější **€399 Team** plán
+- enterprise zůstává zajímavý spíš jako pozdější memo/governance motion než jako první self-serve wedge
+
+Praktický dopad pro validaci:
+- ve Wave 1 nevyhodnocovat jen reply rate, ale i to, jestli buyer reaguje spíš na **scorecard workflow** nebo na **dashboard workspace**
+- sledovat, jestli startupy a agentury reagují rychleji než SaaS engineering týmy
+- explicitně testovat, zda je první placená jednotka předplatné workspace, nebo opakovaný scorecard / memo workflow
+
 ## 12. Messaging framing test
 
 Další konkrétní enrichment krok je nově zapsaný v `execution/MESSAGING-FRAMING-TEST.md`.

@@ -182,3 +182,4 @@ Praktický execution podklad je teď připravený v:
 - `execution/OUTREACH-LOG-TEMPLATE.md` — lehký send/reply log pro vyhodnocení framingu, CTA a kvality odpovědí
 - `execution/MESSAGING-FRAMING-TEST.md` — praktický test `decision dashboard` vs `scorecard` vs `decision memo` v outreachi a landing page
 - `COMPETITOR-TEARDOWN.md` — konkrétní competitor read a positioning wedge proti Artificial Analysis / Braintrust / Langfuse / Helicone / OpenRouter
+- `SEGMENT-PRICING-MATRIX.md` — explicitní ranking ICP segmentů, doporučený první komerční wedge a pricing experimenty pro Wave 1
