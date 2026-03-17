@@ -11,6 +11,8 @@ Nejde o finální sales list. Jde o nejpravděpodobnější firmy, kde:
 
 ---
 
+**Source-of-truth note:** tenhle shortlist je jen kandidátní pool pro account selection, ne finální execution routing. Pro reálný Wave 1 outreach jsou source of truth konkrétní firmy, `buyer situation`, `framing`, `CTA` a artifact v `execution/WAVE1-OUTREACH-BATCH.md` a odpovídajících personalizacích ve `execution/WAVE1A-PERSONALIZED-SKELETONS.md` / `execution/WAVE1B-PERSONALIZED-SKELETONS.md`. Pokud se shortlist a batch rozcházejí, rozhoduje batch.
+
 ## Why these accounts
 
 ### 1. Public AI maturity signal
