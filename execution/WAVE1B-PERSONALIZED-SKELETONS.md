@@ -6,9 +6,10 @@ Doplnit druhou sadu **ready-to-send personalizovaných skeletonů** pro zbývaj�
 
 Pravidla pro použití:
 - držet přiřazený framing z `DISCOVERY-TRACKER.md`
+- před odesláním potvrdit `Primary artifact` a `Fallback artifact` podle `execution/WAVE1-OUTREACH-BATCH.md`
 - psát krátce, max 120-150 slov
 - personalizaci stavět jen na veřejně dohledatelném kontextu
-- po odeslání zapsat výsledek do outreach logu
+- po odeslání zapsat výsledek do outreach logu včetně pole `Sent artifact`
 
 ---
 
@@ -16,6 +17,8 @@ Pravidla pro použití:
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
+- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** multi-model decision workflow pro workspace AI
 - **Why this account:** široká AI surface area a pravděpodobnost opakovaných rozhodnutí kolem model selection
 
@@ -44,6 +47,8 @@ Dával by ti smysl krátký 20min call? Když ne, klidně pošlu i sample scorec
 
 - **Framing:** scorecard
 - **CTA:** send sample scorecard
+- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** coding assistant wedge / AI code review
 - **Why this account:** silný coding use case, kde je přirozený tradeoff mezi kvalitou, rychlostí a cenou modelu
 
@@ -72,6 +77,8 @@ Jestli chceš, pošlu 1 ukázkovou scorecard právě pro coding assistant use ca
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
+- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** eval + routing decisions pro finance-oriented AI workflow
 - **Why this account:** vysoká pravděpodobnost citlivosti na přesnost, náklady i routing rozhodnutí
 
@@ -100,6 +107,8 @@ Mělo by smysl dát krátký 20min call? Když ne, rád pošlu sample scorecard 
 
 - **Framing:** memo
 - **CTA:** executive feedback
+- **Primary artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** productivity + cost memo pro interní AI automation
 - **Why this account:** silný fit na explainable model choice s ROI a operations angle
 
@@ -124,6 +133,8 @@ Pokud je to relevantní, rád pošlu 1 ukázkový decision memo / scorecard pro 
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
+- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** AI search eval merge
 - **Why this account:** silný fit na spojení veřejných benchmarků a interních eval signálů pro search-oriented AI workflow
 
@@ -152,6 +163,8 @@ Dával by ti smysl krátký 20min call? Když ne, klidně pošlu i sample scorec
 
 - **Framing:** memo
 - **CTA:** executive feedback
+- **Primary artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** explainable model choice pro learning tools
 - **Why this account:** learning workflows často potřebují vysvětlit tradeoff kvalita vs cena vs spolehlivost
 
@@ -176,6 +189,8 @@ Pokud je to relevantní, rád pošlu 1 ukázkový decision memo / scorecard pro 
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
+- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** multi-model operations
 - **Why this account:** orchestration-heavy prostředí, kde dává smysl compare workflow přes více use casů a providerů
 
@@ -204,6 +219,8 @@ Mělo by smysl dát krátký 20min call? Když ne, rád pošlu i sample scorecar
 
 - **Framing:** scorecard
 - **CTA:** send sample scorecard
+- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** high-volume AI workflow
 - **Why this account:** throughput a cost-pressure use case, kde může scorecard otevřít konverzaci s nízkým třením
 
@@ -230,6 +247,8 @@ Jestli chceš, pošlu 1 ukázkovou scorecard právě pro tenhle typ workflow. St
 
 ## Usage notes
 
+- Před odesláním zkontrolovat, že vybraný artifact odpovídá poli `Primary artifact`; při odmítnutí callu nebo jiné potřebě přepnout na `Fallback artifact`.
+- Po každém odeslání hned zapsat do outreach logu, jaký `Sent artifact` skutečně odešel.
 - Tímhle je pokrytý celý aktuální named-contact Wave 1 shortlist.
 - Pokud lead nereaguje na `dashboard`, follow-up může přepnout na konkrétní scorecard artefakt.
 - Pokud lead nereaguje na `memo`, follow-up má být ještě kratší a čistě executive.
