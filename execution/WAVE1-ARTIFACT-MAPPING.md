@@ -9,6 +9,8 @@ Cíl: ať je hned jasné,
 - jaký framing tím testujeme
 - jaký backup artifact použít, když lead nechce call
 
+**Source-of-truth note:** tento mapping není druhý routing dokument. `framing`, `Primary artifact` a `Fallback artifact` se přebírají bez reinterpretace z `execution/WAVE1-OUTREACH-BATCH.md` a odpovídajících personalizací ve `execution/WAVE1A-PERSONALIZED-SKELETONS.md` / `execution/WAVE1B-PERSONALIZED-SKELETONS.md`; tady je jen přehled a zdůvodnění pairingů.
+
 ---
 
 ## Mapping rules
