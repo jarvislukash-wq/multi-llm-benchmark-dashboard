@@ -11,6 +11,8 @@ Nejde o finální branding. Jde o rychlý test, jaký mentální model buyer ch�
 
 ---
 
+**Source-of-truth note:** tenhle framing test slouží pro hypotézy a vyhodnocení, ne jako samostatný routing dokument. Pro reálný Wave 1 outreach se `framing`, `CTA` a posílaný artefakt přebírají bez reinterpretace z `execution/WAVE1-OUTREACH-BATCH.md` a odpovídajících personalizací ve `execution/WAVE1A-PERSONALIZED-SKELETONS.md` / `execution/WAVE1B-PERSONALIZED-SKELETONS.md`.
+
 ## The 3 framings
 
 | Framing | Short promise | Best fit | Main risk |
