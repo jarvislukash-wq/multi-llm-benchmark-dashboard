@@ -60,6 +60,8 @@ Zapsat jen:
 - channel
 - sent artifact = co šlo ven jako první skutečný asset
 
+**Poznámka pro execution:** `framing`, `CTA` a `sent artifact` se mají opsat z finálního Wave 1 routingu bez vlastní reinterpretace — source of truth je `WAVE1-OUTREACH-BATCH.md` a konkrétní personalizace ve `WAVE1A-PERSONALIZED-SKELETONS.md` / `WAVE1B-PERSONALIZED-SKELETONS.md`. Do logu se až po odeslání doplňuje jen skutečný kanál a případná odchylka, ne nový routing.
+
 ### After reply
 Dopsat:
 - reply quality
