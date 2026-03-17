@@ -267,6 +267,14 @@ Jestli chceš, pošlu 1 ukázkovou scorecard právě pro tenhle typ workflow. St
 
 ---
 
+## Account-verified execution note
+
+- U `Coursera`, `Zapier` a `Loom` nebrat named-contact skeleton jako jediny bezpecny first touch.
+- Kdyz stale chybi `person_verified` proof, pouzit misto toho `execution/WAVE1B-ROLE-FALLBACKS.md`.
+- Framing, CTA i artifact mapping zustava stejny; meni se jen zpusob osloveni bez named-contact claimu.
+
+---
+
 ## Usage notes
 
 - Před odesláním zkontrolovat, že vybraný artifact odpovídá poli `Primary artifact`; při odmítnutí callu nebo jiné potřebě přepnout na `Fallback artifact`.
