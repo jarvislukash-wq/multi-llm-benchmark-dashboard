@@ -52,6 +52,9 @@ Neotestujeme jen CTA. Každému leadovi přiřadíme i hlavní framing produktu.
 ### What to log after each send
 - framing sent: dashboard / scorecard / memo
 - CTA used: demo / scorecard / executive feedback
+- primary artifact chosen before send
+- fallback artifact prepared before send
+- sent artifact = co opravdu odeslo jako prvni asset
 - reply quality: none / weak / relevant / high-intent
 - preferred artifact mentioned by lead
 
@@ -150,8 +153,10 @@ Na callu nepotřebujeme pitchovat produkt. Potřebujeme zjistit:
 - [ ] vybrat 15 leadů podle prioritního mixu
 - [ ] každý lead zapsat do `DISCOVERY-TRACKER.md`
 - [ ] tagnout segment a prioritu P1/P2/P3
+- [ ] před odesláním potvrdit `Primary artifact` a `Fallback artifact` podle `execution/WAVE1-OUTREACH-BATCH.md`
 - [ ] poslat první vlnu se 2 CTA variantami: demo vs scorecards
-- [ ] po každé odpovědi zapsat objection a další krok
+- [ ] po odeslání okamžitě zapsat `Sent artifact` do `execution/OUTREACH-LOG-TEMPLATE.md`
+- [ ] po každé odpovědi zapsat objection, preferred artifact a další krok
 - [ ] po každém callu vyplnit scoring rubric z `VALIDATION-RUNBOOK.md`
 
 ---
