@@ -13,6 +13,20 @@ Pravidla pro použití:
 
 ---
 
+## Source-of-truth note
+
+Tyto personalized skeletony jsou operacni sablony pro prvni dotek, ne kanonicke misto pro zmenu buyer routing logiky, CTA nebo artifact volby.
+
+Plati toto poradi pravdy:
+1. `ENRICHMENT.md` drzi market context, ICP a buyer-situation definice
+2. `DISCOVERY-TRACKER.md` drzi kanonicke prirazeni firem ke framingu, CTA a buyer situaci
+3. `execution/WAVE1-OUTREACH-BATCH.md` drzi ready-to-send Wave 1 assignment vcetne `Primary artifact` a `Fallback artifact`
+4. tento dokument jen prevadi uz zvolene assignment do personalizovanych first-touch skeletonu
+
+Kdyz se zmeni buyer routing, CTA nebo artifact mapping, nejdriv aktualizovat kanonicky zdroj a az potom tyto skeletony. Tento dokument nema sam prepisovat framing assignment ani zavadet nove claimy.
+
+---
+
 ## 1. Canva — Andreas Schuster
 
 - **Framing:** dashboard
