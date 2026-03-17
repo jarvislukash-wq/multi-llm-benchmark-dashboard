@@ -46,6 +46,10 @@ Landing page už nemá testovat jen CTA `demo` vs `scorecards`, ale i hlavní me
 
 ---
 
+## Source-of-truth note
+
+Tento dokument je vychozi source of truth pro landing page framing varianty (`D`, `S`, `M`), jejich doporuceny test order a defaultni CTA mapovani pro smoke test. Buyer situace a positioning logika se odvozuji z buyer decision matrix v `ENRICHMENT.md`; `execution/MESSAGING-FRAMING-TEST.md` muze doplnit experimentni hypotézy, ale nema prepisovat nazvy framingu ani vychozi CTA bez vedome upravy tohoto dokumentu.
+
 ## Buyer-situation routing for landing variants
 
 Aby landing test navazoval na buyer decision matrix v `ENRICHMENT.md`, pouzij pro traffic a outreach tento jednoduchy routing:
