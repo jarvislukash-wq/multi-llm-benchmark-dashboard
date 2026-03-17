@@ -6,9 +6,10 @@ Doplnit **ready-to-send personalizované skeletony** pro nejvyšší priority z 
 
 Pravidla pro použití:
 - držet se přiřazeného framingu z `DISCOVERY-TRACKER.md`
+- před odesláním potvrdit `Primary artifact` a `Fallback artifact` podle `execution/WAVE1-OUTREACH-BATCH.md`
 - psát krátce, max 120-150 slov
 - personalizace má stát na veřejně dohledatelném kontextu, ne na domněnkách
-- po odeslání zapsat výsledek do outreach logu
+- po odeslání zapsat výsledek do outreach logu včetně pole `Sent artifact`
 
 ---
 
@@ -16,6 +17,8 @@ Pravidla pro použití:
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
+- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** AI Help Experience / support assistant compare workflow
 - **Why this account:** veřejně pojmenovaný ownership nad AI Help Experience; silný fit na rozhodování kvalita vs cost vs fallback
 
@@ -44,6 +47,8 @@ Dával by ti smysl krátký 20min call? Když ne, klidně pošlu i jednu ukázko
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
+- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** tutoring quality vs cost tradeoff
 - **Why this account:** AI tutoring je citlivý use case, kde je důležitá kvalita odpovědi i rozpočtová udržitelnost
 
@@ -72,6 +77,8 @@ Mělo by smysl dát krátký 20min call? Když ne, rád pošlu i sample scorecar
 
 - **Framing:** scorecard
 - **CTA:** send sample scorecard
+- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** coding + product workflow
 - **Why this account:** AI-native produkt, vysoká pravděpodobnost častého porovnávání modelů pro různé joby
 
@@ -100,6 +107,8 @@ Jestli chceš, pošlu 1 ukázkovou scorecard právě pro tenhle typ workflow. St
 
 - **Framing:** memo
 - **CTA:** executive feedback
+- **Primary artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** governance + benchmark memo
 - **Why this account:** governance-heavy prostředí, kde může fungovat explainability a obhajoba model choice
 
@@ -124,6 +133,8 @@ Pokud je to relevantní, rád pošlu 1 ukázkový decision memo / scorecard pro 
 
 - **Framing:** scorecard
 - **CTA:** send sample scorecard
+- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Use case angle:** support + fallback scorecard
 - **Why this account:** support/operations AI je přirozený use case pro budget + fallback rozhodování
 
@@ -150,6 +161,8 @@ Jestli chceš, pošlu 1 ukázkovou scorecard pro support workflow a stačí mi k
 
 ## Usage notes
 
+- Před odesláním zkontrolovat, že vybraný artifact odpovídá poli `Primary artifact`; při odmítnutí callu nebo jiné potřebě přepnout na `Fallback artifact`.
+- Po každém odeslání hned zapsat do outreach logu, jaký `Sent artifact` skutečně odešel.
 - Pokud lead nereaguje na `dashboard` framing, druhý dotek může být kratší `scorecard` artefakt.
 - Pokud lead nereaguje na `scorecard`, follow-up má nabídnout konkrétní use case sample bez dalšího pitchování.
 - U `memo` framingu preferovat stručný executive wording a minimální produktový slang.
