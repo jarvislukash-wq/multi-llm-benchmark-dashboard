@@ -10,6 +10,10 @@ Jednoduchý log pro první validační vlnu, aby šlo po odeslání rychle vyhod
 
 Držet to schválně lehké. Žádný CRM overkill.
 
+## Source-of-truth note
+
+Tento log je jen evidence vrstva po odeslání. Finální `framing`, `CTA` a výchozí `sent artifact` se nepřeroutovávají tady — source of truth zůstává `execution/WAVE1-OUTREACH-BATCH.md` a konkrétní wording/personalizace v `execution/WAVE1A-PERSONALIZED-SKELETONS.md` a `execution/WAVE1B-PERSONALIZED-SKELETONS.md`. V logu se doplňuje jen reálně poslaný kanál, skutečný stav a případná odchylka proti batchi.
+
 ---
 
 ## Status values
