@@ -139,20 +139,18 @@ Kdyby to bylo relevantní, rád pošlu ukázkovou scorecard nebo dáme 20min cal
 
 ## Follow-up cadence
 
+Tento playbook drzi jen timing. Kanonicke Day 3 / Day 7 texty podle `dashboard`, `scorecard` a `memo` framingu jsou v `execution/WAVE1-FOLLOW-UP-SEQUENCES.md`.
+
 ### Day 0
-- poslat první zprávu
+- poslat first touch podle `execution/WAVE1-OUTREACH-BATCH.md` a odpovidajiciho personalized skeletonu
 
 ### Day 3
-- krátký follow-up s jednou větou a nabídkou scorecard
-
-**Template**
-Ahoj {{first_name}}, jen se připomínám — pokud je call zbytečný, klidně pošlu rovnou 1 ukázkovou scorecard pro váš use case a zajímá mě jen stručný feedback.
+- poslat framing-specific follow-up z `execution/WAVE1-FOLLOW-UP-SEQUENCES.md`
+- kdyz lead nechce call, nabidnout tam definovany fallback artifact
 
 ### Day 7
-- poslední follow-up, low-friction close
-
-**Template**
-Poslední ping — řešíme teď hlavně týmy, které aktivně porovnávají více modelů. Pokud to teď není priorita, v pohodě. Kdyby jo, stačí napsat use case a pošlu relevantní scorecard.
+- poslat posledni low-friction follow-up z `execution/WAVE1-FOLLOW-UP-SEQUENCES.md`
+- uz nevymyslet novy messaging mimo kanonickou follow-up sekvenci
 
 ---
 
