@@ -144,6 +144,27 @@ Tím je enrichment dokumentace dostatečně konkrétní pro přechod do externí
 Navazující execution vrstva je rozepsaná v `VALIDATION-RUNBOOK.md` (14denní plán, success thresholds, decision tree) a `DISCOVERY-TRACKER.md` (šablona evidence interview a landing page testu).
 
 
+## 13. Buyer decision matrix vs alternatives
+
+Malý doplněk k positioning wedge: buyer nepotřebuje jen vědět, že existuje mezera na trhu. Potřebuje být zřejmé, **kdy sáhne po tomto produktu místo existujících alternativ**.
+
+| Buyer situace | Co dnes typicky použije | Proč to nestačí | Proč vyhraje multi-llm-benchmark-dashboard |
+|---|---|---|---|
+| Chci rychle porovnat modely pro nový use case | Artificial Analysis / OpenRouter / vlastní spreadsheet | veřejná data nejsou navázaná na konkrétní use-case váhy a týmové rozhodnutí | use-case scorecard + recommendation output v jednom |
+| Už mám traces a evaly, ale rozhodnutí je pořád roztříštěné | Langfuse / Braintrust / Helicone | observability ukazuje provoz, ne finální doporučení pro business tradeoff | decision layer nad interními i veřejnými signály |
+| Potřebuju klientovi nebo managementu obhájit volbu modelu | slides / docs / ad-hoc memo | ruční výstup je pomalý, neauditovatelný a opakuje se od nuly | shareable memo/scorecard export se stejnou logikou jako dashboard |
+| Řeším rozpočet a fallback model, ne jen top quality | leaderboardy nebo provider pitch | leaderboard neukazuje cost ceiling, fallback ani budget-safe variantu | best overall / best budget / safest fallback v jedné vrstvě |
+| Chci lightweight nástroj před nasazením plného LLMOps stacku | nic / spreadsheet | tým zůstává v chaosu a rozhodování je subjektivní | low-friction wedge ještě před observability adopcí |
+
+### Packaging implication
+
+Tohle podporuje 3 produktové balíčky, které jdou po stejné bolesti z různých stran:
+- **scorecard-first** pro low-friction vstup a outbound
+- **dashboard-first** pro týmy s opakovaným compare workflow
+- **memo export** pro enterprise / governance / client-facing obhajobu
+
+Hlavní závěr: produkt nemá prodávat „víc dat“. Má prodávat **rychlejší a obhajitelné rozhodnutí**.
+
 ## 12. Messaging framing test
 
 Další konkrétní enrichment krok je nově zapsaný v `execution/MESSAGING-FRAMING-TEST.md`.
