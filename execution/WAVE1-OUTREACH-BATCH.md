@@ -11,6 +11,18 @@ Tento dokument je schvalne prakticky: kdo je nejlepsi prvni kontakt, pres jaky k
 
 Zdroj pravdy pro rozdeleni je `DISCOVERY-TRACKER.md`.
 
+## Source-of-truth note
+
+Tento batch je operacni vyber pro odeslani, ne primarni misto pro rozhodovani o buyer routing logice.
+
+Plati toto poradi pravdy:
+1. `ENRICHMENT.md` drzi market context, ICP a buyer-situation definice
+2. `DISCOVERY-TRACKER.md` drzi kanonicke prirazeni firem ke framingu, CTA a buyer situaci
+3. `execution/WAVE1-ARTIFACT-MAPPING.md` drzi kanonicke prirazeni primary/fallback artifactu
+4. tento batch jen sklada ready-to-send kombinace kontakt + kanal + framing + CTA pro Wave 1
+
+Kdyz se zmeni routing, CTA nebo artifact mapping, nejdriv aktualizovat kanonicky zdroj a az potom tento batch. Tento dokument nema sam menit buyer-situation definice ani prepisovat canonical framing assignment.
+
 ---
 
 ## Batch A - dashboard framing + demo CTA
