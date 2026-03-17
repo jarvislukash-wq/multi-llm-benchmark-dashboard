@@ -72,7 +72,7 @@ Pomalejší sales cyklus, ale silný signál pro enterprise pricing a governance
 
 ### Demo CTA
 Použít pro:
-- Graphite
+- Khan Academy
 - Fintool
 - Dropbox
 - Notion
@@ -84,15 +84,16 @@ Důvod: vysoká pravděpodobnost, že ocení workflow a compare view.
 Použít pro:
 - Canva
 - SumUp
-- Khan Academy
+- Graphite
 - Loom
-- Coursera
+- Magic Patterns
 
 Důvod: nižší tření, jednodušší vstup do konverzace přes konkrétní use case.
 
 ### Executive / hybrid CTA
 Použít pro:
 - Merck
+- Coursera
 - Ramp
 
 Důvod: tady může víc fungovat governance, ROI a decision memo framing než čistý dashboard pitch.
