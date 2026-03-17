@@ -164,7 +164,7 @@ Začít bez těžké observability integrace. Nejdřív vyřešit **„jak si ry
 ## Concrete next step
 
 Další konkrétní krok po dokončeném enrichment základu:
-**poslat první Wave 1 outreach s novou `execution/SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` a začít sbírat první reply-quality signály do `execution/OUTREACH-LOG-TEMPLATE.md`.**
+**otestovat ve Wave 1, jestli silnější reakce otevírá `scorecard` nebo `decision memo` framing, protože oba sample artefakty už jsou připravené k poslání.**
 
 Praktický execution podklad je teď připravený v:
 - `VALIDATION-RUNBOOK.md` — 14denní plán, success thresholds a decision tree
@@ -177,6 +177,7 @@ Praktický execution podklad je teď připravený v:
 - `execution/WAVE1B-PERSONALIZED-SKELETONS.md` — 8 personalizovaných ready-to-send skeletonů pro zbytek named-contact Wave 1 shortlistu
 - `execution/WAVE1-FOLLOW-UP-SEQUENCES.md` — ultra-krátké Day 3 / Day 7 follow-up varianty pro `dashboard`, `scorecard` a `memo` framing
 - `execution/SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` — posílatelná 1-page sample scorecard pro support assistant use case bez nutnosti další přípravy
+- `execution/SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` — posílatelný 1-page executive memo variant pro stejný use case a memo-heavy segment
 - `execution/OUTREACH-LOG-TEMPLATE.md` — lehký send/reply log pro vyhodnocení framingu, CTA a kvality odpovědí
 - `execution/MESSAGING-FRAMING-TEST.md` — praktický test `decision dashboard` vs `scorecard` vs `decision memo` v outreachi a landing page
 - `COMPETITOR-TEARDOWN.md` — konkrétní competitor read a positioning wedge proti Artificial Analysis / Braintrust / Langfuse / Helicone / OpenRouter
