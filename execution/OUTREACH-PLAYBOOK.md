@@ -160,7 +160,7 @@ Na callu nepotřebujeme pitchovat produkt. Potřebujeme zjistit:
 1. jak dnes vybírají model
 2. jak drahý je špatný výběr
 3. jestli jim dává smysl use-case scorecard
-4. jestli chtějí dashboard, report nebo API
+4. jestli chtějí dashboard, scorecard nebo decision memo
 5. jestli by za to zaplatili nebo šli do pilotu
 
 ---
@@ -200,6 +200,6 @@ Wave 1 je úspěšná, pokud z 15 leadů padne aspoň:
 - 5 odpovědí
 - 3 discovery calls
 - 2 potvrzené high-pain leady
-- 1 jasný signál preferovaného formátu: dashboard / report / API / hybrid
+- 1 jasný signál preferovaného framingu: dashboard / scorecard / memo / hybrid
 
 Pokud ne, upravit messaging nebo zúžit ICP dřív, než se dělá další asset work.
