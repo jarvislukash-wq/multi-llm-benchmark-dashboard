@@ -6,7 +6,7 @@
 
 | Lead | Firma | Segment | Public contact | Backup contact / role | Channel | Priorita | Stav | Pain (1-5) | Models 3+ | WTP band | Preferred format | Framing to test | Next step |
 |---|---|---|---|---|---|---|---|---:|---|---|---|---|---|
-| AI Help Experience owner | Canva | SaaS s AI feature | Andreas Schuster - Head of Product, AI Help Experience | Applied AI / platform engineering lead | LinkedIn + Canva engineering / product channels | P1 | to_contact | 4 | yes | enterprise | hybrid | memo | send scorecard CTA for support assistant use case |
+| AI Help Experience owner | Canva | SaaS s AI feature | Andreas Schuster - Head of Product, AI Help Experience | Applied AI / platform engineering lead | LinkedIn + Canva engineering / product channels | P1 | to_contact | 4 | yes | enterprise | hybrid | scorecard | send scorecard CTA for support assistant use case |
 | AI tutoring platform lead | Khan Academy | SaaS s AI feature | Walt Wells - Staff Software Engineer | AI learning lead / engineering manager | LinkedIn + Khan Academy leadership / engineering channel | P1 | to_contact | 4 | yes | 149_plus | dashboard | dashboard | send demo CTA focused on quality vs cost tradeoff |
 | Product prototyping founder | Magic Patterns | AI startup | Alexander Danilowicz - Co-founder | Product / GTM co-founder | LinkedIn + company site contact | P1 | to_contact | 5 | yes | 149_plus | dashboard | scorecard | send scorecard CTA for coding + product workflow |
 | AI platform owner | Merck | Enterprise innovation | Walid Mehanna - Chief Data & AI Officer | AI platform / governance owner | LinkedIn + enterprise innovation contact path | P2 | to_contact | 4 | yes | enterprise | hybrid | memo | send executive CTA with governance + benchmark angle |
