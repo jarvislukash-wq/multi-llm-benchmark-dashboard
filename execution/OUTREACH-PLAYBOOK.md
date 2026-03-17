@@ -171,6 +171,7 @@ Na callu nepotřebujeme pitchovat produkt. Potřebujeme zjistit:
 - [ ] každý lead zapsat do `DISCOVERY-TRACKER.md`
 - [ ] tagnout segment a prioritu P1/P2/P3
 - [ ] před odesláním potvrdit `Primary artifact` a `Fallback artifact` podle `execution/WAVE1-OUTREACH-BATCH.md`
+- [ ] před odesláním zkontrolovat v `execution/WAVE1-CONTACT-VERIFICATION.md`, jestli je lead `person_verified` nebo jen `account_verified`
 - [ ] poslat první vlnu se 2 CTA variantami: demo vs scorecards
 - [ ] po odeslání okamžitě zapsat `Sent artifact` do `execution/OUTREACH-LOG-TEMPLATE.md`
 - [ ] po každé odpovědi zapsat objection, preferred artifact a další krok

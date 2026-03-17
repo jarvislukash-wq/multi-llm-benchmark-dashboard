@@ -1,6 +1,6 @@
 # Discovery Tracker - multi-llm-benchmark-dashboard
 
-> Poznamka: nize je **wave 1 account list** pro prvni outreach. Jde o account-level targety a cilove role. Kde bylo mozne dohledat verejne pojmenovanou osobu z customer story / product stranky, je uvedena jako `Public contact`. Kde zatim verejne jmeno chybi nebo neslo spolehlive overit bez loginu, je uveden **role-based fallback** a prioritni kanal. Sloupce `Pain`, `WTP band` a `Preferred format` jsou pracovni hypotezy pro prioritizaci outreach, ne potvrzena fakta.
+> Poznamka: nize je **wave 1 account list** pro prvni outreach. Jde o account-level targety a cilove role. `Public contact` neznamena automaticky verejne overene jmeno; presny dukaz je v `execution/WAVE1-CONTACT-VERIFICATION.md`, kde je rozlisene `person_verified` vs `account_verified`. Kde zatim verejne jmeno chybi nebo neslo spolehlive overit bez loginu, je uveden **role-based fallback** a prioritni kanal. Sloupce `Pain`, `WTP band` a `Preferred format` jsou pracovni hypotezy pro prioritizaci outreach, ne potvrzena fakta.
 
 ## Interview tracker
 
@@ -14,9 +14,9 @@
 | AI search eval owner | Dropbox | SaaS s AI feature | Josh Clemm - VP of Engineering | AI search / evaluation engineering lead | LinkedIn + Dropbox leadership / AI product path | P1 | to_contact | 5 | yes | enterprise | dashboard | dashboard | send demo CTA with internal eval merge angle |
 | Workspace AI platform lead | Notion | SaaS s AI feature | Sarav Bhatia - Sr. Dir. of Engineering | AI / engineering lead | LinkedIn + Notion request-demo / product leadership path | P1 | to_contact | 5 | yes | enterprise | hybrid | dashboard | send demo CTA focused on model-selection workflow |
 | AI code review owner | Graphite | AI startup | Quinten Farmer - Founder & CEO | CTO / AI engineering lead | LinkedIn + Graphite request-demo | P1 | to_contact | 5 | yes | 149_plus | dashboard | scorecard | send scorecard CTA for coding assistant wedge |
-| Learning AI platform lead | Coursera | SaaS s AI feature | Winne Tam - Senior Engineering Manager | Sophie Gao - Staff Software Engineer | LinkedIn + Coursera leadership / engineering path | P2 | to_contact | 4 | yes | enterprise | hybrid | memo | send executive CTA around explainable model choice |
-| AI orchestration lead | Zapier | SaaS s AI feature | Mike Knoop - Co-Founder | AI product / platform lead | LinkedIn + Zapier contact sales | P1 | to_contact | 5 | yes | enterprise | dashboard | dashboard | send demo CTA focused on multi-model operations |
-| AI video workflow lead | Loom | SaaS s AI feature | Matt Granmoe - Senior Software Engineer | AI product lead | LinkedIn + Atlassian/Loom contact path | P2 | to_contact | 4 | yes | 149_plus | report | scorecard | send scorecard CTA for high-volume AI workflow |
+| Learning AI platform lead | Coursera | SaaS s AI feature | Winne Tam - Senior Engineering Manager *(account-verified only)* | Sophie Gao - Staff Software Engineer | LinkedIn + Coursera leadership / engineering path | P2 | research_needed | 4 | yes | enterprise | hybrid | memo | verify named contact or use role-based fallback before send |
+| AI orchestration lead | Zapier | SaaS s AI feature | Mike Knoop - Co-Founder *(account-verified only)* | AI product / platform lead | LinkedIn + Zapier contact sales | P1 | research_needed | 5 | yes | enterprise | dashboard | dashboard | verify named contact or use role-based fallback before send |
+| AI video workflow lead | Loom | SaaS s AI feature | Matt Granmoe - Senior Software Engineer *(account-verified only)* | AI product lead | LinkedIn + Atlassian/Loom contact path | P2 | research_needed | 4 | yes | 149_plus | report | scorecard | verify named contact or use role-based fallback before send |
 | Financial AI engineering lead | Fintool | AI startup | Paul Klein IV - Founder & CEO | VP Engineering / AI platform lead | LinkedIn + company site contact | P1 | to_contact | 5 | yes | enterprise | dashboard | dashboard | send demo CTA focused on eval + routing decisions |
 | Internal AI automation owner | Ramp | SaaS s AI feature | Ben Levick - Head of AI & Operations | Finance automation / AI product lead | LinkedIn + Ramp contact/demo path | P1 | to_contact | 4 | yes | enterprise | hybrid | memo | send executive CTA with productivity + cost angle |
 | Applied AI engineering lead | Canva | SaaS s AI feature | Andreas Schuster - Head of Product, AI Help Experience | Applied AI / platform engineering lead | LinkedIn + Canva engineering / product channels | P2 | to_contact | 4 | yes | enterprise | dashboard | dashboard | send demo CTA focused on compare workflow |
@@ -48,6 +48,9 @@
 ---
 
 ## Public contact evidence
+
+Zdroj pravdy pro confidence level je `execution/WAVE1-CONTACT-VERIFICATION.md`. Nize uvedene zdroje ukazuji puvod account poolu; ne vsechny automaticky potvrzuji i named contact.
+
 
 - **Langfuse customer stories:**
   - Canva - Andreas Schuster, Head of Product, AI Help Experience

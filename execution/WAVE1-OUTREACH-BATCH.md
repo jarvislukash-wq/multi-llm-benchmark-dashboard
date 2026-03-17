@@ -147,19 +147,19 @@ Pokud se tracker zmeni, nejdriv aktualizovat tracker a teprve potom tento batch.
 8. Fintool - Paul Klein IV
 9. Ramp - Ben Levick
 
-### Wave 1B - now verified public contacts
+### Wave 1B - verified accounts, mixed contact confidence
 1. Dropbox - Josh Clemm
 2. Coursera - Winne Tam / Sophie Gao
 3. Zapier - Mike Knoop
 4. Loom - Matt Granmoe
 
-Duvod: exact company match jsem dohledal primo z verejnych Braintrust customer story stranek, takze batch uz neni blokovany jmennou verifikaci.
+Duvod: verejne customer pages potvrzuji Wave 1B account fit, ale ne u vsech firem potvrzuji i konkretni named contact. Batch tedy neni blokovany account selection, ale ma mixed contact confidence a musi se ridit `execution/WAVE1-CONTACT-VERIFICATION.md`.
 
 ---
 
 ## Operational notes
 
-- **Nejvyssi confidence verejne osoby** pochazi z Langfuse customer page, Braintrust customer page a Notion AI page.
+- **Nejvyssi confidence verejne osoby** jsou rozlisene v `execution/WAVE1-CONTACT-VERIFICATION.md` na `person_verified` vs `account_verified` podle verejneho dukazu.
 - Kde je named contact z customer story, je mozne poslat personalizovany outreach hned.
 - Kdyz jmeno chybi, stale je mozne spustit account-based outreach pres role + firmu bez blokace cele vlny.
 - Nejrychlejsi dalsi krok po tomto batchi: spustit outreach na Wave 1A a parallelne otestovat reply quality po framingu `dashboard` vs `scorecard` vs `memo`.
