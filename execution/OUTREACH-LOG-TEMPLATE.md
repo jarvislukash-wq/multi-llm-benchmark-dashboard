@@ -80,14 +80,14 @@ Dopsat navíc:
 - WTP band
 - jestli chtějí pilot / sample / intro / nic
 
-### €149 Pro pricing capture rule
+### Pricing signal capture rule
 Aby šel verdict udělat bez zpětné reinterpretace, u každé relevantní reply nebo call poznámky zapiš rovnou:
 - `price_probe = none / under_39 / 39_149 / 149_plus / enterprise`
 - `pro_signal = positive / neutral / negative`
 - jednu přesnou větu, která ten pricing signál potvrzuje
 
-Použij `positive`, když buyer bez odporu přijímá ongoing workspace v rozmezí `€99–149` nebo sám mluví o opakovaném benchmarkingu / team workspace.
-Použij `negative`, když buyer chce jen jednorázový audit, free artifact nebo price-anchor výrazně pod `€39`.
+Použij `positive`, když buyer bez odporu přijímá průběžný benchmark workspace v pásmu `39_149` nebo vyšším, nebo sám mluví o opakovaném benchmarkingu / team workspace.
+Použij `negative`, když buyer chce jen jednorázový audit, free artifact nebo price-anchor v pásmu `under_39`.
 
 ---
 
