@@ -157,6 +157,17 @@ Duvod: verejne customer pages potvrzuji Wave 1B account fit, ale ne u vsech fire
 
 ---
 
+## Pricing signal handoff for Wave 1
+
+Po kazde relevantni reply nebo call z teto vlny zapis pricing signal do `execution/OUTREACH-LOG-TEMPLATE.md` bez vlastniho preznacovani. Pouzij presne tyto hodnoty, aby batch, log a verdict vrstva mely stejnou slovni zasobu end-to-end:
+- `price_probe = none / under_39 / 39_149 / 149_plus / enterprise`
+- `pro_signal = positive / neutral / negative`
+- 1 presnou vetu nebo frazi, ktera pricing signal potvrzuje
+
+Wave 1 batch nema zavadet zadne alternativni WTP labely. Pokud buyer rekne napriklad, ze chce jen jednorazovy audit nebo free artifact, routuj to do `price_probe` a `pro_signal` podle log template misto volneho slovniho popisu.
+
+---
+
 ## Operational notes
 
 - **Nejvyssi confidence verejne osoby** jsou rozlisene v `execution/WAVE1-CONTACT-VERIFICATION.md` na `person_verified` vs `account_verified` podle verejneho dukazu.
