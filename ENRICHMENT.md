@@ -55,7 +55,7 @@ Produkt šetří hlavně:
 
 ### Doporučené pricing pásmo
 - **€39 Starter**: low-friction vstup, solo / indie / malý tým
-- **€149 Pro**: hlavní sweet spot pro startupy
+- **€149 Pro**: hlavní pricing hypotéza pro startupy (čeká na live willingness-to-pay potvrzení)
 - **€399 Team**: pro agentury a multi-user týmy
 - **Enterprise custom**: governance, SSO, self-hosted
 
@@ -84,7 +84,7 @@ Produkt šetří hlavně:
 ### Pricing / value interviews
 1. Jak drahá je špatná volba modelu ve vašem týmu?
 2. Zaplatili byste za dashboard, který spojí benchmarky, cenu a vaše evaly?
-3. Co by pro vás muselo být uvnitř, aby to mělo hodnotu €149/měs?
+3. Co by pro vás muselo být uvnitř, aby to pro vás mělo hodnotu v pásmu kolem €149/měs?
 4. Chtěli byste spíš SaaS, nebo exportovatelný report / API?
 
 ## 8. Recommended next milestone
@@ -172,7 +172,7 @@ Detailní ICP + pricing prioritizace je nově v `SEGMENT-PRICING-MATRIX.md`.
 Hlavní závěr z tohoto passu:
 - nejsilnější první komerční wedge je **AI startup / applied AI tým**
 - nejnižší tření má **scorecard-first vstup** s následným upsellem na dashboard / workspace
-- hlavní pricing hypothesis pro první reálný produktový sweet spot zůstává **€149 Pro**
+- hlavní pricing hypothesis pro první reálný produktový sweet spot zůstává **€149 Pro**, ale zatím bez potvrzeného live buyer signálu
 - agentury jsou silný druhý segment hlavně pro **shareable scorecard / memo** a pozdější **€399 Team** plán
 - enterprise zůstává zajímavý spíš jako pozdější memo/governance motion než jako první self-serve wedge
 
