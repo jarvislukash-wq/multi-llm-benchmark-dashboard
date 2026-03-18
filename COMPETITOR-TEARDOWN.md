@@ -194,7 +194,7 @@ První placená hodnota pravděpodobně nebude „dashboard jako takový", ale:
 To nahrává balení typu:
 - **free compare / scorecard preview** jako acquisition
 - **€39 monitor** pro solo / early teams
-- **€149 decision workspace** jako hlavní paid tier
+- **pricing hypotéza: Pro workspace v pásmu €99–149** jako hlavní candidate paid tier
 - **€399 team** pro sdílení, alerts, exporty a historii rozhodnutí
 
 ---
