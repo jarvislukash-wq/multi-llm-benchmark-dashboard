@@ -88,7 +88,8 @@ Zúžit nebo stopnout, pokud nastane aspoň jedno:
 - current decision workflow maturity
 - strongest objection
 - preferred artifact: dashboard / report / API
-- willingness to pay band: none / <€39 / €39-149 / €149+ / enterprise
+- `price_probe`: none / under_39 / 39_149 / 149_plus / enterprise
+- `pro_signal`: positive / neutral / negative
 
 ### Decision metrics
 - percent of calls that confirm the problem
