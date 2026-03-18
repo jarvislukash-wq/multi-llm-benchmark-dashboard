@@ -71,13 +71,13 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 
 | Probe | Mentioned to how many leads | Positive signal count | Negative signal count | Notes |
 |---|---:|---:|---:|---|
-| €39 Starter |  |  |  |  |
+| Starter hypothesis (~€39) |  |  |  |  |
 | Pro workspace hypothesis (€99–149) |  |  |  |  |
-| €399 Team / multi-workspace |  |  |  |  |
+| Team workspace hypothesis (from ~€399) |  |  |  |  |
 | Paid pilot / enterprise memo |  |  |  |  |
 
 ### First paid unit decision
-- Best first paid unit now: starter subscription / pro workspace hypothesis (€99–149) / team workspace / paid scorecard workflow / paid memo pilot
+- Best first paid unit now: starter hypothesis (~€39) / pro workspace hypothesis (€99–149) / team workspace hypothesis (from ~€399) / paid scorecard workflow / paid memo pilot
 - Why:
 - Objection pattern:
 - Sweet spot signal: none / under_39 / 39_149 / 149_plus / enterprise
