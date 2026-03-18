@@ -80,7 +80,15 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 - Best first paid unit now: starter subscription / pro workspace / team workspace / paid scorecard workflow / paid memo pilot
 - Why:
 - Objection pattern:
-- Sweet spot signal: under_39 / 39_149 / 149_plus / enterprise / unclear
+- Sweet spot signal: none / under_39 / 39_149 / 149_plus / enterprise
+- `price_probe` summary used in this verdict: none / under_39 / 39_149 / 149_plus / enterprise
+- `pro_signal` summary used in this verdict: positive / neutral / negative
+- One exact sentence that best confirms pricing signal:
+
+### Pricing evidence normalization rule
+- Do not rename pricing evidence inside the verdict.
+- If a reply or call note exists in `execution/OUTREACH-LOG-TEMPLATE.md`, copy the same `price_probe` and `pro_signal` labels here without translation.
+- If evidence is mixed, summarize by segment but keep the same allowed values only.
 
 ### €149 Pro hypothesis check
 - Hypothesis status: confirmed / leaning_yes / unclear / leaning_no / rejected
