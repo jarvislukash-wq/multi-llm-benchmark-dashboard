@@ -66,8 +66,8 @@ Každý segment je hodnocený 1-5. Vyšší = lepší pro první komerční wedg
 - navazující 20min demo nad decision workflow
 
 ### Pricing hypothesis
-- **€39 Starter** pro solo / malý tým jako low-friction vstup
-- **€149 Pro** jako hlavní pricing test / packaging hypotéza pro tým, který chce custom weights + interní eval import + history; zatím nejde o potvrzený willingness-to-pay signál
+- **pricing hypotéza: Starter kolem ~€39** pro solo / malý tým jako low-friction vstup
+- **pricing hypotéza: Pro kolem ~€149** jako hlavní pricing test / packaging hypotéza pro tým, který chce custom weights + interní eval import + history; zatím nejde o potvrzený willingness-to-pay signál
 
 ### Main risk
 - část startupů bude chtít vše řešit ve spreadsheetu nebo interně
@@ -96,8 +96,8 @@ Každý segment je hodnocený 1-5. Vyšší = lepší pro první komerční wedg
 - export decision memo pro support / coding / extraction use case
 
 ### Pricing hypothesis
-- **€149 Pro** jako testovaný Pro-level price point pokud jde o interní agenturní workflow; zatím ne jako potvrzený buyer signál
-- **€399 Team** pokud chtějí více workspace, historii a sdílení napříč klienty
+- **pricing hypotéza: Pro kolem ~€149** jako testovaný Pro-level price point pokud jde o interní agenturní workflow; zatím ne jako potvrzený buyer signál
+- **pricing hypotéza: Team od ~€399** pokud chtějí více workspace, historii a sdílení napříč klienty
 - potenciál pro white-label nebo consulting add-on
 
 ### Main risk
@@ -127,8 +127,8 @@ Každý segment je hodnocený 1-5. Vyšší = lepší pro první komerční wedg
 - ukázka propojení public benchmarků + interních eval signálů
 
 ### Pricing hypothesis
-- **€149 Pro** jako testovaný výchozí Pro price point
-- **€399 Team** u více uživatelů nebo pravidelného decision review procesu
+- **pricing hypotéza: Pro kolem ~€149** jako testovaný výchozí Pro price point
+- **pricing hypotéza: Team od ~€399** u více uživatelů nebo pravidelného decision review procesu
 
 ### Main risk
 - bez interního data merge může být produkt vnímaný jako "jen hezčí compare"
@@ -184,11 +184,11 @@ Proč:
 ### Product packaging ladder
 1. **Free / manual sample scorecard**
    - acquisition a discovery vstup
-2. **€39 Starter**
+2. **pricing hypotéza: Starter kolem ~€39**
    - self-serve scorecards + watchlist + základní compare
-3. **€149 Pro**
+3. **pricing hypotéza: Pro kolem ~€149**
    - hlavní pricing test / packaging hypotéza pro startupy a menší AI týmy, zatím bez potvrzeného live buyer signálu
-4. **€399 Team**
+4. **pricing hypotéza: Team od ~€399**
    - agentury, více workspace, historie, sdílení, exporty
 5. **Enterprise custom**
    - governance, SSO, self-hosted, private connectors
@@ -225,11 +225,11 @@ Proto je správné držet:
 
 Pokud bych měl z dnešních enrichment dat vybrat jediný první komerční wedge, je to:
 
-**AI startup / applied AI tým + scorecard-first vstup + případný upsell na testovaný €149 decision workspace.**
+**AI startup / applied AI tým + scorecard-first vstup + případný upsell na decision workspace v testovaném pásmu kolem ~€149.**
 
 Druhý nejlogičtější wedge:
 
-**AI agentura + shareable scorecard / memo + upsell na €399 multi-workspace team plan.**
+**AI agentura + shareable scorecard / memo + upsell na multi-workspace team plan v testovaném pásmu od ~€399.**
 
 Tohle je zatím nejčistší kombinace:
 - krátký feedback loop
