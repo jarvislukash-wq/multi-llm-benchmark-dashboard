@@ -204,7 +204,7 @@ Vybrat model pro code generation, debugging a refactoring bez zbytečného přep
 - best long-context option
 
 **Why this scorecard matters:**
-Coding týmy mají vysokou ochotu platit, pokud produkt zkrátí čas evaluace a zpřehlední tradeoff mezi top modelem a levnějším fallbackem.
+U coding týmů dává smysl testovat, jestli produkt zkrátí čas evaluace natolik, že vznikne realistický placený pilot nebo rozumné cenové pásmo; zatím to ale není potvrzený WTP signál.
 
 ### Scorecard C — High-volume extraction / classification
 
