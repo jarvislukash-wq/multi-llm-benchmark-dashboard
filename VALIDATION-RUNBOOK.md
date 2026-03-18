@@ -18,7 +18,7 @@ Tento dokument neřeší plný go-to-market. Řeší jen nejkratší cestu k roz
 1. Potvrdit, že AI týmy skutečně řeší chaos při výběru modelu.
 2. Ověřit, že use-case scorecards jsou srozumitelnější než obecné leaderboardy.
 3. Zjistit, jestli buyer vidí hodnotu ve spojení public benchmarků + interních evalů.
-4. Ověřit, že willingness to pay jde konzistentně mapovat do `price_probe` pásem `under_39 / 39_149 / 149_plus / enterprise`.
+4. Otestovat, jestli buyer reakce dávají smysl mapovat do `price_probe` pásem `under_39 / 39_149 / 149_plus / enterprise`, bez předstírání potvrzeného willingness-to-pay signálu.
 
 ### Secondary goals
 - zjistit, který ICP reaguje nejlépe
@@ -50,7 +50,7 @@ Projekt má důvod pokračovat, pokud během prvního validačního sprintu padn
 - **8+ relevantních odpovědí** od ICP
 - **5+ discovery callů** s lidmi, kteří splní screener
 - **3+ respondenti**, kteří potvrdí, že dnes výběr modelu řeší bolestivě / neefektivně
-- **2+ respondenti**, kteří řeknou, že by za řešení podobného typu reálně platili nebo chtěli pilot
+- **2+ respondenti**, kteří aspoň naznačí realistický placený pilot nebo rozumné testované cenové pásmo pro podobné řešení
 
 ### Strong signal
 Silný signál pro pokračování do SPEC:
