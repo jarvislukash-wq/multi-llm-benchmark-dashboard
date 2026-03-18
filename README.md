@@ -104,6 +104,23 @@ Výsledek:
 - API access pro interní procurement nebo routing tools
 - white-label benchmark portal pro agentury / consultancies
 
+## Current commercial wedge decision
+
+Na základě competitor a pricing anchoru je teď nejpraktičtější první placená jednotka:
+
+- **primární buyer:** AI startup CTO / applied AI lead
+- **sekundární buyer:** AI agentura founder / delivery lead
+- **entry artifact:** free sample scorecard
+- **první placený upsell:** **€149 Pro** decision workspace pro opakované compare workflow
+- **vyšší team tier:** **€399 Team** až když je potřeba sdílení, historie a multi-workspace režim
+
+Proč právě tohle:
+- odpovídá veřejným anchorům z blízké kategorie (Langfuse / Helicone)
+- drží nízké tření v outboundu přes scorecard-first vstup
+- nevyžaduje enterprise feature set v první verzi
+
+Praktický závěr pro validaci: Wave 1 má ověřit hlavně to, jestli free scorecard opravdu otevírá cestu k **€149/měs** team budgetu u startupů a menších AI týmů.
+
 ## Demand signals
 
 - Artificial Analysis ukazuje silnou poptávku po nezávislém srovnání modelů.
