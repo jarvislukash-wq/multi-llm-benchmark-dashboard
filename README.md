@@ -111,7 +111,7 @@ Na základě competitor a pricing anchoru je teď nejpraktičtější první pla
 - **primární buyer:** AI startup CTO / applied AI lead
 - **sekundární buyer:** AI agentura founder / delivery lead
 - **entry artifact:** free sample scorecard
-- **první placený upsell:** **€149 Pro** decision workspace pro opakované compare workflow
+- **první placený upsell:** **hypotéza = €149 Pro** decision workspace pro opakované compare workflow
 - **vyšší team tier:** **€399 Team** až když je potřeba sdílení, historie a multi-workspace režim
 
 Proč právě tohle:
@@ -119,7 +119,7 @@ Proč právě tohle:
 - drží nízké tření v outboundu přes scorecard-first vstup
 - nevyžaduje enterprise feature set v první verzi
 
-Praktický závěr pro validaci: Wave 1 má ověřit hlavně to, jestli free scorecard opravdu otevírá cestu k **€149/měs** team budgetu u startupů a menších AI týmů.
+Praktický závěr pro validaci: Wave 1 má ověřit hlavně to, jestli free scorecard opravdu otevírá cestu k **team budgetu v pásmu 39_149** u startupů a menších AI týmů. Zatím je `€149 Pro` jen pricing hypotéza, ne potvrzený live willingness-to-pay signál.
 
 ## Demand signals
 
