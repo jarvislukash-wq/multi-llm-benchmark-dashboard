@@ -54,9 +54,9 @@ Produkt šetří hlavně:
 - churn v experimentování bez evidence
 
 ### Doporučené pricing pásmo
-- **€39 Starter**: low-friction vstup, solo / indie / malý tým
-- **€149 Pro**: hlavní pricing test pro startupy a menší AI týmy; zatím je to packaging hypotéza v testovaném pásmu `€39-149`, ne potvrzený willingness-to-pay signál
-- **€399 Team**: pro agentury a multi-user týmy
+- **pricing hypotéza: Starter kolem ~€39**: low-friction vstup pro solo / indie / malý tým
+- **pricing hypotéza: Pro kolem ~€149**: hlavní pricing test pro startupy a menší AI týmy; pořád je to jen packaging hypotéza v testovaném pásmu `€39-149`, ne potvrzený willingness-to-pay signál
+- **pricing hypotéza: Team od ~€399**: kandidát pro agentury a multi-user týmy
 - **Enterprise custom**: governance, SSO, self-hosted
 
 ### Co musí Pro tier umět, aby dával smysl
@@ -84,7 +84,7 @@ Produkt šetří hlavně:
 ### Pricing / value interviews
 1. Jak drahá je špatná volba modelu ve vašem týmu?
 2. Zaplatili byste za dashboard, který spojí benchmarky, cenu a vaše evaly?
-3. Co by pro vás muselo být uvnitř, aby to pro vás mělo hodnotu v pásmu kolem €149/měs?
+3. Co by pro vás muselo být uvnitř, aby to pro vás mělo hodnotu v testovaném pásmu kolem €99-149/měs?
 4. Chtěli byste spíš SaaS, nebo exportovatelný report / API?
 
 ## 8. Recommended next milestone
@@ -172,8 +172,8 @@ Detailní ICP + pricing prioritizace je nově v `SEGMENT-PRICING-MATRIX.md`.
 Hlavní závěr z tohoto passu:
 - nejsilnější první komerční wedge je **AI startup / applied AI tým**
 - nejnižší tření má **scorecard-first vstup** s následným upsellem na dashboard / workspace
-- hlavní pricing hypothesis pro první reálný produktový sweet spot zůstává **€149 Pro**, ale zatím bez potvrzeného live buyer signálu
-- agentury jsou silný druhý segment hlavně pro **shareable scorecard / memo** a pozdější **€399 Team** plán
+- hlavní pricing hypothesis pro první reálný produktový sweet spot zůstává **Pro kolem ~€149**, ale zatím bez potvrzeného live buyer signálu
+- agentury jsou silný druhý segment hlavně pro **shareable scorecard / memo** a pozdější **Team od ~€399** hypotézu
 - enterprise zůstává zajímavý spíš jako pozdější memo/governance motion než jako první self-serve wedge
 
 Praktický dopad pro validaci:
