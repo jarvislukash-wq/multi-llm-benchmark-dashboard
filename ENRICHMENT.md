@@ -55,7 +55,7 @@ Produkt šetří hlavně:
 
 ### Doporučené pricing pásmo
 - **€39 Starter**: low-friction vstup, solo / indie / malý tým
-- **€149 Pro**: hlavní pricing hypotéza pro startupy (čeká na live willingness-to-pay potvrzení)
+- **€149 Pro**: hlavní pricing test pro startupy a menší AI týmy; zatím je to packaging hypotéza v testovaném pásmu `€39-149`, ne potvrzený willingness-to-pay signál
 - **€399 Team**: pro agentury a multi-user týmy
 - **Enterprise custom**: governance, SSO, self-hosted
 
