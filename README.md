@@ -89,14 +89,14 @@ Výsledek:
 
 ## Revenue model hypothesis
 
-### SaaS tiers
+### SaaS pricing hypotheses
 
-| Tier | Cena | Pro koho | Co obsahuje |
+| Tier hypothesis | Testované pásmo | Pro koho | Co obsahuje |
 |---|---:|---|---|
-| Starter | €39/měs | solo builder / malý tým | 3 use-case scorecards, 5 model watchlists, weekly refresh |
-| Pro | €149/měs | AI startup tým | custom weights, interní eval import, alerts, team workspace |
-| Team | €399/měs | větší AI tým / agentura | více workspace, role, API, historical comparison |
-| Enterprise | custom | enterprise | SSO, self-hosted, private connectors, SLA |
+| Starter hypothesis | kolem €39/měs | solo builder / malý tým | 3 use-case scorecards, 5 model watchlists, weekly refresh |
+| Pro workspace hypothesis | €99-149/měs | AI startup tým | custom weights, interní eval import, alerts, team workspace |
+| Team hypothesis | od ~€399/měs | větší AI tým / agentura | více workspace, role, API, historical comparison |
+| Enterprise custom | custom | enterprise | SSO, self-hosted, private connectors, SLA |
 
 ### Další monetizace
 - placené benchmark snapshots / reports
@@ -111,15 +111,15 @@ Na základě competitor a pricing anchoru je teď nejpraktičtější první pla
 - **primární buyer:** AI startup CTO / applied AI lead
 - **sekundární buyer:** AI agentura founder / delivery lead
 - **entry artifact:** free sample scorecard
-- **první placený upsell:** **hypotéza = €149 Pro** decision workspace pro opakované compare workflow
-- **vyšší team tier:** **€399 Team** až když je potřeba sdílení, historie a multi-workspace režim
+- **první placený upsell:** **Pro workspace hypothesis (€99-149)** pro opakované compare workflow
+- **vyšší team tier:** **Team hypothesis (od ~€399)** až když je potřeba sdílení, historie a multi-workspace režim
 
 Proč právě tohle:
 - odpovídá veřejným anchorům z blízké kategorie (Langfuse / Helicone)
 - drží nízké tření v outboundu přes scorecard-first vstup
 - nevyžaduje enterprise feature set v první verzi
 
-Praktický závěr pro validaci: Wave 1 má ověřit hlavně to, jestli free scorecard opravdu otevírá cestu k **team budgetu v pásmu 39_149** u startupů a menších AI týmů. Zatím je `€149 Pro` jen pricing hypotéza, ne potvrzený live willingness-to-pay signál.
+Praktický závěr pro validaci: Wave 1 má ověřit hlavně to, jestli free scorecard opravdu otevírá cestu k **team budgetu v pásmu 39_149** u startupů a menších AI týmů. Zatím je `Pro workspace (€99-149)` jen pricing hypotéza, ne potvrzený live willingness-to-pay signál.
 
 ## Demand signals
 
