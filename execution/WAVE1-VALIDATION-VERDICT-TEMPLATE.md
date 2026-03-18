@@ -82,6 +82,19 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 - Objection pattern:
 - Sweet spot signal: under_39 / 39_149 / 149_plus / enterprise / unclear
 
+### €149 Pro hypothesis check
+- Hypothesis status: confirmed / leaning_yes / unclear / leaning_no / rejected
+- Evidence that supports `€149 Pro`:
+  - buyer says ongoing monitoring is worth more than one-off audit
+  - buyer compares budget to existing observability / eval / QA tooling, ne k jednorázové konzultaci
+  - buyer accepts workspace framing pro tým nebo opakované benchmark review
+- Evidence that weakens `€149 Pro`:
+  - buyer chce jen jednorázový teardown nebo PDF výstup bez průběžného používání
+  - buyer price-anchoruje řešení pod `€39` nebo čeká čistě free artifact
+  - buyer value vidí jen v enterprise memo / custom pilotu mimo self-serve workspace
+- Minimum signal to keep `€149 Pro` in next wave: aspoň 2 nezávislé high-intent konverzace, kde buyer bez odporu přijme rozmezí `€99–149` pro ongoing workspace
+- If signal missing, next action: test `paid scorecard workflow` nebo posunout pricing probe níž, ale neměnit ICP bez reply evidence
+
 ---
 
 ## 4. Artifact verdict
