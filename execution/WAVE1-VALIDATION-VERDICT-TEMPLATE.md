@@ -72,12 +72,12 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 | Probe | Mentioned to how many leads | Positive signal count | Negative signal count | Notes |
 |---|---:|---:|---:|---|
 | €39 Starter |  |  |  |  |
-| €149 Pro workspace |  |  |  |  |
+| Pro workspace hypothesis (€99–149) |  |  |  |  |
 | €399 Team / multi-workspace |  |  |  |  |
 | Paid pilot / enterprise memo |  |  |  |  |
 
 ### First paid unit decision
-- Best first paid unit now: starter subscription / pro workspace / team workspace / paid scorecard workflow / paid memo pilot
+- Best first paid unit now: starter subscription / pro workspace hypothesis (€99–149) / team workspace / paid scorecard workflow / paid memo pilot
 - Why:
 - Objection pattern:
 - Sweet spot signal: none / under_39 / 39_149 / 149_plus / enterprise
@@ -90,17 +90,17 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 - If a reply or call note exists in `execution/OUTREACH-LOG-TEMPLATE.md`, copy the same `price_probe` and `pro_signal` labels here without translation.
 - If evidence is mixed, summarize by segment but keep the same allowed values only.
 
-### €149 Pro hypothesis check
+### Pro workspace hypothesis (€99–149) check
 - Hypothesis status: confirmed / leaning_yes / unclear / leaning_no / rejected
-- Evidence that supports `€149 Pro`:
+- Evidence that supports `Pro workspace (€99–149)`:
   - buyer says ongoing monitoring is worth more than one-off audit
   - buyer compares budget to existing observability / eval / QA tooling, ne k jednorázové konzultaci
   - buyer accepts workspace framing pro tým nebo opakované benchmark review
-- Evidence that weakens `€149 Pro`:
+- Evidence that weakens `Pro workspace (€99–149)`:
   - buyer chce jen jednorázový teardown nebo PDF výstup bez průběžného používání
   - buyer price-anchoruje řešení pod `€39` nebo čeká čistě free artifact
   - buyer value vidí jen v enterprise memo / custom pilotu mimo self-serve workspace
-- Minimum signal to keep `€149 Pro` in next wave: aspoň 2 nezávislé high-intent konverzace, kde buyer bez odporu přijme rozmezí `€99–149` pro ongoing workspace
+- Minimum signal to keep `Pro workspace (€99–149)` v další vlně: aspoň 2 nezávislé high-intent konverzace, kde buyer bez odporu přijme rozmezí `€99–149` pro ongoing workspace
 - If signal missing, next action: test `paid scorecard workflow` nebo posunout pricing probe níž, ale neměnit ICP bez reply evidence
 
 ---
