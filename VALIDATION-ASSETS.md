@@ -6,7 +6,7 @@ Převést enrichment z obecné tržní analýzy do konkrétních validačních m
 - 10-15 customer discovery rozhovorů
 - landing page smoke test
 - první messaging test podle use case
-- rychlé ověření willingness to pay
+- otestování, jestli se z painu a evaluace dá dojít k realistickému placenému pilotu nebo rozumnému cenovému pásmu
 
 ---
 
