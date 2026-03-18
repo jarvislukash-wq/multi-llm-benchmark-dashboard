@@ -164,7 +164,7 @@ Po kazde relevantni reply nebo call z teto vlny zapis pricing signal do `executi
 - `pro_signal = positive / neutral / negative`
 - 1 presnou vetu nebo frazi, ktera pricing signal potvrzuje
 
-Wave 1 batch nema zavadet zadne alternativni WTP labely. Pokud buyer rekne napriklad, ze chce jen jednorazovy audit nebo free artifact, routuj to do `price_probe` a `pro_signal` podle log template misto volneho slovniho popisu.
+Wave 1 batch nema zavadet zadne alternativni pricing labely. Pokud buyer rekne napriklad, ze chce jen jednorazovy audit nebo free artifact, routuj to do `price_probe` a `pro_signal` podle log template misto volneho slovniho popisu.
 
 ---
 
