@@ -18,7 +18,7 @@ Tento dokument neřeší plný go-to-market. Řeší jen nejkratší cestu k roz
 1. Potvrdit, že AI týmy skutečně řeší chaos při výběru modelu.
 2. Ověřit, že use-case scorecards jsou srozumitelnější než obecné leaderboardy.
 3. Zjistit, jestli buyer vidí hodnotu ve spojení public benchmarků + interních evalů.
-4. Ověřit, že existuje realistická willingness to pay v pásmu **€39–149/měs**.
+4. Ověřit, že willingness to pay jde konzistentně mapovat do `price_probe` pásem `under_39 / 39_149 / 149_plus / enterprise`.
 
 ### Secondary goals
 - zjistit, který ICP reaguje nejlépe
