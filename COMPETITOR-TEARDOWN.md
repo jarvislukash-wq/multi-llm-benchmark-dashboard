@@ -193,9 +193,9 @@ První placená hodnota pravděpodobně nebude „dashboard jako takový", ale:
 
 To nahrává balení typu:
 - **free compare / scorecard preview** jako acquisition
-- **€39 monitor** pro solo / early teams
+- **pricing hypotéza: low-end self-serve monitor kolem ~€39** pro solo / early teams
 - **pricing hypotéza: Pro workspace v pásmu €99–149** jako hlavní candidate paid tier
-- **€399 team** pro sdílení, alerts, exporty a historii rozhodnutí
+- **pricing hypotéza: Team plan od ~€399** pro sdílení, alerts, exporty a historii rozhodnutí
 
 ---
 
@@ -231,7 +231,7 @@ Aby pricing hypotéza nezůstala jen teoretická, je dobré držet i rychlý ve�
 
 Z těchto anchorů plyne praktická věc:
 - nízký vstup dává smysl jako **free compare / sample scorecard**
-- hlavní placený sweet spot pro tým může realisticky sedět v pásmu **€79-199/měs**
+- hlavní placený sweet spot pro tým může realisticky sedět v **testovaném pásmu cca €79-199/měs**
 - vyšší tier dává smysl až se sdílením, historií, alerty nebo multi-workspace režimem
 
 To podporuje původní hypotézu, že první komerční wedge nemá být enterprise-heavy, ale **scorecard-first / decision-workspace-first** pro malé až střední AI týmy.
@@ -258,13 +258,3 @@ Po competitor teardownu už další práce nemá být další obecný research. 
    - AI startup multi-model selection
    - AI agenturní client-facing scorecards
    - SaaS fallback / budget governance
-
----
-
-## Public sources used in this pass
-
-- https://artificialanalysis.ai/
-- https://www.braintrust.dev/
-- https://langfuse.com/
-- https://www.helicone.ai/
-- https://openrouter.ai/rankings
