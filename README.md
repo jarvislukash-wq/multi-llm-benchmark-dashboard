@@ -173,7 +173,7 @@ Začít bez těžké observability integrace. Nejdřív vyřešit **„jak si ry
 ### Fast validation plan
 1. udělat landing page s 3 use-case scorecards
 2. oslovit 15-20 AI týmů a zjistit, jak dnes volí modely
-3. ověřit willingness to pay za:
+3. ověřit pricing reakci a buyer ochotu jít do pilotu za:
    - interní compare workspace
    - alerts při změně rankings / pricing
    - export pro decision review
