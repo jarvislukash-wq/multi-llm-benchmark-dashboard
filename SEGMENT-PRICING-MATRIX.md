@@ -201,7 +201,7 @@ Proč:
 |---|---|---|---|
 | Sample scorecard -> pilot / recurring workflow probe | startup / agentura | jestli bezplatný sample otevírá pilot nebo opakovaný workflow | lead chce další scorecard, pilot nebo recurring workflow |
 | €39 self-serve probe | solo / malý tým | jestli existuje low-friction self-serve zájem | lead řekne, že by to zkusil bez callu |
-| €149 team workspace probe | startup / SaaS tým | jestli je to realistický sweet spot | lead potvrdí, že by to řešil z team budgetu |
+| €149 team workspace probe | startup / SaaS tým | jestli je to realistický sweet spot | lead naznačí, že by podobný budget nebo placený pilot mohl dávat smysl z team budgetu |
 | €399 multi-workspace probe | agentura | jestli sdílení napříč klienty zvyšuje hodnotu | lead chce více klientských scorecards / historii |
 | paid pilot / enterprise memo probe | enterprise | jestli je vhodnější pilot než self-serve SaaS | lead chce governance-oriented paid trial |
 
