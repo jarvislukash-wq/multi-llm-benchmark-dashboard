@@ -38,6 +38,7 @@ Kdyz se zmeni buyer routing, CTA nebo artifact mapping, nejdriv aktualizovat kan
 - držet se stejného use-case angle jako v first touch skeletonu
 - po odeslání zapsat reply quality do `execution/OUTREACH-LOG-TEMPLATE.md`
 - follow-up přebírá `framing`, `CTA`, `Primary artifact` a `Fallback artifact` bez reinterpretace z `execution/WAVE1-OUTREACH-BATCH.md` + odpovídajícího `WAVE1A/WAVE1B-PERSONALIZED-SKELETONS.md`; mění se jen skutečný timing nebo kanál
+- follow-up stejně tak přebírá i `Buyer situation` jako neměnný vstup; follow-up má jen zopakovat stejný nákupní kontext v kratší formě, ne přepínat leada mezi `scorecard`, `dashboard` a `memo` logikou
 
 ---
 
