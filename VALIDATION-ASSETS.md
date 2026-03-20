@@ -241,7 +241,7 @@ Tady se nejrychleji projeví ekonomická hodnota produktu, protože špatná vol
 
 1. Kupující opravdu chtějí use-case scorecards, ne jen obecný leaderboard.
 2. Největší hodnota je v decision support, ne v observability detailu.
-3. Pricing pásmo kolem **€149/měs** je potřeba teprve potvrdit jako realistický sweet spot pro AI startupy a agentury; zatím je to testovaná hypotéza, ne potvrzený willingness-to-pay signál.
+3. Pricing pásmo kolem **€149/měs** je potřeba teprve otestovat jako možný sweet spot pro AI startupy a agentury; zatím je to jen testovaná hypotéza, ne potvrzený buyer signal.
 4. Interní eval import výrazně zvyšuje perceived value.
 
 ### Fast experiments
@@ -249,7 +249,7 @@ Tady se nejrychleji projeví ekonomická hodnota produktu, protože špatná vol
 1. Landing page se 3 CTA variantami
 2. 10-15 discovery callů podle prioritních ICP
 3. Ručně připravený scorecard/report pro 3 design partners
-4. Test ceny: free report vs **€39 self-serve** vs **testovaný workspace v pásmu €99-149**
+4. Test cenového framingu: free report vs **€39 self-serve hypothesis** vs **workspace hypothesis v pásmu €99-149**
 
 ---
 
