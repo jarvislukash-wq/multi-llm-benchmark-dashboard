@@ -55,7 +55,7 @@ Projekt má důvod pokračovat, pokud během prvního validačního sprintu padn
 ### Strong signal
 Silný signál pro pokračování do SPEC:
 - **10+ kvalifikovaných callů**
-- **40 %+ respondentů** explicitně potvrdí vysokou pain level
+- **40 %+ respondentů** popíše vysokou pain level
 - **3+ design-partner signály** (pilot, demo, follow-up s daty, intro do týmu)
 - aspoň **1 jasně dominantní wedge** (např. AI startup CTO nebo AI agentury)
 
