@@ -41,15 +41,29 @@ Tento log je jen evidence vrstva po odeslání. Finální `framing`, `CTA` a vý
 - hybrid
 - unknown
 
+## Status-quo values
+- spreadsheet
+- memo
+- provider_native
+- mixed
+- unclear
+
+## Status-quo break values
+- speed
+- shareable_output
+- refreshability
+- mixed
+- unclear
+
 ## Suggested columns
 
-| Date | Company | Contact | Segment | Buyer situation | Framing | CTA | Channel | Status | Sent artifact | First reply artifact | Reply quality | Preferred artifact | Pain (1-5) | Pricing band | Next step | Notes / exact phrasing |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---:|---|---|---|
-| YYYY-MM-DD | Canva | Andreas Schuster | SaaS s AI feature | rychle porovnat modely pro support use case | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | 4 | enterprise | send first message | |
-| YYYY-MM-DD | Khan Academy | Walt Wells | SaaS s AI feature | uz ma evaly, ale chybi finalni decision layer | dashboard | demo | LinkedIn | drafted | dashboard | unknown | none | unknown | 4 | 149_plus | send first message | |
-| YYYY-MM-DD | Magic Patterns | Alexander Danilowicz | AI startup | lightweight vrstva pred plnym LLMOps stackem | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | 5 | 149_plus | send first message | |
-| YYYY-MM-DD | Merck | Walid Mehanna | Enterprise innovation | obhajit volbu modelu pred managementem | memo | executive feedback | LinkedIn | drafted | memo | unknown | none | unknown | 4 | enterprise | send first message | |
-| YYYY-MM-DD | SumUp | Ana Casado | SaaS s AI feature | budget ceiling a fallback rozhodnuti | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | 5 | enterprise | send first message | |
+| Date | Company | Contact | Segment | Buyer situation | Framing | CTA | Channel | Status | Sent artifact | First reply artifact | Reply quality | Preferred artifact | Status quo | Status-quo break | Pain (1-5) | Pricing band | Next step | Notes / exact phrasing |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---:|---|---|---|
+| YYYY-MM-DD | Canva | Andreas Schuster | SaaS s AI feature | rychle porovnat modely pro support use case | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | unclear | unclear | 4 | enterprise | send first message | |
+| YYYY-MM-DD | Khan Academy | Walt Wells | SaaS s AI feature | uz ma evaly, ale chybi finalni decision layer | dashboard | demo | LinkedIn | drafted | dashboard | unknown | none | unknown | provider_native | refreshability | 4 | 149_plus | send first message | |
+| YYYY-MM-DD | Magic Patterns | Alexander Danilowicz | AI startup | lightweight vrstva pred plnym LLMOps stackem | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | spreadsheet | speed | 5 | 149_plus | send first message | |
+| YYYY-MM-DD | Merck | Walid Mehanna | Enterprise innovation | obhajit volbu modelu pred managementem | memo | executive feedback | LinkedIn | drafted | memo | unknown | none | unknown | memo | shareable_output | 4 | enterprise | send first message | |
+| YYYY-MM-DD | SumUp | Ana Casado | SaaS s AI feature | budget ceiling a fallback rozhodnuti | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | spreadsheet | speed | 5 | enterprise | send first message | |
 
 ---
 
@@ -72,6 +86,8 @@ Dopsat:
 - reply quality
 - first reply artifact = který artifact lead výslovně zmínil nebo otevřel jako první
 - preferred artifact
+- `status_quo` = co buyer používá dnes (`spreadsheet` / `memo` / `provider_native` / `mixed` / `unclear`)
+- `status_quo_break` = co musí produkt porazit (`speed` / `shareable_output` / `refreshability` / `mixed` / `unclear`)
 - 1 přesnou větu nebo frázi, kterou lead použil
 - strongest objection nebo requested next step
 
@@ -89,6 +105,14 @@ Aby šel verdict udělat bez zpětné reinterpretace, u každé relevantní repl
 
 Použij `positive`, když buyer bez odporu přijímá průběžný benchmark workspace v pásmu `39_149` nebo vyšším, nebo sám mluví o opakovaném benchmarkingu / team workspace.
 Použij `negative`, když buyer chce jen jednorázový audit, free artifact nebo price-anchor v pásmu `under_39`.
+
+### Status-quo normalization rule
+- `status_quo` zapisuj podle dominantního dnešního workflow, ne podle toho, co jsme buyerovi poslali.
+- `spreadsheet` = spreadsheet / Notion / ruční compare tabulka.
+- `memo` = slides / interní memo / klientský deck / ruční report.
+- `provider_native` = provider playground, provider dashboard nebo vendor-specific compare flow.
+- `status_quo_break` musí mapovat na hlavní promise z landing page: `speed`, `shareable_output` nebo `refreshability`.
+- Když buyer popíše víc workflow najednou, použij `mixed` a přesnou kombinaci napiš do `Notes / exact phrasing`.
 
 ---
 
