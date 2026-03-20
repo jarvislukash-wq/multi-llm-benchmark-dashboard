@@ -106,20 +106,20 @@ Výsledek:
 
 ## Current commercial wedge decision
 
-Na základě competitor a pricing anchoru je teď nejpraktičtější první placená jednotka:
+Na základě competitor a pricing anchoru je teď nejpraktičtější **testovaná** první placená jednotka:
 
 - **primární buyer:** AI startup CTO / applied AI lead
 - **sekundární buyer:** AI agentura founder / delivery lead
 - **entry artifact:** free sample scorecard
-- **první placený upsell:** **Pro workspace hypothesis (€99-149)** pro opakované compare workflow
-- **vyšší team tier:** **Team hypothesis (od ~€399)** až když je potřeba sdílení, historie a multi-workspace režim
+- **první testovaný placený upsell:** **Pro workspace hypothesis (€99-149)** pro opakované compare workflow
+- **vyšší testovaný team tier:** **Team hypothesis (od ~€399)** až když je potřeba sdílení, historie a multi-workspace režim
 
 Proč právě tohle:
 - odpovídá veřejným anchorům z blízké kategorie (Langfuse / Helicone)
 - drží nízké tření v outboundu přes scorecard-first vstup
 - nevyžaduje enterprise feature set v první verzi
 
-Praktický závěr pro validaci: Wave 1 má ověřit hlavně to, jestli free scorecard opravdu otevírá cestu k **team budgetu v pásmu 39_149** u startupů a menších AI týmů. Zatím je `Pro workspace (€99-149)` jen pricing hypotéza, ne potvrzený live willingness-to-pay signál.
+Praktický závěr pro validaci: Wave 1 má ověřit hlavně to, jestli free scorecard opravdu otevírá cestu k **team budgetu v pásmu 39_149** u startupů a menších AI týmů. Zatím je `Pro workspace hypothesis (€99-149)` jen pricing hypotéza, ne potvrzený live willingness-to-pay signál.
 
 ## Demand signals
 
@@ -197,7 +197,7 @@ Praktický execution podklad je teď připravený v:
 - `execution/SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` — posílatelná 1-page sample scorecard pro support assistant use case bez nutnosti další přípravy
 - `execution/SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` — posílatelný 1-page executive memo variant pro stejný use case a memo-heavy segment
 - `execution/OUTREACH-LOG-TEMPLATE.md` — lehký send/reply log pro vyhodnocení framingu, CTA a kvality odpovědí
-- `execution/WAVE1-VALIDATION-VERDICT-TEMPLATE.md` — ultra-lehký verdict sheet pro rozhodnutí segmentu, framingu, pricingu a první placené jednotky po prvních reply/call signálech
+- `execution/WAVE1-VALIDATION-VERDICT-TEMPLATE.md` — ultra-lehký verdict sheet pro rozhodnutí segmentu, framingu, pricingu a první testované placené jednotky po prvních reply/call signálech
 - `execution/MESSAGING-FRAMING-TEST.md` — praktický test `decision dashboard` vs `scorecard` vs `decision memo` v outreachi a landing page
 - `COMPETITOR-TEARDOWN.md` — konkrétní competitor read a positioning wedge proti Artificial Analysis / Braintrust / Langfuse / Helicone / OpenRouter
 - `SEGMENT-PRICING-MATRIX.md` — explicitní ranking ICP segmentů, doporučený první komerční wedge a pricing experimenty pro Wave 1
