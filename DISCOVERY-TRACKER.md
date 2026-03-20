@@ -1,10 +1,10 @@
 # Discovery Tracker - multi-llm-benchmark-dashboard
 
-> Poznamka: nize je **wave 1 account list** pro prvni outreach. Jde o account-level targety a cilove role. `Public contact` neznamena automaticky verejne overene jmeno; presny dukaz je v `execution/WAVE1-CONTACT-VERIFICATION.md`, kde je rozlisene `person_verified` vs `account_verified`. Kde zatim verejne jmeno chybi nebo neslo spolehlive overit bez loginu, je uveden **role-based fallback** a prioritni kanal. Sloupce `Pain`, `WTP band` a `Preferred format` jsou pracovni hypotezy pro prioritizaci outreach, ne potvrzena fakta.
+> Poznamka: nize je **wave 1 account list** pro prvni outreach. Jde o account-level targety a cilove role. `Public contact` neznamena automaticky verejne overene jmeno; presny dukaz je v `execution/WAVE1-CONTACT-VERIFICATION.md`, kde je rozlisene `person_verified` vs `account_verified`. Kde zatim verejne jmeno chybi nebo neslo spolehlive overit bez loginu, je uveden **role-based fallback** a prioritni kanal. Sloupce `Pain`, `Pricing band` a `Preferred format` jsou pracovni hypotezy pro prioritizaci outreach, ne potvrzena fakta.
 
 ## Interview tracker
 
-| Lead | Firma | Segment | Public contact | Backup contact / role | Channel | Priorita | Stav | Pain (1-5) | Models 3+ | WTP band | Preferred format | Framing to test | Next step |
+| Lead | Firma | Segment | Public contact | Backup contact / role | Channel | Priorita | Stav | Pain (1-5) | Models 3+ | Pricing band | Preferred format | Framing to test | Next step |
 |---|---|---|---|---|---|---|---|---:|---|---|---|---|---|
 | AI Help Experience owner | Canva | SaaS s AI feature | Andreas Schuster - Head of Product, AI Help Experience | Applied AI / platform engineering lead | LinkedIn + Canva engineering / product channels | P1 | to_contact | 4 | yes | enterprise | hybrid | scorecard | send scorecard CTA for support assistant use case |
 | AI tutoring platform lead | Khan Academy | SaaS s AI feature | Walt Wells - Staff Software Engineer | AI learning lead / engineering manager | LinkedIn + Khan Academy leadership / engineering channel | P1 | to_contact | 4 | yes | 149_plus | dashboard | dashboard | send demo CTA focused on quality vs cost tradeoff |
@@ -38,7 +38,7 @@
 - API
 - hybrid
 
-### WTP band values
+### Pricing band values
 - none
 - under_39
 - 39_149
