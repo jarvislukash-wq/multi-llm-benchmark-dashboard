@@ -80,7 +80,7 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 | Buyer hleda lightweight vrstvu pred plnym LLMOps stackem |  |  |  |  |  |  |  |
 
 ### Buyer-situation decision
-- Strongest confirmed buyer situation now:
+- Strongest buyer situation observed now:
 - Weakest / most refuted buyer situation:
 - Which buyer situation converts best to calls:
 - Which buyer situation should get the next 5 leads:
