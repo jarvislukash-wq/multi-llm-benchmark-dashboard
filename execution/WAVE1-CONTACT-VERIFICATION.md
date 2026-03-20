@@ -6,6 +6,8 @@ Oddelit **account verification** od **person verification**, aby Wave 1 outreach
 
 Tento dokument je evidence vrstva pro verejne zdroje, ne routing dokument.
 
+**Source-of-truth note:** tenhle dokument rozhoduje jen o verification confidence (`person_verified` / `account_verified` / `source_claim_only`). Nesmí měnit `buyer situation`, `framing`, `CTA` ani artifact assignment — ty zůstávají v `DISCOVERY-TRACKER.md`, `execution/WAVE1-OUTREACH-BATCH.md` a odpovídajících Wave 1 skeletons / fallback dokumentech. Pokud je contact status slabší než dřív, mění se jen forma oslovení, ne routing logika.
+
 ---
 
 ## Verification statuses
