@@ -43,13 +43,13 @@ Tento log je jen evidence vrstva po odeslání. Finální `framing`, `CTA` a vý
 
 ## Suggested columns
 
-| Date | Company | Contact | Segment | Framing | CTA | Channel | Status | Sent artifact | First reply artifact | Reply quality | Preferred artifact | Pain (1-5) | Pricing band | Next step | Notes / exact phrasing |
-|---|---|---|---|---|---|---|---|---|---|---|---|---:|---|---|---|
-| YYYY-MM-DD | Canva | Andreas Schuster | SaaS s AI feature | dashboard | demo | LinkedIn | drafted | dashboard | unknown | none | unknown | 4 | enterprise | send first message | |
-| YYYY-MM-DD | Khan Academy | Walt Wells | SaaS s AI feature | dashboard | demo | LinkedIn | drafted | dashboard | unknown | none | unknown | 4 | 149_plus | send first message | |
-| YYYY-MM-DD | Magic Patterns | Alexander Danilowicz | AI startup | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | 5 | 149_plus | send first message | |
-| YYYY-MM-DD | Merck | Walid Mehanna | Enterprise innovation | memo | executive feedback | LinkedIn | drafted | memo | unknown | none | unknown | 4 | enterprise | send first message | |
-| YYYY-MM-DD | SumUp | Ana Casado | SaaS s AI feature | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | 5 | enterprise | send first message | |
+| Date | Company | Contact | Segment | Buyer situation | Framing | CTA | Channel | Status | Sent artifact | First reply artifact | Reply quality | Preferred artifact | Pain (1-5) | Pricing band | Next step | Notes / exact phrasing |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---:|---|---|---|
+| YYYY-MM-DD | Canva | Andreas Schuster | SaaS s AI feature | rychle porovnat modely pro support use case | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | 4 | enterprise | send first message | |
+| YYYY-MM-DD | Khan Academy | Walt Wells | SaaS s AI feature | uz ma evaly, ale chybi finalni decision layer | dashboard | demo | LinkedIn | drafted | dashboard | unknown | none | unknown | 4 | 149_plus | send first message | |
+| YYYY-MM-DD | Magic Patterns | Alexander Danilowicz | AI startup | lightweight vrstva pred plnym LLMOps stackem | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | 5 | 149_plus | send first message | |
+| YYYY-MM-DD | Merck | Walid Mehanna | Enterprise innovation | obhajit volbu modelu pred managementem | memo | executive feedback | LinkedIn | drafted | memo | unknown | none | unknown | 4 | enterprise | send first message | |
+| YYYY-MM-DD | SumUp | Ana Casado | SaaS s AI feature | budget ceiling a fallback rozhodnuti | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | 5 | enterprise | send first message | |
 
 ---
 
@@ -68,6 +68,7 @@ Zapsat jen:
 
 ### After reply
 Dopsat:
+- buyer situation potvrzena / vyvracena / nejasna
 - reply quality
 - first reply artifact = který artifact lead výslovně zmínil nebo otevřel jako první
 - preferred artifact
@@ -94,8 +95,8 @@ Použij `negative`, když buyer chce jen jednorázový audit, free artifact nebo
 ## Minimum analysis after first wave
 
 Po první vlně stačí sečíst 5 věcí:
-1. počet odpovědí podle framingu
-2. počet kvalitních odpovědí podle CTA
+1. počet odpovědí podle buyer situation
+2. počet kvalitních odpovědí podle framingu a CTA
 3. které firmy chtějí dashboard vs scorecard vs memo
 4. který sent artifact přinesl nejvíc reply quality
 5. které exact phrasing se opakuje napříč odpověďmi
