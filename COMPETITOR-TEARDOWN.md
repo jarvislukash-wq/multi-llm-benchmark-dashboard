@@ -236,6 +236,26 @@ Z těchto anchorů plyne praktická věc:
 
 To podporuje původní hypotézu, že první komerční wedge nemá být enterprise-heavy, ale **scorecard-first / decision-workspace-first** pro malé až střední AI týmy.
 
+## Hidden competitors and status-quo substitutes
+
+Největší konkurence nemusí být další SaaS. Často je to prostě "uděláme si to ručně".
+
+| Status quo alternativa | Proč ji buyer používá | Kde selhává | Implication pro nás |
+|---|---|---|---|
+| Spreadsheet / Notion tabulka | nulové pořizovací náklady, plná kontrola | rychle zastará, chybí jednotné score weights a audit trail | produkt musí být rychlejší než ruční compare už v prvním use case |
+| Slides / interní memo | snadno se sdílí s managementem nebo klientem | vzniká ručně, nejde snadno refreshnout po změně modelu nebo ceny | memo export musí být defaultní output, ne až enterprise add-on |
+| Provider-native playground / dashboard | buyer už je v nástroji providera | neporovnává férově cross-vendor tradeoff a většinou neřeší fallbacky | vendor-neutral compare je klíčová součást positioning wedge |
+| Ad-hoc eval skripty | technický tým má pocit, že si vše změří sám | výstupy jsou roztříštěné a těžko sdílené mimo engineering | scorecard musí spojit engineering signály a business rozhodnutí |
+
+### Practical takeaway
+
+Produkt nevyhrává tím, že přidá další data. Vyhrává tím, že porazí ruční workflow ve 3 věcech:
+- rychlost prvního rozhodnutí
+- snadné sdílení výstupu
+- opakovatelný refresh po změně modelu, benchmarku nebo ceny
+
+---
+
 ## Recommended positioning draft
 
 ### One-liner
