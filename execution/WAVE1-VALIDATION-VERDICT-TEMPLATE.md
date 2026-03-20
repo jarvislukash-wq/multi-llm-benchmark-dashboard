@@ -93,6 +93,38 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 
 ---
 
+## 2.6 Status-quo verdict
+
+| Status quo | Leads touched | Replies | High-quality replies | Most common break point | Best-fit artifact | Notes |
+|---|---:|---:|---:|---|---|---|
+| spreadsheet |  |  |  |  |  |  |
+| memo |  |  |  |  |  |  |
+| provider_native |  |  |  |  |  |  |
+| mixed |  |  |  |  |  |  |
+| unclear |  |  |  |  |  |  |
+
+| Status-quo break point | Mentions | Converts to calls | Best segment | Notes |
+|---|---:|---:|---|---|
+| speed |  |  |  |  |
+| shareable_output |  |  |  |  |
+| refreshability |  |  |  |  |
+| mixed |  |  |  |  |
+| unclear |  |  |  |  |
+
+### Status-quo decision
+- Dominant current workflow in replies:
+- Break point that resonates most:
+- Which status quo is easiest to displace:
+- Which status quo is hardest to displace:
+- Exact phrase to reuse when attacking status quo:
+
+### Aggregation rule
+- `status_quo` a `status_quo_break` sem kopíruj beze změny z `execution/OUTREACH-LOG-TEMPLATE.md`.
+- Tady jen agreguj, nepřidávej nové labely ani synonymní kategorie.
+- Když je signál u jednoho leadu smíšený, nech dominantní label v tabulce a konkrétní kombinaci napiš do `Notes`.
+
+---
+
 ## 3. Pricing + paid unit verdict
 
 | Probe | Mentioned to how many leads | Positive signal count | Negative signal count | Notes |
