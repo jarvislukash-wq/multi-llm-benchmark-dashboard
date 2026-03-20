@@ -67,6 +67,30 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 
 ---
 
+## 2.5 Buyer-situation verdict
+
+| Buyer situation | Leads touched | Replies | Confirmed after reply/call | Refuted | Still unclear | Best-fit framing | Notes |
+|---|---:|---:|---:|---:|---:|---|---|
+| Buyer rychle porovnava modely pro novy use case |  |  |  |  |  |  |  |
+| Buyer uz ma evaly nebo traces, ale chybi finalni rozhodnuti |  |  |  |  |  |  |  |
+| Buyer potrebuje obhajit volbu modelu pred managementem nebo klientem |  |  |  |  |  |  |  |
+| Buyer resi budget ceiling a fallback model |  |  |  |  |  |  |  |
+| Buyer hleda lightweight vrstvu pred plnym LLMOps stackem |  |  |  |  |  |  |  |
+
+### Buyer-situation decision
+- Strongest confirmed buyer situation now:
+- Weakest / most refuted buyer situation:
+- Which buyer situation converts best to calls:
+- Which buyer situation should get the next 5 leads:
+- What expected buyer situation was most often wrong before conversation:
+
+### Normalization rule
+- Pouzivej stejne buyer-situation labely jako v `DISCOVERY-TRACKER.md` a `execution/OUTREACH-LOG-TEMPLATE.md`.
+- Pokud se lead ukaze jako smiseny signal, zapsat dominantni buyer situation do tabulky a zbytek dat do `Notes`.
+- `Confirmed after reply/call` znamena, ze buyer sam popsal bolest nebo rozhodovaci situaci v podobnem smeru; ne jen ze jsme ji predpokladali.
+
+---
+
 ## 3. Pricing + paid unit verdict
 
 | Probe | Mentioned to how many leads | Positive signal count | Negative signal count | Notes |
