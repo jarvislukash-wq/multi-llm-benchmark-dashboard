@@ -43,7 +43,7 @@ Tento log je jen evidence vrstva po odeslání. Finální `framing`, `CTA` a vý
 
 ## Suggested columns
 
-| Date | Company | Contact | Segment | Framing | CTA | Channel | Status | Sent artifact | First reply artifact | Reply quality | Preferred artifact | Pain (1-5) | WTP band | Next step | Notes / exact phrasing |
+| Date | Company | Contact | Segment | Framing | CTA | Channel | Status | Sent artifact | First reply artifact | Reply quality | Preferred artifact | Pain (1-5) | Pricing band | Next step | Notes / exact phrasing |
 |---|---|---|---|---|---|---|---|---|---|---|---|---:|---|---|---|
 | YYYY-MM-DD | Canva | Andreas Schuster | SaaS s AI feature | dashboard | demo | LinkedIn | drafted | dashboard | unknown | none | unknown | 4 | enterprise | send first message | |
 | YYYY-MM-DD | Khan Academy | Walt Wells | SaaS s AI feature | dashboard | demo | LinkedIn | drafted | dashboard | unknown | none | unknown | 4 | 149_plus | send first message | |
@@ -77,7 +77,7 @@ Dopsat:
 ### After call
 Dopsat navíc:
 - pain (1-5)
-- WTP band
+- pricing band
 - jestli chtějí pilot / sample / intro / nic
 
 ### Pricing signal capture rule
