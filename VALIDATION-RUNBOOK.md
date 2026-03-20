@@ -92,7 +92,7 @@ Zúžit nebo stopnout, pokud nastane aspoň jedno:
 - `pro_signal`: positive / neutral / negative
 
 ### Decision metrics
-- percent of calls that confirm the problem
+- percent of calls that indicate the problem is real
 - percent of calls that react positively to scorecards
 - percent of calls asking for internal data merge
 - percent of calls willing to see pilot or mockup
