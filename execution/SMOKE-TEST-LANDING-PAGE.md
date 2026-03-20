@@ -165,6 +165,22 @@ Proč nestačí leaderboard nebo observability tool
 **Bridge statement**
 Tady vzniká decision layer mezi veřejným benchmarkem a interní realitou týmu.
 
+### Hidden status-quo competitors
+
+**Section headline**
+Ve skutečnosti nesoutěžíš jen s benchmark nástroji
+
+V prvním nákupním momentu tenhle produkt často nesoutěží s jiným SaaS. Soutěží s tím, co tým používá už dnes:
+
+| Status quo alternativa | Proč ji tým drží | Kde selhává | Co musí landing page slíbit |
+|---|---|---|---|
+| Spreadsheet / Notion tabulka | nulové pořizovací náklady, rychlý start | ruční compare rychle zastará a nejde dobře sdílet | rychlejší první rozhodnutí než ruční compare |
+| Slides / interní memo | snadno se pošle managementu nebo klientovi | při každé změně modelu nebo ceny se přepisuje od nuly | sdílitelný výstup bez ručního přepisování do slidů |
+| Provider-native playground / dashboard | tým už je uvnitř konkrétního providera | neukáže férový cross-vendor tradeoff ani fallback variantu | opakovatelný refresh po změně modelu nebo ceny |
+
+**Decision implication**
+Jestli landing page neukáže rychlost prvního rozhodnutí, sdílitelný výstup a opakovatelný refresh, buyer zůstane u status quo i bez nákupu dalšího nástroje.
+
 ---
 
 ### CTA form
