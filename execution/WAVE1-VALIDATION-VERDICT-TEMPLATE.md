@@ -15,6 +15,8 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 - 3+ discovery cally nebo
 - 2+ high-intent signály z jednoho segmentu
 
+**Source-of-truth note:** tahle verdict šablona neslouží k přepisování routingu nebo evidence labelů. `buyer situation`, `framing`, `CTA`, `Primary artifact`, `Fallback artifact`, `price_probe` a `pro_signal` se sem mají kopírovat bez reinterpretace z `DISCOVERY-TRACKER.md`, `execution/OUTREACH-LOG-TEMPLATE.md` a finálního Wave 1 routingu.
+
 ---
 
 ## Snapshot
