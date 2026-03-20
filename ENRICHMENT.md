@@ -81,10 +81,10 @@ Produkt šetří hlavně:
 4. Jak často měníte model kvůli ceně nebo kvalitě?
 5. Co je na tom procesu nejvíc otravné nebo drahé?
 
-### Pricing / value interviews
+### Pricing / pilot interviews
 1. Jak drahá je špatná volba modelu ve vašem týmu?
-2. Zaplatili byste za dashboard, který spojí benchmarky, cenu a vaše evaly?
-3. Co by pro vás muselo být uvnitř, aby to pro vás mělo hodnotu v testovaném pásmu kolem €99-149/měs?
+2. Jak byste reagovali na dashboard, který spojí benchmarky, cenu a vaše evaly — spíš jako placený workspace, nebo nejdřív jako pilot / report?
+3. Co by pro vás muselo být uvnitř, aby pro vás dával smysl pilot nebo pozdější placený workspace v testovaném pásmu kolem €99-149/měs?
 4. Chtěli byste spíš SaaS, nebo exportovatelný report / API?
 
 ## 8. Recommended next milestone
