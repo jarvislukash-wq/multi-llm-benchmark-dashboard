@@ -40,6 +40,7 @@ Nepouzivat u `person_verified` leadu — tam zustava named-contact outreach.
 - **Primary artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Role-based fallback target:** AI engineering manager / learning AI platform lead / AI product lead
+- **Buyer situation:** potrebuje obhajit volbu modelu pred managementem nebo klientem
 - **Safe channel:** LinkedIn role search + Coursera engineering / leadership path
 
 ### Role-based skeleton
@@ -67,6 +68,7 @@ Když to dává smysl, rád pošlu 1 ukázkový decision memo / scorecard a zaj�
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Role-based fallback target:** AI product lead / AI platform lead / orchestration lead
+- **Buyer situation:** ma evaly nebo quality signaly, ale chybi finalni rozhodnuti
 - **Safe channel:** LinkedIn role search + Zapier contact/demo path
 
 ### Role-based skeleton
@@ -94,6 +96,7 @@ Když nebude dávat smysl call, klidně pošlu i sample scorecard pro podobný o
 - **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
 - **Role-based fallback target:** AI product lead / AI workflow owner / engineering lead
+- **Buyer situation:** hleda lightweight vrstvu pred plnym LLMOps stackem
 - **Safe channel:** LinkedIn role search + Atlassian/Loom contact path
 
 ### Role-based skeleton
