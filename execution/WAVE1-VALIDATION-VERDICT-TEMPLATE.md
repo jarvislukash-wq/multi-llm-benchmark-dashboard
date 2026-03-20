@@ -83,7 +83,7 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 - Sweet spot signal: none / under_39 / 39_149 / 149_plus / enterprise
 - `price_probe` summary used in this verdict: none / under_39 / 39_149 / 149_plus / enterprise
 - `pro_signal` summary used in this verdict: positive / neutral / negative
-- One exact sentence that best confirms pricing signal:
+- One exact sentence that best indicates pricing signal:
 
 ### Pricing evidence normalization rule
 - Do not rename pricing evidence inside the verdict.
@@ -180,7 +180,7 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 
 Mark `yes / no`:
 
-- Problem confirmed by real buyer conversations:
+- Problem supported by real buyer conversations:
 - One segment clearly stronger than others:
 - One framing clearly stronger than others:
 - One realistic tested paid unit identified:
