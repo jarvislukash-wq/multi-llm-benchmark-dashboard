@@ -121,6 +121,18 @@ Proč právě tohle:
 
 Praktický závěr pro validaci: Wave 1 má ověřit hlavně to, jestli free scorecard opravdu otevírá cestu k **team budgetu v pásmu 39_149** u startupů a menších AI týmů. Zatím je `Pro workspace hypothesis (€99-149)` jen pricing hypotéza, ne potvrzený live willingness-to-pay signál.
 
+## Hidden competitor implication
+
+Produkt nesoutěží jen s benchmark nebo observability nástroji. V prvním nákupním momentu reálně soutěží i s:
+- vlastním spreadsheetem / Notion tabulkou
+- slides nebo interním memem pro management
+- provider-native playgroundem nebo dashboardem
+
+To znamená, že buyer-facing wedge musí vyhrávat hlavně na 3 věcech:
+- rychlejší první rozhodnutí než ruční compare
+- sdílitelný výstup bez ručního přepisování do slidů
+- opakovatelný refresh po změně modelu nebo ceny
+
 ## Demand signals
 
 - Artificial Analysis ukazuje silnou poptávku po nezávislém srovnání modelů.
