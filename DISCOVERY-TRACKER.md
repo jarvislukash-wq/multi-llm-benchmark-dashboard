@@ -4,23 +4,23 @@
 
 ## Interview tracker
 
-| Lead | Firma | Segment | Public contact | Backup contact / role | Channel | Priorita | Stav | Pain (1-5) | Models 3+ | Pricing band | Preferred format | Framing to test | Next step |
-|---|---|---|---|---|---|---|---|---:|---|---|---|---|---|
-| AI Help Experience owner | Canva | SaaS s AI feature | Andreas Schuster - Head of Product, AI Help Experience | Applied AI / platform engineering lead | LinkedIn + Canva engineering / product channels | P1 | to_contact | 4 | yes | enterprise | hybrid | scorecard | send scorecard CTA for support assistant use case |
-| AI tutoring platform lead | Khan Academy | SaaS s AI feature | Walt Wells - Staff Software Engineer | AI learning lead / engineering manager | LinkedIn + Khan Academy leadership / engineering channel | P1 | to_contact | 4 | yes | 149_plus | dashboard | dashboard | send demo CTA focused on quality vs cost tradeoff |
-| Product prototyping founder | Magic Patterns | AI startup | Alexander Danilowicz - Co-founder | Product / GTM co-founder | LinkedIn + company site contact | P1 | to_contact | 5 | yes | 149_plus | dashboard | scorecard | send scorecard CTA for coding + product workflow |
-| AI platform owner | Merck | Enterprise innovation | Walid Mehanna - Chief Data & AI Officer | AI platform / governance owner | LinkedIn + enterprise innovation contact path | P2 | to_contact | 4 | yes | enterprise | hybrid | memo | send executive CTA with governance + benchmark angle |
-| Support AI operations lead | SumUp | SaaS s AI feature | Ana Casado - Head of Operations Data and AI | AI engineering / reliability lead | LinkedIn + SumUp about/jobs/contact path | P1 | to_contact | 5 | yes | enterprise | hybrid | scorecard | send scorecard CTA for support / fallback decisions |
-| AI search eval owner | Dropbox | SaaS s AI feature | Josh Clemm - VP of Engineering | AI search / evaluation engineering lead | LinkedIn + Dropbox leadership / AI product path | P1 | to_contact | 5 | yes | enterprise | dashboard | dashboard | send demo CTA with internal eval merge angle |
-| Workspace AI platform lead | Notion | SaaS s AI feature | Sarav Bhatia - Sr. Dir. of Engineering | AI / engineering lead | LinkedIn + Notion request-demo / product leadership path | P1 | to_contact | 5 | yes | enterprise | hybrid | dashboard | send demo CTA focused on model-selection workflow |
-| AI code review owner | Graphite | AI startup | Quinten Farmer - Founder & CEO | CTO / AI engineering lead | LinkedIn + Graphite request-demo | P1 | to_contact | 5 | yes | 149_plus | dashboard | scorecard | send scorecard CTA for coding assistant wedge |
-| Learning AI platform lead | Coursera | SaaS s AI feature | Winne Tam - Senior Engineering Manager *(account-verified only)* | Sophie Gao - Staff Software Engineer | LinkedIn + Coursera leadership / engineering path | P2 | research_needed | 4 | yes | enterprise | hybrid | memo | verify named contact or use role-based fallback before send |
-| AI orchestration lead | Zapier | SaaS s AI feature | Mike Knoop - Co-Founder *(account-verified only)* | AI product / platform lead | LinkedIn + Zapier contact sales | P1 | research_needed | 5 | yes | enterprise | dashboard | dashboard | verify named contact or use role-based fallback before send |
-| AI video workflow lead | Loom | SaaS s AI feature | Matt Granmoe - Senior Software Engineer *(account-verified only)* | AI product lead | LinkedIn + Atlassian/Loom contact path | P2 | research_needed | 4 | yes | 149_plus | report | scorecard | verify named contact or use role-based fallback before send |
-| Financial AI engineering lead | Fintool | AI startup | Paul Klein IV - Founder & CEO | VP Engineering / AI platform lead | LinkedIn + company site contact | P1 | to_contact | 5 | yes | enterprise | dashboard | dashboard | send demo CTA focused on eval + routing decisions |
-| Internal AI automation owner | Ramp | SaaS s AI feature | Ben Levick - Head of AI & Operations | Finance automation / AI product lead | LinkedIn + Ramp contact/demo path | P1 | to_contact | 4 | yes | enterprise | hybrid | memo | send executive CTA with productivity + cost angle |
-| Applied AI engineering lead | Canva | SaaS s AI feature | Andreas Schuster - Head of Product, AI Help Experience | Applied AI / platform engineering lead | LinkedIn + Canva engineering / product channels | P2 | to_contact | 4 | yes | enterprise | dashboard | dashboard | send demo CTA focused on compare workflow |
-| Reliability / fallback owner | SumUp | SaaS s AI feature | Ana Casado - Head of Operations Data and AI | AI engineering / reliability lead | LinkedIn + SumUp about/jobs/contact path | P2 | to_contact | 5 | yes | enterprise | hybrid | scorecard | send scorecard CTA for budget + fallback scorecard |
+| Lead | Firma | Segment | Public contact | Backup contact / role | Channel | Priorita | Stav | Buyer situation to test | Pain (1-5) | Models 3+ | Pricing band | Preferred format | Framing to test | Next step |
+|---|---|---|---|---|---|---|---|---|---:|---|---|---|---|---|
+| AI Help Experience owner | Canva | SaaS s AI feature | Andreas Schuster - Head of Product, AI Help Experience | Applied AI / platform engineering lead | LinkedIn + Canva engineering / product channels | P1 | to_contact | rychle porovnat modely pro support use case | 4 | yes | enterprise | hybrid | scorecard | send scorecard CTA for support assistant use case |
+| AI tutoring platform lead | Khan Academy | SaaS s AI feature | Walt Wells - Staff Software Engineer | AI learning lead / engineering manager | LinkedIn + Khan Academy leadership / engineering channel | P1 | to_contact | ma evaly nebo quality signals, ale chybi finalni decision layer | 4 | yes | 149_plus | dashboard | dashboard | send demo CTA focused on quality vs cost tradeoff |
+| Product prototyping founder | Magic Patterns | AI startup | Alexander Danilowicz - Co-founder | Product / GTM co-founder | LinkedIn + company site contact | P1 | to_contact | lightweight vrstva pred plnym LLMOps stackem | 5 | yes | 149_plus | dashboard | scorecard | send scorecard CTA for coding + product workflow |
+| AI platform owner | Merck | Enterprise innovation | Walid Mehanna - Chief Data & AI Officer | AI platform / governance owner | LinkedIn + enterprise innovation contact path | P2 | to_contact | obhajit volbu modelu pred managementem nebo klientem | 4 | yes | enterprise | hybrid | memo | send executive CTA with governance + benchmark angle |
+| Support AI operations lead | SumUp | SaaS s AI feature | Ana Casado - Head of Operations Data and AI | AI engineering / reliability lead | LinkedIn + SumUp about/jobs/contact path | P1 | to_contact | budget ceiling a fallback rozhodnuti | 5 | yes | enterprise | hybrid | scorecard | send scorecard CTA for support / fallback decisions |
+| AI search eval owner | Dropbox | SaaS s AI feature | Josh Clemm - VP of Engineering | AI search / evaluation engineering lead | LinkedIn + Dropbox leadership / AI product path | P1 | to_contact | ma evaly nebo quality signals, ale chybi finalni decision layer | 5 | yes | enterprise | dashboard | dashboard | send demo CTA with internal eval merge angle |
+| Workspace AI platform lead | Notion | SaaS s AI feature | Sarav Bhatia - Sr. Dir. of Engineering | AI / engineering lead | LinkedIn + Notion request-demo / product leadership path | P1 | to_contact | ma evaly nebo quality signals, ale chybi finalni decision layer | 5 | yes | enterprise | hybrid | dashboard | send demo CTA focused on model-selection workflow |
+| AI code review owner | Graphite | AI startup | Quinten Farmer - Founder & CEO | CTO / AI engineering lead | LinkedIn + Graphite request-demo | P1 | to_contact | rychle porovnava modely pro novy use case | 5 | yes | 149_plus | dashboard | scorecard | send scorecard CTA for coding assistant wedge |
+| Learning AI platform lead | Coursera | SaaS s AI feature | Winne Tam - Senior Engineering Manager *(account-verified only)* | Sophie Gao - Staff Software Engineer | LinkedIn + Coursera leadership / engineering path | P2 | research_needed | obhajit volbu modelu pred managementem nebo klientem | 4 | yes | enterprise | hybrid | memo | verify named contact or use role-based fallback before send |
+| AI orchestration lead | Zapier | SaaS s AI feature | Mike Knoop - Co-Founder *(account-verified only)* | AI product / platform lead | LinkedIn + Zapier contact sales | P1 | research_needed | ma evaly nebo quality signals, ale chybi finalni decision layer | 5 | yes | enterprise | dashboard | dashboard | verify named contact or use role-based fallback before send |
+| AI video workflow lead | Loom | SaaS s AI feature | Matt Granmoe - Senior Software Engineer *(account-verified only)* | AI product lead | LinkedIn + Atlassian/Loom contact path | P2 | research_needed | lightweight vrstva pred plnym LLMOps stackem | 4 | yes | 149_plus | report | scorecard | verify named contact or use role-based fallback before send |
+| Financial AI engineering lead | Fintool | AI startup | Paul Klein IV - Founder & CEO | VP Engineering / AI platform lead | LinkedIn + company site contact | P1 | to_contact | ma evaly nebo routing signals, ale chybi finalni decision layer | 5 | yes | enterprise | dashboard | dashboard | send demo CTA focused on eval + routing decisions |
+| Internal AI automation owner | Ramp | SaaS s AI feature | Ben Levick - Head of AI & Operations | Finance automation / AI product lead | LinkedIn + Ramp contact/demo path | P1 | to_contact | obhajit volbu modelu pred managementem nebo klientem | 4 | yes | enterprise | hybrid | memo | send executive CTA with productivity + cost angle |
+| Applied AI engineering lead | Canva | SaaS s AI feature | Andreas Schuster - Head of Product, AI Help Experience | Applied AI / platform engineering lead | LinkedIn + Canva engineering / product channels | P2 | to_contact | ma evaly nebo support quality signals, ale chybi finalni decision layer | 4 | yes | enterprise | dashboard | dashboard | send demo CTA focused on compare workflow |
+| Reliability / fallback owner | SumUp | SaaS s AI feature | Ana Casado - Head of Operations Data and AI | AI engineering / reliability lead | LinkedIn + SumUp about/jobs/contact path | P2 | to_contact | budget ceiling a fallback rozhodnuti | 5 | yes | enterprise | hybrid | scorecard | send scorecard CTA for budget + fallback scorecard |
 
 ### Status values
 - to_contact
@@ -92,6 +92,7 @@ Zdroj pravdy pro confidence level je `execution/WAVE1-CONTACT-VERIFICATION.md`. 
 - Main AI use case:
 - Number of models/providers used:
 - Who decides model choice:
+- Buyer situation expected before call:
 
 ### Current workflow
 - How they choose models today:
@@ -105,6 +106,7 @@ Zdroj pravdy pro confidence level je `execution/WAVE1-CONTACT-VERIFICATION.md`. 
 
 ### Reaction to concept
 - Framing shown: dashboard / scorecard / memo
+- Buyer situation status after conversation: confirmed / refuted / unclear
 - Response to framing:
 - Response to use-case scorecards:
 - Response to public + internal data merge:
