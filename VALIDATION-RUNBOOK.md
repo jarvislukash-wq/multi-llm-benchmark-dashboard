@@ -49,7 +49,7 @@ Tento dokument neřeší plný go-to-market. Řeší jen nejkratší cestu k roz
 Projekt má důvod pokračovat, pokud během prvního validačního sprintu padne aspoň:
 - **8+ relevantních odpovědí** od ICP
 - **5+ discovery callů** s lidmi, kteří splní screener
-- **3+ respondenti**, kteří potvrdí, že dnes výběr modelu řeší bolestivě / neefektivně
+- **3+ respondenti**, kteří popíšou, že dnes výběr modelu řeší bolestivě / neefektivně
 - **2+ respondenti**, kteří aspoň naznačí realistický placený pilot nebo rozumné testované cenové pásmo pro podobné řešení
 
 ### Strong signal
