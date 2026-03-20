@@ -186,16 +186,16 @@ Aby produkt nezapadl mezi existující kategorie, měl by se aktivně vymezit:
 - enterprise governance suite
 
 ### Důležitý packaging insight
-První placená hodnota pravděpodobně nebude „dashboard jako takový", ale:
+První testovaná placená hodnota pravděpodobně nebude „dashboard jako takový", ale:
 - rychlejší rozhodnutí
 - méně chaosu při model review
 - obhajitelný výstup pro tým / klienta / management
 
 To nahrává balení typu:
 - **free compare / scorecard preview** jako acquisition
-- **pricing hypotéza: low-end self-serve monitor kolem ~€39** pro solo / early teams
-- **pricing hypotéza: Pro workspace v pásmu €99–149** jako hlavní candidate paid tier
-- **pricing hypotéza: Team plan od ~€399** pro sdílení, alerts, exporty a historii rozhodnutí
+- **pricing hypotéza: low-end self-serve monitor kolem ~€39** pro solo / early teams, pokud buyer ocení průběžný compare workflow
+- **pricing hypotéza: Pro workspace v pásmu €99–149** jako hlavní testovaný candidate paid tier
+- **pricing hypotéza: Team plan od ~€399** jako pozdější testovaný tier pro sdílení, alerts, exporty a historii rozhodnutí
 
 ---
 
@@ -253,7 +253,7 @@ Vyber správný LLM model pro konkrétní use case pomocí jedné scorecard nad 
 Po competitor teardownu už další práce nemá být další obecný research. Další smysluplný krok je:
 
 1. otestovat, jestli buyer víc reaguje na framing **decision dashboard** nebo **scorecard / memo**
-2. zjistit, jestli první placená forma má být **dashboard**, **report**, nebo **hybrid**
+2. zjistit, jestli první testovaná placená forma má být **dashboard**, **report**, nebo **hybrid**
 3. z prvních odpovědí vytáhnout, jestli je silnější wedge:
    - AI startup multi-model selection
    - AI agenturní client-facing scorecards
