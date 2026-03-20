@@ -7,7 +7,7 @@ Lehká šablona pro zápis výsledku po prvních odpovědích, follow-upech a di
 Cíl není udělat další velký report. Cíl je rychle rozhodnout 4 věci:
 1. který segment reaguje nejsilněji
 2. který framing otevírá nejlepší konverzace
-3. jaká je první realistická placená jednotka
+3. jaká je první realistická testovaná placená jednotka
 4. jestli pokračovat, zúžit wedge, nebo stopnout
 
 Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
@@ -77,7 +77,7 @@ Používat po prvním mini-souboru signálů, typicky když už existuje aspoň:
 | Paid pilot / enterprise memo |  |  |  |  |
 
 ### First paid unit decision
-- Best first paid unit now: starter hypothesis (~€39) / pro workspace hypothesis (€99–149) / team workspace hypothesis (from ~€399) / paid scorecard workflow / paid memo pilot
+- Best first paid unit now: starter hypothesis (~€39) / pro workspace hypothesis (€99–149) / team workspace hypothesis (from ~€399) / paid scorecard workflow hypothesis / paid memo pilot hypothesis
 - Why:
 - Objection pattern:
 - Sweet spot signal: none / under_39 / 39_149 / 149_plus / enterprise
@@ -183,7 +183,7 @@ Mark `yes / no`:
 - Problem confirmed by real buyer conversations:
 - One segment clearly stronger than others:
 - One framing clearly stronger than others:
-- One realistic first paid unit identified:
+- One realistic tested paid unit identified:
 - Enough signal to draft first SPEC without guessing:
 
 ### Readiness note
