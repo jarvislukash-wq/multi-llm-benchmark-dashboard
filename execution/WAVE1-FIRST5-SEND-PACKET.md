@@ -22,9 +22,9 @@ Cil:
 Plati toto poradi pravdy:
 1. `execution/WAVE1-LIVE-EVIDENCE-BOARD.md` = canonical send order
 2. `execution/WAVE1-OUTREACH-BATCH.md` = canonical framing + CTA + artifact routing
-3. `execution/WAVE1A-PERSONALIZED-SKELETONS.md` = canonical wording pro first-touch text
+3. tento packet = canonical wording pro first-live-send subset, kdyz se posila presne tohle first-5 poradi
 4. `execution/OUTREACH-LOG-TEMPLATE.md` = canonical evidence labels po sendu a reply
-5. tento packet = jen operator zkratka pro first-5
+5. `execution/WAVE1A-PERSONALIZED-SKELETONS.md` a dalsi skeletony = sirsi wording pro zbytek Wave 1 mimo tenhle first-5 subset
 
 Kdyz se zmeni routing, neprepisovat ho tady jako prvni.
 
@@ -194,13 +194,13 @@ Dával by ti smysl krátký 20min call? Když ne, klidně pošlu i sample scorec
 
 Tyhle radky po odeslani zkopirovat do `execution/OUTREACH-LOG-TEMPLATE.md` a jen doplnit datum / skutecny kanal / stav.
 
-| Date | Company | Contact | Segment | Buyer situation | Framing | CTA | Channel | Status | Sent artifact | First reply artifact | Reply quality | Preferred artifact | Status quo | Status-quo break | Pain (1-5) | Pricing band | Next step | Notes / exact phrasing |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---:|---|---|---|
-| YYYY-MM-DD | SumUp | Ana Casado | SaaS s AI feature | budget ceiling a fallback rozhodnuti | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | spreadsheet | speed | 5 | enterprise | send first message | trigger_used: budget_fallback; trigger_confirmed: unclear; trigger_shift: none |
-| YYYY-MM-DD | Magic Patterns | Alexander Danilowicz | AI startup | lightweight vrstva pred plnym LLMOps stackem | scorecard | sample scorecard | LinkedIn + company site | drafted | scorecard | unknown | none | unknown | spreadsheet | speed | 5 | 149_plus | send first message | trigger_used: pre_llmops_gap; trigger_confirmed: unclear; trigger_shift: none |
-| YYYY-MM-DD | Canva | Andreas Schuster | SaaS s AI feature | rychle porovnat modely pro support use case | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | unclear | unclear | 4 | enterprise | send first message | trigger_used: budget_fallback; trigger_confirmed: unclear; trigger_shift: none |
-| YYYY-MM-DD | Graphite | Quinten Farmer | AI startup | rychle porovnava modely pro novy use case | scorecard | sample scorecard | LinkedIn + request demo | drafted | scorecard | unknown | none | unknown | unclear | unclear | 5 | 149_plus | send first message | trigger_used: new_ai_surface; trigger_confirmed: unclear; trigger_shift: none |
-| YYYY-MM-DD | Notion | Sarav Bhatia | SaaS s AI feature | ma evaly nebo quality signaly, ale chybi finalni decision layer | dashboard | demo | LinkedIn + request demo | drafted | dashboard | unknown | none | unknown | provider_native | refreshability | 5 | enterprise | send first message | trigger_used: new_ai_surface; trigger_confirmed: unclear; trigger_shift: none |
+| Date | Company | Contact | Segment | Buyer situation | Framing | CTA | Channel | Status | Sent artifact | First reply artifact | Reply quality | Preferred artifact | Status quo | Status-quo break | Pain (1-5) | Pricing band | Price probe | Pro signal | Next step | Notes / exact phrasing |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---:|---|---|---|---|---|
+| YYYY-MM-DD | SumUp | Ana Casado | SaaS s AI feature | budget ceiling a fallback rozhodnuti | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | spreadsheet | speed | 5 | enterprise | none | neutral | send first message | trigger_used: budget_fallback; trigger_confirmed: unclear; trigger_shift: none |
+| YYYY-MM-DD | Magic Patterns | Alexander Danilowicz | AI startup | lightweight vrstva pred plnym LLMOps stackem | scorecard | sample scorecard | LinkedIn + company site | drafted | scorecard | unknown | none | unknown | spreadsheet | speed | 5 | 149_plus | none | neutral | send first message | trigger_used: pre_llmops_gap; trigger_confirmed: unclear; trigger_shift: none |
+| YYYY-MM-DD | Canva | Andreas Schuster | SaaS s AI feature | rychle porovnat modely pro support use case | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | unclear | unclear | 4 | enterprise | none | neutral | send first message | trigger_used: budget_fallback; trigger_confirmed: unclear; trigger_shift: none |
+| YYYY-MM-DD | Graphite | Quinten Farmer | AI startup | rychle porovnava modely pro novy use case | scorecard | sample scorecard | LinkedIn + request demo | drafted | scorecard | unknown | none | unknown | unclear | unclear | 5 | 149_plus | none | neutral | send first message | trigger_used: new_ai_surface; trigger_confirmed: unclear; trigger_shift: none |
+| YYYY-MM-DD | Notion | Sarav Bhatia | SaaS s AI feature | ma evaly nebo quality signaly, ale chybi finalni decision layer | dashboard | demo | LinkedIn + request demo | drafted | dashboard | unknown | none | unknown | provider_native | refreshability | 5 | enterprise | none | neutral | send first message | trigger_used: new_ai_surface; trigger_confirmed: unclear; trigger_shift: none |
 
 ---
 

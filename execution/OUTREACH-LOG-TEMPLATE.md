@@ -57,13 +57,13 @@ Tento log je jen evidence vrstva po odeslání. Finální `framing`, `CTA` a vý
 
 ## Suggested columns
 
-| Date | Company | Contact | Segment | Buyer situation | Framing | CTA | Channel | Status | Sent artifact | First reply artifact | Reply quality | Preferred artifact | Status quo | Status-quo break | Pain (1-5) | Pricing band | Next step | Notes / exact phrasing |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---:|---|---|---|
-| YYYY-MM-DD | Canva | Andreas Schuster | SaaS s AI feature | rychle porovnat modely pro support use case | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | unclear | unclear | 4 | enterprise | send first message | |
-| YYYY-MM-DD | Khan Academy | Walt Wells | SaaS s AI feature | uz ma evaly, ale chybi finalni decision layer | dashboard | demo | LinkedIn | drafted | dashboard | unknown | none | unknown | provider_native | refreshability | 4 | 149_plus | send first message | |
-| YYYY-MM-DD | Magic Patterns | Alexander Danilowicz | AI startup | lightweight vrstva pred plnym LLMOps stackem | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | spreadsheet | speed | 5 | 149_plus | send first message | |
-| YYYY-MM-DD | Merck | Walid Mehanna | Enterprise innovation | obhajit volbu modelu pred managementem | memo | executive feedback | LinkedIn | drafted | memo | unknown | none | unknown | memo | shareable_output | 4 | enterprise | send first message | |
-| YYYY-MM-DD | SumUp | Ana Casado | SaaS s AI feature | budget ceiling a fallback rozhodnuti | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | spreadsheet | speed | 5 | enterprise | send first message | |
+| Date | Company | Contact | Segment | Buyer situation | Framing | CTA | Channel | Status | Sent artifact | First reply artifact | Reply quality | Preferred artifact | Status quo | Status-quo break | Pain (1-5) | Pricing band | Price probe | Pro signal | Next step | Notes / exact phrasing |
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---:|---|---|---|---|---|
+| YYYY-MM-DD | Canva | Andreas Schuster | SaaS s AI feature | rychle porovnat modely pro support use case | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | unclear | unclear | 4 | enterprise | none | neutral | send first message | |
+| YYYY-MM-DD | Khan Academy | Walt Wells | SaaS s AI feature | uz ma evaly, ale chybi finalni decision layer | dashboard | demo | LinkedIn | drafted | dashboard | unknown | none | unknown | provider_native | refreshability | 4 | 149_plus | none | neutral | send first message | |
+| YYYY-MM-DD | Magic Patterns | Alexander Danilowicz | AI startup | lightweight vrstva pred plnym LLMOps stackem | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | spreadsheet | speed | 5 | 149_plus | none | neutral | send first message | |
+| YYYY-MM-DD | Merck | Walid Mehanna | Enterprise innovation | obhajit volbu modelu pred managementem | memo | executive feedback | LinkedIn | drafted | memo | unknown | none | unknown | memo | shareable_output | 4 | enterprise | none | neutral | send first message | |
+| YYYY-MM-DD | SumUp | Ana Casado | SaaS s AI feature | budget ceiling a fallback rozhodnuti | scorecard | sample scorecard | LinkedIn | drafted | scorecard | unknown | none | unknown | spreadsheet | speed | 5 | enterprise | none | neutral | send first message | |
 
 ---
 
@@ -95,10 +95,12 @@ Dopsat:
 Dopsat navíc:
 - pain (1-5)
 - pricing band
+- `price_probe`
+- `pro_signal`
 - jestli chtějí pilot / sample / intro / nic
 
 ### Pricing signal capture rule
-Aby šel verdict udělat bez zpětné reinterpretace, u každé relevantní reply nebo call poznámky zapiš rovnou:
+Aby šel verdict udělat bez zpětné reinterpretace, u každé relevantní reply nebo call poznámky zapiš rovnou do samostatných sloupců:
 - `price_probe = none / under_39 / 39_149 / 149_plus / enterprise`
 - `pro_signal = positive / neutral / negative`
 - jednu přesnou větu, která ten pricing signál potvrzuje

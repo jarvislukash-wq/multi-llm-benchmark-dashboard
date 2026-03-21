@@ -96,6 +96,7 @@ Pokud je cíl co nejrychleji získat první kvalitní reply evidence, poslat nej
 - mix startup + SaaS
 - mix `budget_fallback`, `pre_llmops_gap`, `new_ai_surface`
 - vysoká verification confidence
+- `Canva` je v tomhle first-live-send subsetu záměrně vedena přes `scorecard`, ne přes širší dashboard variantu, protože první mikro-cíl je rychlejší `budget_fallback` reply signal
 
 První mini-cíl není maximalizovat volume.
 První mini-cíl je získat **5 odeslání -> první reply quality signal -> první trigger verdict**.
@@ -133,6 +134,7 @@ Dopsat navíc:
 - `price_probe`
 - `pro_signal`
 - 1 přesnou citaci buyera
+- zapisovat `price_probe` a `pro_signal` do explicitnich sloupcu v `execution/OUTREACH-LOG-TEMPLATE.md`, ne jen do notes
 - do notes přidat:
   - `trigger_confirmed: yes / no / unclear`
   - `trigger_shift: none / dashboard / scorecard / memo`
