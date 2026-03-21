@@ -104,6 +104,20 @@ Výsledek:
 - API access pro interní procurement nebo routing tools
 - white-label benchmark portal pro agentury / consultancies
 
+### Pricing anchor refresh (2026-03-21)
+Aktuální veřejné pricing anchor body jsou nově zapsané v `COMPETITOR-PRICING-ANCHORS.md`.
+
+Nejdůležitější závěry:
+- public benchmark layer je na trhu silně normalizovaný jako free / acquisition vrstva
+- recurring AI team workflow bez problému žije v low-hundreds pricing pásmu, pokud řeší opakovanou týmovou práci
+- vyšší team tier má smysl až se sdílením, historií, reporty, alerts a compliance vrstvou
+
+Prakticky to drží současný ladder bez nutnosti dramatické změny:
+- free sample scorecard
+- Starter hypothesis kolem ~€39
+- Pro workspace hypothesis kolem ~€99-149
+- Team hypothesis od ~€399 jen pro silnější multi-workspace / export / collaboration motion
+
 ## Current commercial wedge decision
 
 Na základě competitor a pricing anchoru je teď nejpraktičtější **testovaná** první placená jednotka:

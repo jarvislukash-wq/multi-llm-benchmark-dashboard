@@ -160,6 +160,23 @@ Začít variantou **B — engineering angle**.
 
 ---
 
+## 7.1 Pricing probe guardrail
+
+Pro první live pricing signály nově používat `execution/PRICING-PROBE-CHEATSHEET.md`, aby Wave 1 nesklouzla k volným slovním poznámkám typu „asi by za to něco dali“.
+
+Cheatsheet drží dvě důležité věci:
+- mapování jen do canonical labelů `none / under_39 / 39_149 / 149_plus / enterprise`
+- otázky postavené na veřejných market anchors z `COMPETITOR-PRICING-ANCHORS.md`, ne na pocitu
+
+Doporučené safe probes pro discovery a follow-up:
+1. artifact vs recurring workflow
+2. lightweight self-serve vs team-budget framing
+3. pilot / decision pack vs recurring workspace
+
+Tím zůstane pricing evidence mezi outreach logem, discovery trackerem a validation verdictem konzistentní.
+
+---
+
 ## 8. Decision tree after sprint
 
 ### Go

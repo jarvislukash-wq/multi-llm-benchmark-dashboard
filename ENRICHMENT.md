@@ -53,6 +53,17 @@ Produkt šetří hlavně:
 - cost overruns ze špatné volby modelu
 - churn v experimentování bez evidence
 
+### Public pricing anchors (refresh 2026-03-21)
+Aktuální veřejné anchor body zapsané v `COMPETITOR-PRICING-ANCHORS.md` potvrzují tři důležité věci:
+- **Artificial Analysis** posiluje očekávání, že základní benchmark intelligence funguje spíš jako free/top-of-funnel vrstva než jako hlavní placený produkt
+- **Langfuse** drží jasný self-serve až team ladder `Free / $29 / $199 / $2499`, takže opakovaný AI workflow bez problému unese low-hundreds price point, pokud řeší týmovou práci
+- **Helicone** má `Free / $79 / $799 / Enterprise`, což potvrzuje, že vyšší tier se na trhu obhajuje hlavně collaboration, reports a compliance vrstvou, ne jen samotným compare datem
+
+Praktický dopad pro tento projekt:
+- free sample scorecard zůstává správný acquisition wedge
+- `Pro kolem ~€149` je pořád rozumná testovaná pricing hypotéza pro recurring team workflow
+- `Team od ~€399` má smysl jen pokud buyer opravdu chce multi-workspace, historii, exporty a sdílení
+
 ### Doporučené pricing pásmo
 - **pricing hypotéza: Starter kolem ~€39**: low-friction vstup pro solo / indie / malý tým
 - **pricing hypotéza: Pro kolem ~€149**: hlavní pricing test pro startupy a menší AI týmy; pořád je to jen packaging hypotéza v testovaném pásmu `€39-149`, ne potvrzený willingness-to-pay signál
