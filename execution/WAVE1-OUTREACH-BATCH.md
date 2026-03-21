@@ -136,14 +136,26 @@ Pokud se tracker zmeni, nejdriv aktualizovat tracker a teprve potom tento batch.
 
 ## Send order recommendation
 
-### Wave 1A - highest confidence contacts
-1. Canva - Andreas Schuster
-2. Khan Academy - Walt Wells
-3. Magic Patterns - Alexander Danilowicz
-4. Merck - Walid Mehanna
-5. SumUp - Ana Casado
-6. Notion - Sarav Bhatia
-7. Graphite - Quinten Farmer
+### Canonical first-5 live send order
+
+Pokud se posila prvni realna vlna bez dalsi reinterpretace, drzet tento canonical subset:
+1. SumUp - Ana Casado
+2. Magic Patterns - Alexander Danilowicz
+3. Canva - Andreas Schuster
+4. Graphite - Quinten Farmer
+5. Notion - Sarav Bhatia
+
+Tento subset je zamerne sladěny s:
+- `execution/WAVE1-LIVE-EVIDENCE-BOARD.md`
+- `execution/WAVE1-FIRST5-SEND-PACKET.md`
+- `execution/WAVE1-TIMING-TRIGGERS.md`
+- `execution/WAVE1A-PERSONALIZED-SKELETONS.md`
+
+Poznamka: `Canva` je v tomto first-5 subsetu vedena pres `scorecard`, ne pres sirsi `dashboard` variantu. Duvod je rychlejsi `budget_fallback` reply signal v prvni mikro-vlne.
+
+### Remaining Wave 1A queue after first-5
+6. Khan Academy - Walt Wells
+7. Merck - Walid Mehanna
 8. Fintool - Paul Klein IV
 9. Ramp - Ben Levick
 

@@ -137,6 +137,19 @@ Kdyby to bylo relevantní, rád pošlu ukázkovou scorecard nebo dáme 20min cal
 
 ---
 
+## First-5 execution note
+
+Pokud je cíl dostat co nejrychleji první live evidence bez další dokumentační smyčky, držet canonical first-5 pořadí z `execution/WAVE1-FIRST5-SEND-PACKET.md`:
+1. SumUp
+2. Magic Patterns
+3. Canva
+4. Graphite
+5. Notion
+
+Pro tenhle subset neimprovizovat nový framing ani nové pořadí; `WAVE1-FIRST5-SEND-PACKET.md` je operator packet a `execution/WAVE1-LIVE-EVIDENCE-BOARD.md` je canonical live queue.
+
+---
+
 ## Follow-up cadence
 
 Tento playbook drzi jen timing. Kanonicke Day 3 / Day 7 texty podle `dashboard`, `scorecard` a `memo` framingu jsou v `execution/WAVE1-FOLLOW-UP-SEQUENCES.md`.
