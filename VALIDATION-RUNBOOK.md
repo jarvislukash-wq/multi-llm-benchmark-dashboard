@@ -88,6 +88,8 @@ Zúžit nebo stopnout, pokud nastane aspoň jedno:
 - current decision workflow maturity
 - strongest objection
 - preferred artifact: dashboard / report / API
+- `status_quo`: spreadsheet / memo / provider_native / mixed / unclear
+- `status_quo_break`: speed / shareable_output / refreshability / mixed / unclear
 - `price_probe`: none / under_39 / 39_149 / 149_plus / enterprise
 - `pro_signal`: positive / neutral / negative
 
@@ -174,6 +176,21 @@ Doporučené safe probes pro discovery a follow-up:
 3. pilot / decision pack vs recurring workspace
 
 Tím zůstane pricing evidence mezi outreach logem, discovery trackerem a validation verdictem konzistentní.
+
+---
+
+## 7.2 Status-quo displacement guardrail
+
+Pro prvni live conversations nově používat i `execution/STATUS-QUO-DISPLACEMENT-PLAYBOOK.md`, aby reply evidence nesklouzla k vágním poznámkám typu "zajímavé" bez pochopení, co buyer používá dnes.
+
+Minimal capture po každé relevantní reply / call:
+- `status_quo = spreadsheet / memo / provider_native / mixed / unclear`
+- `status_quo_break = speed / shareable_output / refreshability / mixed / unclear`
+- jedna přesná věta, která to potvrzuje
+
+Smysl:
+- po první vlně musí být jasné nejen který framing funguje
+- ale i který dnešní workflow je nejsnazší vytlačit v první produktové wedge
 
 ---
 

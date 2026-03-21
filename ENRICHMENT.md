@@ -176,6 +176,22 @@ Tohle podporuje 3 produktové balíčky, které jdou po stejné bolesti z různ�
 
 Hlavní závěr: produkt nemá prodávat „víc dat“. Má prodávat **rychlejší a obhajitelné rozhodnutí**.
 
+## 14. Status-quo displacement implication
+
+Další důležitý závěr pro Wave 1: produkt nemusí v prvním kroku porazit jiný SaaS. Musí opakovaně porazit dnešní ruční workflow.
+
+Nejdůležitější early displacement paths:
+- `spreadsheet` -> vyhrát na `speed`
+- `memo` -> vyhrát na `shareable_output`
+- `provider_native` -> vyhrát na `refreshability`
+
+Praktický dopad:
+- v prvních reply a calls se nesledí jen segment a framing
+- musí se explicitně logovat i `status_quo` a `status_quo_break`
+- po 5+ reply má jít rozhodnout nejen `dashboard` vs `scorecard` vs `memo`, ale i **který dnešní workflow produkt reálně vytlačuje nejsnáze**
+
+Pro tenhle micro-step je nově připravený `execution/STATUS-QUO-DISPLACEMENT-PLAYBOOK.md`, který převádí competitor read do konkrétních objection-handling a logging pravidel pro live validaci.
+
 ## 12. Segment prioritization and pricing implication
 
 Detailní ICP + pricing prioritizace je nově v `SEGMENT-PRICING-MATRIX.md`.

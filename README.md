@@ -207,7 +207,7 @@ Začít bez těžké observability integrace. Nejdřív vyřešit **„jak si ry
 ## Concrete next step
 
 Další konkrétní krok po dokončeném enrichment základu:
-**otestovat ve Wave 1, jestli silnější reakce otevírá `dashboard`, `scorecard` nebo `decision memo` framing, protože pro všechny 3 varianty už existuje připravený execution podklad i follow-up sekvence.**
+**otestovat ve Wave 1, jestli silnější reakce otevírá `dashboard`, `scorecard` nebo `decision memo` framing, a současně zjistit, který status quo je nejsnazší vytlačit (`spreadsheet`, `memo`, `provider_native`), protože pro to už teď existuje i praktický execution playbook.**
 
 Praktický execution podklad je teď připravený v:
 - `VALIDATION-RUNBOOK.md` — 14denní plán, success thresholds a decision tree
@@ -227,6 +227,7 @@ Praktický execution podklad je teď připravený v:
 - `execution/WAVE1-VALIDATION-VERDICT-TEMPLATE.md` — ultra-lehký verdict sheet pro rozhodnutí segmentu, framingu, pricingu a první testované placené jednotky po prvních reply/call signálech
 - `execution/MESSAGING-FRAMING-TEST.md` — praktický test `decision dashboard` vs `scorecard` vs `decision memo` v outreachi a landing page
 - `execution/WAVE1-TIMING-TRIGGERS.md` — timing vrstva pro Wave 1: jaký opener použít podle triggeru (`budget_fallback`, `compare_chaos`, `stakeholder_alignment`, `pre_llmops_gap`) a proč je účet relevantní právě teď
+- `execution/STATUS-QUO-DISPLACEMENT-PLAYBOOK.md` — praktický playbook, jak v prvních reply/calls porážet dnešní workflow (`spreadsheet`, `memo`, `provider_native`, `mixed`) a jak to logovat do canonical evidence polí
 - `execution/WAVE1-LIVE-EVIDENCE-BOARD.md` — jedna operativní tabule pro live send pořadí, trigger, verification confidence a povinné evidence fields po reply
 - `execution/WAVE1-FIRST5-SEND-PACKET.md` — one-file operator packet pro first-5 send set: copy-paste zprávy, artifact pairing a prefilled log rows
 - `COMPETITOR-TEARDOWN.md` — konkrétní competitor read a positioning wedge proti Artificial Analysis / Braintrust / Langfuse / Helicone / OpenRouter
