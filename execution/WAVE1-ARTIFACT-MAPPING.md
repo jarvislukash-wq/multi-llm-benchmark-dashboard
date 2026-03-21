@@ -9,7 +9,7 @@ Cíl: ať je hned jasné,
 - jaký framing tím testujeme
 - jaký backup artifact použít, když lead nechce call
 
-**Source-of-truth note:** tento mapping není druhý routing dokument. `framing`, `Primary artifact` a `Fallback artifact` se přebírají bez reinterpretace z `execution/WAVE1-OUTREACH-BATCH.md` a odpovídajících personalizací ve `execution/WAVE1A-PERSONALIZED-SKELETONS.md` / `execution/WAVE1B-PERSONALIZED-SKELETONS.md`; tady je jen přehled a zdůvodnění pairingů.
+**Source-of-truth note:** tento mapping není druhý routing dokument. `framing`, `Primary artifact` a `Fallback artifact` se přebírají bez reinterpretace z `execution/WAVE1-OUTREACH-BATCH.md`, `execution/WAVE1-LIVE-EVIDENCE-BOARD.md` a odpovídajících personalizací ve `execution/WAVE1A-PERSONALIZED-SKELETONS.md` / `execution/WAVE1B-PERSONALIZED-SKELETONS.md`; tady je jen přehled a zdůvodnění pairingů.
 
 ---
 
@@ -23,30 +23,49 @@ Cíl: ať je hned jasné,
 
 ---
 
-## Wave 1A — highest confidence contacts
+## Canonical first-5 execution subset
 
-| Company | Contact | Framing | Buyer situation | Primary artifact to send | Fallback artifact | Why this pairing |
-|---|---|---|---|---|---|---|
-| Canva | Andreas Schuster | dashboard | ma evaly nebo support quality signaly, ale chybi finalni rozhodnuti | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | support assistant use case je nejblíž hotové scorecard; memo je vhodný second step pro product ownera |
-| Khan Academy | Walt Wells | dashboard | ma evaly nebo quality signaly, ale chybi finalni rozhodnuti | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | scorecard je nejrychlejší konkrétní ukázka kvalita vs cost tradeoffu |
-| Magic Patterns | Alexander Danilowicz | scorecard | rychle porovnava modely pro novy use case | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | AI-native founder segment má dostat sample-first wedge |
-| Merck | Walid Mehanna | memo | potrebuje obhajit volbu modelu pred managementem nebo klientem | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | governance-heavy kontakt spíš ocení recommendation framing než čistý compare sheet |
-| SumUp | Ana Casado | scorecard | resi budget ceiling a fallback model | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | operations + support use case sedí na konkrétní scorecard artefakt |
-| Notion | Sarav Bhatia | dashboard | ma evaly nebo quality signaly, ale chybi finalni rozhodnuti | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | dashboard-first outreach může při odmítnutí callu hned přepnout na scorecard |
-| Graphite | Quinten Farmer | scorecard | rychle porovnava modely pro novy use case | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | founder v coding segmentu dostane nejdřív nízkotřecí sample |
-| Fintool | Paul Klein IV | dashboard | ma evaly nebo routing signaly, ale chybi finalni rozhodnuti | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | scorecard funguje jako concrete leave-behind k dashboard pitchi |
-| Ramp | Ben Levick | memo | potrebuje obhajit volbu modelu pred managementem nebo klientem | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | ops + cost discipline angle sedí na executive memo |
+Tento subset musí být konzistentní s:
+- `execution/WAVE1-LIVE-EVIDENCE-BOARD.md`
+- `execution/WAVE1-FIRST5-SEND-PACKET.md`
+- `execution/WAVE1-OUTREACH-BATCH.md`
+- `execution/WAVE1A-PERSONALIZED-SKELETONS.md`
+
+| Order | Company | Contact | Framing | Buyer situation | Primary artifact to send | Fallback artifact | Why this pairing |
+|---|---|---|---|---|---|---|---|
+| 1 | SumUp | Ana Casado | scorecard | resi budget ceiling a fallback model | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | operations + support use case sedí na konkrétní scorecard artefakt a otevírá nejkratší budget/fallback reply path |
+| 2 | Magic Patterns | Alexander Danilowicz | scorecard | lightweight vrstva pred plnym LLMOps stackem | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | AI-native founder segment má dostat sample-first wedge bez těžkého dashboard pitchu |
+| 3 | Canva | Andreas Schuster | scorecard | rychle porovnat modely pro support use case | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | canonical first-5 tady záměrně drží scorecard-first variantu kvůli rychlejšímu support + budget signalům |
+| 4 | Graphite | Quinten Farmer | scorecard | rychle porovnava modely pro novy use case | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | founder v coding segmentu dostane nejdřív nízkotřecí sample místo širší dashboard vrstvy |
+| 5 | Notion | Sarav Bhatia | dashboard | ma evaly nebo quality signaly, ale chybi finalni rozhodnuti | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | dashboard-first outreach testuje silný multi-model decision workflow; scorecard zůstává fallback při odmítnutí callu |
 
 ---
 
-## Wave 1B — verified public contacts
+## Remaining Wave 1A queue after first-5
 
-| Company | Contact | Framing | Primary artifact to send | Fallback artifact | Why this pairing |
-|---|---|---|---|---|---|
-| Dropbox | Josh Clemm | dashboard | ma evaly nebo quality signaly, ale chybi finalni rozhodnuti | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | dashboard-first, ale sample scorecard je nejrychlejší asset po prvním doteku |
-| Coursera | Winne Tam | memo | potrebuje obhajit volbu modelu pred managementem nebo klientem | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | learning/product alignment se lépe vysvětluje přes memo |
-| Zapier | Mike Knoop | dashboard | ma evaly nebo quality signaly, ale chybi finalni rozhodnuti | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | orchestration-heavy kontakt může chtít workflow call, scorecard je dobrý backup |
-| Loom | Matt Granmoe | scorecard | hleda lightweight vrstvu pred plnym LLMOps stackem | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | high-volume workflow segment lépe otevře konkrétní scorecard než memo |
+| Order | Company | Contact | Framing | Buyer situation | Primary artifact to send | Fallback artifact | Why this pairing |
+|---|---|---|---|---|---|---|---|
+| 6 | Khan Academy | Walt Wells | dashboard | ma evaly nebo quality signaly, ale chybi finalni rozhodnuti | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | tutoring quality-vs-cost tradeoff sedí na compare workflow; scorecard je nejrychlejší fallback po call CTA |
+| 7 | Merck | Walid Mehanna | memo | potrebuje obhajit volbu modelu pred managementem nebo klientem | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | governance-heavy kontakt spíš ocení recommendation framing než čistý compare sheet |
+| 8 | Fintool | Paul Klein IV | dashboard | ma evaly nebo routing signaly, ale chybi finalni rozhodnuti | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | dashboard-first pitch sedí na eval + routing decisions; scorecard funguje jako concrete leave-behind |
+| 9 | Ramp | Ben Levick | memo | potrebuje obhajit volbu modelu pred managementem nebo klientem | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | ops + cost discipline angle sedí na executive memo |
+
+---
+
+## Wave 1B — mixed contact confidence
+
+Tato sekce musí zůstat konzistentní s `execution/WAVE1-CONTACT-VERIFICATION.md`:
+- `Dropbox` = `person_verified`
+- `Coursera`, `Zapier`, `Loom` = `account_verified`
+
+Proto se Wave 1B nesmí popisovat jako plně verified named-contact batch. Routing zůstává stejný, ale forma oslovení se u `account_verified` firem může opřít o `execution/WAVE1B-ROLE-FALLBACKS.md`.
+
+| Order | Company | Contact / fallback mode | Verification | Framing | Buyer situation | Primary artifact to send | Fallback artifact | Why this pairing |
+|---|---|---|---|---|---|---|---|---|
+| 1 | Dropbox | Josh Clemm | person_verified | dashboard | ma evaly nebo quality signaly, ale chybi finalni rozhodnuti | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | dashboard-first, ale sample scorecard je nejrychlejší asset po prvním doteku |
+| 2 | Coursera | Winne Tam / role fallback | account_verified | memo | potrebuje obhajit volbu modelu pred managementem nebo klientem | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | learning/product alignment se lépe vysvětluje přes memo; při slabém person proof použít role-based fallback |
+| 3 | Zapier | Mike Knoop / role fallback | account_verified | dashboard | ma evaly nebo quality signaly, ale chybi finalni rozhodnuti | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | orchestration-heavy kontakt může chtít workflow call, scorecard je dobrý backup |
+| 4 | Loom | Matt Granmoe / role fallback | account_verified | scorecard | hleda lightweight vrstvu pred plnym LLMOps stackem | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` | high-volume workflow segment lépe otevře konkrétní scorecard než memo |
 
 ---
 
