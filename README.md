@@ -213,5 +213,6 @@ Praktický execution podklad je teď připravený v:
 - `execution/MESSAGING-FRAMING-TEST.md` — praktický test `decision dashboard` vs `scorecard` vs `decision memo` v outreachi a landing page
 - `execution/WAVE1-TIMING-TRIGGERS.md` — timing vrstva pro Wave 1: jaký opener použít podle triggeru (`budget_fallback`, `compare_chaos`, `stakeholder_alignment`, `pre_llmops_gap`) a proč je účet relevantní právě teď
 - `execution/WAVE1-LIVE-EVIDENCE-BOARD.md` — jedna operativní tabule pro live send pořadí, trigger, verification confidence a povinné evidence fields po reply
+- `execution/WAVE1-FIRST5-SEND-PACKET.md` — one-file operator packet pro first-5 send set: copy-paste zprávy, artifact pairing a prefilled log rows
 - `COMPETITOR-TEARDOWN.md` — konkrétní competitor read a positioning wedge proti Artificial Analysis / Braintrust / Langfuse / Helicone / OpenRouter
 - `SEGMENT-PRICING-MATRIX.md` — explicitní ranking ICP segmentů, doporučený první komerční wedge a pricing experimenty pro Wave 1
