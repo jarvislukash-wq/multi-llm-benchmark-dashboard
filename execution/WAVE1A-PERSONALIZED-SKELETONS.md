@@ -31,8 +31,8 @@ Kdyz se zmeni buyer routing, CTA nebo artifact mapping, nejdriv aktualizovat kan
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
-- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
-- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
+- **Primary artifact:** `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** AI Help Experience / support assistant compare workflow
 - **Buyer situation:** ma evaly nebo support quality signaly, ale chybi finalni rozhodnuti
 - **Why this account:** veřejně pojmenovaný ownership nad AI Help Experience; silný fit na rozhodování kvalita vs cost vs fallback
@@ -62,8 +62,8 @@ Dával by ti smysl krátký 20min call? Když ne, klidně pošlu i jednu ukázko
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
-- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
-- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
+- **Primary artifact:** `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** tutoring quality vs cost tradeoff
 - **Buyer situation:** ma evaly nebo quality signaly, ale chybi finalni rozhodnuti
 - **Why this account:** AI tutoring je citlivý use case, kde je důležitá kvalita odpovědi i rozpočtová udržitelnost

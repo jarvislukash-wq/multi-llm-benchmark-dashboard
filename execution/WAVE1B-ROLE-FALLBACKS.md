@@ -65,8 +65,8 @@ Když to dává smysl, rád pošlu 1 ukázkový decision memo / scorecard a zaj�
 - **Verification status:** account_verified
 - **Canonical framing:** dashboard
 - **Canonical CTA:** 20min demo call
-- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
-- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
+- **Primary artifact:** `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Role-based fallback target:** AI product lead / AI platform lead / orchestration lead
 - **Buyer situation:** ma evaly nebo quality signaly, ale chybi finalni rozhodnuti
 - **Safe channel:** LinkedIn role search + Zapier contact/demo path

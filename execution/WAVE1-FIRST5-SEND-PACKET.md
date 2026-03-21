@@ -38,7 +38,7 @@ Kdyz se zmeni routing, neprepisovat ho tady jako prvni.
 | 2 | Magic Patterns | Alexander Danilowicz | person_verified | pre_llmops_gap | scorecard | send sample scorecard | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` |
 | 3 | Canva | Andreas Schuster | person_verified | budget_fallback | scorecard | send sample scorecard | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` |
 | 4 | Graphite | Quinten Farmer | person_verified | new_ai_surface | scorecard | send sample scorecard | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` |
-| 5 | Notion | Sarav Bhatia | person_verified | new_ai_surface | dashboard | ask for 20min demo call | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` |
+| 5 | Notion | Sarav Bhatia | person_verified | new_ai_surface | dashboard | ask for 20min demo call | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` |
 
 ---
 
@@ -170,8 +170,8 @@ Jestli chceš, pošlu 1 ukázkovou scorecard právě pro coding assistant use ca
 - **Framing:** `dashboard`
 - **CTA:** `ask for 20min demo call`
 - **Sent artifact:** `dashboard`
-- **Primary artifact file:** `execution/SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
-- **Fallback artifact file:** `execution/SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
+- **Primary artifact file:** `execution/SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact file:** `execution/SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 
 ### Copy-paste first touch
 Ahoj Sarave,

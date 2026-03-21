@@ -66,7 +66,7 @@ Pouzij stejnou routing logiku jako v `execution/SMOKE-TEST-LANDING-PAGE.md`, aby
 | Buyer situace | Poslat jako primary framing | CTA | Primary artifact |
 |---|---|---|---|
 | Buyer rychle porovnava modely pro novy use case | scorecard | send sample scorecard | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` |
-| Buyer uz ma evaly nebo traces, ale chybi finalni rozhodnuti | dashboard | 20min demo call | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` |
+| Buyer uz ma evaly nebo traces, ale chybi finalni rozhodnuti | dashboard | 20min demo call | `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` |
 | Buyer potrebuje obhajit volbu modelu pred managementem nebo klientem | memo | executive feedback | `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` |
 | Buyer resi budget ceiling a fallback model | scorecard | send sample scorecard | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` |
 | Buyer hleda lightweight vrstvu pred plnym LLMOps stackem | scorecard -> dashboard az po reply | send sample scorecard | `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` |

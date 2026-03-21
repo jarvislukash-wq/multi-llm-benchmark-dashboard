@@ -31,8 +31,8 @@ Kdyz se zmeni buyer routing, CTA nebo artifact mapping, nejdriv aktualizovat kan
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
-- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
-- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
+- **Primary artifact:** `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** multi-model decision workflow pro workspace AI
 - **Buyer situation:** ma evaly nebo quality signaly, ale chybi finalni rozhodnuti
 - **Why this account:** široká AI surface area a pravděpodobnost opakovaných rozhodnutí kolem model selection
@@ -93,8 +93,8 @@ Jestli chceš, pošlu 1 ukázkovou scorecard právě pro coding assistant use ca
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
-- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
-- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
+- **Primary artifact:** `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** eval + routing decisions pro finance-oriented AI workflow
 - **Buyer situation:** ma evaly nebo routing signaly, ale chybi finalni rozhodnuti
 - **Why this account:** vysoká pravděpodobnost citlivosti na přesnost, náklady i routing rozhodnutí
@@ -151,8 +151,8 @@ Pokud je to relevantní, rád pošlu 1 ukázkový decision memo / scorecard pro 
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
-- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
-- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
+- **Primary artifact:** `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** AI search eval merge
 - **Buyer situation:** ma evaly nebo quality signaly, ale chybi finalni rozhodnuti
 - **Why this account:** silný fit na spojení veřejných benchmarků a interních eval signálů pro search-oriented AI workflow
@@ -209,8 +209,8 @@ Pokud je to relevantní, rád pošlu 1 ukázkový decision memo / scorecard pro 
 
 - **Framing:** dashboard
 - **CTA:** 20min demo call
-- **Primary artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
-- **Fallback artifact:** `SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md`
+- **Primary artifact:** `SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md`
+- **Fallback artifact:** `SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md`
 - **Use case angle:** multi-model operations
 - **Buyer situation:** ma evaly nebo quality signaly, ale chybi finalni rozhodnuti
 - **Why this account:** orchestration-heavy prostředí, kde dává smysl compare workflow přes více use casů a providerů

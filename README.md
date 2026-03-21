@@ -206,6 +206,7 @@ Praktický execution podklad je teď připravený v:
 - `execution/WAVE1B-PERSONALIZED-SKELETONS.md` — 8 personalizovaných ready-to-send skeletonů pro zbytek named-contact Wave 1 shortlistu
 - `execution/WAVE1B-ROLE-FALLBACKS.md` — bezpečné account-level skeletony pro Coursera / Zapier / Loom, když chybí public person proof
 - `execution/WAVE1-FOLLOW-UP-SEQUENCES.md` — ultra-krátké Day 3 / Day 7 follow-up varianty pro `dashboard`, `scorecard` a `memo` framing
+- `execution/SAMPLE-DASHBOARD-SUPPORT-ASSISTANT.md` — posílatelný 1-page dashboard preview pro dashboard-first segmenty bez nutnosti další přípravy
 - `execution/SAMPLE-SCORECARD-SUPPORT-ASSISTANT.md` — posílatelná 1-page sample scorecard pro support assistant use case bez nutnosti další přípravy
 - `execution/SAMPLE-DECISION-MEMO-SUPPORT-ASSISTANT.md` — posílatelný 1-page executive memo variant pro stejný use case a memo-heavy segment
 - `execution/OUTREACH-LOG-TEMPLATE.md` — lehký send/reply log pro vyhodnocení framingu, CTA a kvality odpovědí
