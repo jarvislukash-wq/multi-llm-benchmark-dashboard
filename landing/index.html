@@ -97,6 +97,18 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <div class="scorecard-row"><span>Codestral</span><span class="badge badge-amber">Open-source alt</span></div>
 <div class="scorecard-row"><span>GPT-4o-mini</span><span class="badge badge-red">Quality gap</span></div>
 </div>
+
+<div class="scorecard">
+<div class="use-case">Use case: High-volume data extraction</div>
+<div class="title">Srovnání 5 modelů pro vaši situaci</div>
+<div class="scorecard-row"><span>GPT-4o-mini</span><span class="badge badge-green">Best cost/task</span></div>
+<div class="scorecard-row"><span>Llama 3.1 70B</span><span class="badge badge-green">Best open-source</span></div>
+<div class="scorecard-row"><span>Gemini 1.5 Flash</span><span class="badge badge-amber">Fast throughput</span></div>
+<div class="scorecard-row"><span>DeepSeek V3</span><span class="badge badge-amber">Strong budget alt</span></div>
+<div class="scorecard-row"><span>GPT-4o</span><span class="badge badge-red">Overpriced for volume</span></div>
+</div>
+
+<p style="text-align:center;color:var(--muted);font-size:0.9rem;margin-top:16px">Každý tým má jiné priority. Proto nestačí jeden globální rank.</p>
 </section>
 
 <!-- Why not existing tools -->
@@ -109,6 +121,16 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <li><strong>OpenRouter</strong> — popularita ≠ fitness pro tvůj produkt</li>
 <li><strong>Spreadsheets</strong> — ruční srovnání, nikdy aktuální, těžko obhajitelné</li>
 </ul>
+</div>
+
+<h2 style="margin-top:32px">Ve skutečnosti nesoutěžíš jen s nástroji</h2>
+<div class="problem">
+<ul>
+<li><strong>Spreadsheet / Notion tabulka</strong> — rychlý start, ale ruční compare rychle zastará a nejde dobře sdílet</li>
+<li><strong>Slides / interní memo</strong> — snadno se pošle managementu, ale při každé změně modelu nebo ceny se přepisuje od nuly</li>
+<li><strong>Provider-native playground</strong> — tým už je uvnitř ekosystému, ale neukáže férový cross-vendor tradeoff ani fallback variantu</li>
+</ul>
+<p style="margin-top:12px;font-size:0.9rem">Rychlejší první rozhodnutí, sdílitelný výstup a opakovatelný refresh — bez toho buyer zůstane u status quo i bez nákupu.</p>
 </div>
 </section>
 
@@ -146,8 +168,26 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 <option value="6+">6+</option>
 </select>
 
+<label for="teamsize">Velikost týmu</label>
+<select id="teamsize" name="teamsize">
+<option value="">Vyber...</option>
+<option value="1-2">1–2</option>
+<option value="3-10">3–10</option>
+<option value="11-20">11–20</option>
+<option value="20+">20+</option>
+</select>
+
+<label for="intent">Co chceš vidět?</label>
+<select id="intent" name="intent">
+<option value="">Vyber...</option>
+<option value="demo">Demo</option>
+<option value="scorecards">Ukázkové scorecards</option>
+<option value="early_access">Early access</option>
+</select>
+
 <button type="submit">Poslat mi scorecards →</button>
 </form>
+<p style="text-align:center;color:var(--muted);font-size:0.8rem;margin-top:12px">Prioritně bereme týmy, které aktivně porovnávají 3+ modelů nebo providerů.</p>
 </div>
 </section>
 
@@ -184,5 +224,32 @@ body{font-family:-apple-system,BlinkMacSystemFont,'Segoe UI',Helvetica,Arial,san
 </footer>
 
 </div>
+<script>
+// Lightweight event tracking — replace console.log with analytics provider (Plausible/GA/Tally)
+function track(e){console.log('[track]',e)}
+document.addEventListener('DOMContentLoaded',function(){
+  track('page_view');
+  // CTA clicks
+  document.querySelectorAll('.btn-primary').forEach(function(b){
+    b.addEventListener('click',function(){track('hero_primary_cta_click')});
+  });
+  document.querySelectorAll('.btn-secondary').forEach(function(b){
+    b.addEventListener('click',function(){track('hero_secondary_cta_click')});
+  });
+  // Scorecard section view (simple visibility check)
+  var sc=document.getElementById('how');
+  if(sc&&'IntersectionObserver'in window){
+    new IntersectionObserver(function(e){if(e[0].isIntersectating)track('scorecard_section_view')},{threshold:0.3}).observe(sc);
+  }
+  // Form events
+  var f=document.querySelector('form');
+  if(f){
+    f.addEventListener('submit',function(){track('form_submit')});
+    f.addEventListener('focusin',function(){track('form_start')},{once:true});
+    var intent=document.getElementById('intent');
+    if(intent)intent.addEventListener('change',function(){track('selected_intent_'+intent.value)});
+  }
+});
+</script>
 </body>
 </html>
